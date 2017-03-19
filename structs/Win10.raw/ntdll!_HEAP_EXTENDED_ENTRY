@@ -1,0 +1,7 @@
+   +0x000 Reserved         : Ptr64 Void
+   +0x008 FunctionIndex    : Uint2B
+   +0x00a ContextValue     : Uint2B
+   +0x008 InterceptorValue : Uint4B
+   +0x00c UnusedBytesLength : Uint2B
+   +0x00e EntryOffset      : UChar
+   +0x00f ExtendedBlockSignature : UChar

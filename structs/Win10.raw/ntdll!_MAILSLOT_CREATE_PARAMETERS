@@ -1,0 +1,4 @@
+   +0x000 MailslotQuota    : Uint4B
+   +0x004 MaximumMessageSize : Uint4B
+   +0x008 ReadTimeout      : _LARGE_INTEGER
+   +0x010 TimeoutSpecified : UChar

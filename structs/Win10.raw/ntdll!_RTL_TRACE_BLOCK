@@ -1,0 +1,8 @@
+   +0x000 Magic            : Uint4B
+   +0x004 Count            : Uint4B
+   +0x008 Size             : Uint4B
+   +0x010 UserCount        : Uint8B
+   +0x018 UserSize         : Uint8B
+   +0x020 UserContext      : Ptr64 Void
+   +0x028 Next             : Ptr64 _RTL_TRACE_BLOCK
+   +0x030 Trace            : Ptr64 Ptr64 Void

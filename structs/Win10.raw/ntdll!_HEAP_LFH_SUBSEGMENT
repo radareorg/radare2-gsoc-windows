@@ -1,0 +1,17 @@
+   +0x000 ListEntry        : _LIST_ENTRY
+   +0x000 Link             : _SLIST_ENTRY
+   +0x010 Owner            : Ptr64 _HEAP_LFH_SUBSEGMENT_OWNER
+   +0x010 DelayFree        : _HEAP_LFH_SUBSEGMENT_DELAY_FREE
+   +0x018 CommitLock       : _RTL_SRWLOCK
+   +0x020 FreeCount        : Uint2B
+   +0x022 BlockCount       : Uint2B
+   +0x020 InterlockedShort : Int2B
+   +0x020 InterlockedLong  : Int4B
+   +0x024 FreeHint         : Uint2B
+   +0x026 Location         : UChar
+   +0x027 Spare            : UChar
+   +0x028 BlockOffsets     : _HEAP_LFH_SUBSEGMENT_ENCODED_OFFSETS
+   +0x02c CommitUnitShift  : UChar
+   +0x02d CommitUnitCount  : UChar
+   +0x02e CommitStateOffset : Uint2B
+   +0x030 BlockBitmap      : [1] Uint8B

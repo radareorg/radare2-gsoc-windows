@@ -1,0 +1,9 @@
+   +0x000 InstantaneousRead : Ptr64     void 
+   +0x000 DifferentialRead : Ptr64     void 
+   +0x008 LastActualCount  : Uint8B
+   +0x010 LastReferenceCount : Uint8B
+   +0x018 CachedValue      : Uint4B
+   +0x020 Affinitized      : UChar
+   +0x021 Differential     : UChar
+   +0x022 Scaling          : UChar
+   +0x028 Context          : Uint8B

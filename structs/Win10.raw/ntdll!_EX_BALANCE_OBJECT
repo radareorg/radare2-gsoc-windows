@@ -1,0 +1,4 @@
+   ExTimerExpiration = 0n0
+   ExThreadSetManagerEvent = 0n1
+   ExThreadReaperEvent = 0n2
+   ExMaximumBalanceObject = 0n3

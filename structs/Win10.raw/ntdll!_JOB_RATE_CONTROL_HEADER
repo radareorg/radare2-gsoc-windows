@@ -1,0 +1,4 @@
+   +0x000 RateControlQuotaReference : Ptr64 Void
+   +0x008 OverQuotaHistory : _RTL_BITMAP
+   +0x018 BitMapBuffer     : Ptr64 UChar
+   +0x020 BitMapBufferSize : Uint8B

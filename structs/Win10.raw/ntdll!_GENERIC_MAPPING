@@ -1,0 +1,4 @@
+   +0x000 GenericRead      : Uint4B
+   +0x004 GenericWrite     : Uint4B
+   +0x008 GenericExecute   : Uint4B
+   +0x00c GenericAll       : Uint4B

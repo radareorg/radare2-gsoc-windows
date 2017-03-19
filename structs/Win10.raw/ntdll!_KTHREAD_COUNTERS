@@ -1,0 +1,7 @@
+   +0x000 WaitReasonBitMap : Uint8B
+   +0x008 UserData         : Ptr64 _THREAD_PERFORMANCE_DATA
+   +0x010 Flags            : Uint4B
+   +0x014 ContextSwitches  : Uint4B
+   +0x018 CycleTimeBias    : Uint8B
+   +0x020 HardwareCounters : Uint8B
+   +0x028 HwCounter        : [16] _COUNTER_READING

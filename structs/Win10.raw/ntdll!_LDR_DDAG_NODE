@@ -1,0 +1,10 @@
+   +0x000 Modules          : _LIST_ENTRY
+   +0x010 ServiceTagList   : Ptr64 _LDR_SERVICE_TAG_RECORD
+   +0x018 LoadCount        : Uint4B
+   +0x01c LoadWhileUnloadingCount : Uint4B
+   +0x020 LowestLink       : Uint4B
+   +0x028 Dependencies     : _LDRP_CSLIST
+   +0x030 IncomingDependencies : _LDRP_CSLIST
+   +0x038 State            : _LDR_DDAG_STATE
+   +0x040 CondenseLink     : _SINGLE_LIST_ENTRY
+   +0x048 PreorderNumber   : Uint4B

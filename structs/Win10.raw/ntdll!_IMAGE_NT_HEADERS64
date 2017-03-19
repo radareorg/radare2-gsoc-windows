@@ -1,0 +1,3 @@
+   +0x000 Signature        : Uint4B
+   +0x004 FileHeader       : _IMAGE_FILE_HEADER
+   +0x018 OptionalHeader   : _IMAGE_OPTIONAL_HEADER64

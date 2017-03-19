@@ -1,0 +1,4 @@
+   MmPteAccessType = 0n0
+   MmCcReadAheadType = 0n1
+   MmPfnRepurposeType = 0n2
+   MmMaximumPageAccessType = 0n3

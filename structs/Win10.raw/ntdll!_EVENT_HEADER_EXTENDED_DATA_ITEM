@@ -1,0 +1,6 @@
+   +0x000 Reserved1        : Uint2B
+   +0x002 ExtType          : Uint2B
+   +0x004 Linkage          : Pos 0, 1 Bit
+   +0x004 Reserved2        : Pos 1, 15 Bits
+   +0x006 DataSize         : Uint2B
+   +0x008 DataPtr          : Uint8B

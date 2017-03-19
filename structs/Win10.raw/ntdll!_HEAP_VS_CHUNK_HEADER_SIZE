@@ -1,0 +1,7 @@
+   +0x000 MemoryCost       : Pos 0, 16 Bits
+   +0x000 UnsafeSize       : Pos 16, 16 Bits
+   +0x004 UnsafePrevSize   : Pos 0, 16 Bits
+   +0x004 Allocated        : Pos 16, 8 Bits
+   +0x000 KeyUShort        : Uint2B
+   +0x000 KeyULong         : Uint4B
+   +0x000 HeaderBits       : Uint8B

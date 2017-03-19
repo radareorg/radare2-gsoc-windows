@@ -1,0 +1,2 @@
+   +0x000 Next             : Ptr64 _LDR_SERVICE_TAG_RECORD
+   +0x008 ServiceTag       : Uint4B

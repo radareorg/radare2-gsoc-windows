@@ -1,0 +1,9 @@
+   +0x000 LocalData        : Ptr64 _HEAP_LOCAL_DATA
+   +0x008 ActiveSubsegment : Ptr64 _HEAP_SUBSEGMENT
+   +0x010 CachedItems      : [16] Ptr64 _HEAP_SUBSEGMENT
+   +0x090 SListHeader      : _SLIST_HEADER
+   +0x0a0 Counters         : _HEAP_BUCKET_COUNTERS
+   +0x0a8 LastOpSequence   : Uint4B
+   +0x0ac BucketIndex      : Uint2B
+   +0x0ae LastUsed         : Uint2B
+   +0x0b0 NoThrashCount    : Uint2B

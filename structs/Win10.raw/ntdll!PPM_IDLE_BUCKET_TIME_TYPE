@@ -1,0 +1,3 @@
+   PpmIdleBucketTimeInQpc = 0n0
+   PpmIdleBucketTimeIn100ns = 0n1
+   PpmIdleBucketTimeMaximum = 0n2

@@ -1,0 +1,18 @@
+   +0x000 UmsContext       : Ptr64 _RTL_UMS_CONTEXT
+   +0x008 CompletionListEntry : Ptr64 _SINGLE_LIST_ENTRY
+   +0x010 CompletionListEvent : Ptr64 _KEVENT
+   +0x018 ServiceSequenceNumber : Uint4B
+   +0x020 UmsQueue         : _KQUEUE
+   +0x060 QueueEntry       : _LIST_ENTRY
+   +0x070 YieldingUmsContext : Ptr64 _RTL_UMS_CONTEXT
+   +0x078 YieldingParam    : Ptr64 Void
+   +0x080 UmsTeb           : Ptr64 Void
+   +0x020 UmsAssociatedQueue : Ptr64 _KQUEUE
+   +0x028 UmsQueueListEntry : Ptr64 _LIST_ENTRY
+   +0x030 UmsWaitEvent     : _KEVENT
+   +0x048 StagingArea      : Ptr64 Void
+   +0x050 UmsPrimaryDeliveredContext : Pos 0, 1 Bit
+   +0x050 UmsAssociatedQueueUsed : Pos 1, 1 Bit
+   +0x050 UmsThreadParked  : Pos 2, 1 Bit
+   +0x050 UmsFlags         : Uint4B
+   +0x088 TebSelector      : Uint2B

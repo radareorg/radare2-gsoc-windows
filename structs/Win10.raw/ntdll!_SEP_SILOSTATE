@@ -1,0 +1,4 @@
+   +0x000 SystemLogonSession : Ptr64 _SEP_LOGON_SESSION_REFERENCES
+   +0x008 AnonymousLogonSession : Ptr64 _SEP_LOGON_SESSION_REFERENCES
+   +0x010 AnonymousLogonToken : Ptr64 Void
+   +0x018 AnonymousLogonTokenNoEveryone : Ptr64 Void

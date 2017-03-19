@@ -1,0 +1,28 @@
+   +0x000 HeapEntry        : _HEAP_ENTRY
+   +0x000 UnpackedEntry    : _HEAP_UNPACKED_ENTRY
+   +0x000 PreviousBlockPrivateData : Ptr64 Void
+   +0x008 Size             : Uint2B
+   +0x00a Flags            : UChar
+   +0x00b SmallTagIndex    : UChar
+   +0x008 SubSegmentCode   : Uint4B
+   +0x00c PreviousSize     : Uint2B
+   +0x00e SegmentOffset    : UChar
+   +0x00e LFHFlags         : UChar
+   +0x00f UnusedBytes      : UChar
+   +0x008 CompactHeader    : Uint8B
+   +0x000 ExtendedEntry    : _HEAP_EXTENDED_ENTRY
+   +0x000 Reserved         : Ptr64 Void
+   +0x008 FunctionIndex    : Uint2B
+   +0x00a ContextValue     : Uint2B
+   +0x008 InterceptorValue : Uint4B
+   +0x00c UnusedBytesLength : Uint2B
+   +0x00e EntryOffset      : UChar
+   +0x00f ExtendedBlockSignature : UChar
+   +0x000 ReservedForAlignment : Ptr64 Void
+   +0x008 Code1            : Uint4B
+   +0x00c Code2            : Uint2B
+   +0x00e Code3            : UChar
+   +0x00f Code4            : UChar
+   +0x00c Code234          : Uint4B
+   +0x008 AgregateCode     : Uint8B
+   +0x010 FreeList         : _LIST_ENTRY

@@ -1,0 +1,4 @@
+   +0x000 Table            : Ptr64 _RTL_CHASH_ENTRY
+   +0x008 EntrySizeShift   : Uint4B
+   +0x00c EntryMax         : Uint4B
+   +0x010 EntryCount       : Uint4B

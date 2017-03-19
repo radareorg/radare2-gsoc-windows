@@ -1,0 +1,45 @@
+   +0x000 Link             : _LIST_ENTRY
+   +0x010 Master           : Ptr64 _KPRCB
+   +0x018 Members          : _KAFFINITY_EX
+   +0x0c0 ProcessorCount   : Uint4B
+   +0x0c4 EfficiencyClass  : UChar
+   +0x0c5 NominalPerformanceClass : UChar
+   +0x0c6 HighestPerformanceClass : UChar
+   +0x0c7 Spare            : UChar
+   +0x0c8 Processors       : Ptr64 _PROC_PERF_CONSTRAINT
+   +0x0d0 GetFFHThrottleState : Ptr64     void 
+   +0x0d8 TimeWindowHandler : Ptr64     void 
+   +0x0e0 BoostPolicyHandler : Ptr64     void 
+   +0x0e8 BoostModeHandler : Ptr64     void 
+   +0x0f0 EnergyPerfPreferenceHandler : Ptr64     void 
+   +0x0f8 AutonomousActivityWindowHandler : Ptr64     void 
+   +0x100 AutonomousModeHandler : Ptr64     void 
+   +0x108 ReinitializeHandler : Ptr64     void 
+   +0x110 PerfSelectionHandler : Ptr64     unsigned long 
+   +0x118 PerfControlHandler : Ptr64     void 
+   +0x120 MaxFrequency     : Uint4B
+   +0x124 NominalFrequency : Uint4B
+   +0x128 MaxPercent       : Uint4B
+   +0x12c MinPerfPercent   : Uint4B
+   +0x130 MinThrottlePercent : Uint4B
+   +0x138 MinimumRelativePerformance : Uint8B
+   +0x140 NominalRelativePerformance : Uint8B
+   +0x148 Coordination     : UChar
+   +0x149 HardPlatformCap  : UChar
+   +0x14a AffinitizeControl : UChar
+   +0x14b EfficientThrottle : UChar
+   +0x14c AutonomousMode   : UChar
+   +0x150 SelectedPercent  : Uint4B
+   +0x154 SelectedFrequency : Uint4B
+   +0x158 DesiredPercent   : Uint4B
+   +0x15c MaxPolicyPercent : Uint4B
+   +0x160 MinPolicyPercent : Uint4B
+   +0x164 ConstrainedMaxPercent : Uint4B
+   +0x168 ConstrainedMinPercent : Uint4B
+   +0x16c GuaranteedPercent : Uint4B
+   +0x170 TolerancePercent : Uint4B
+   +0x178 SelectedState    : Uint8B
+   +0x180 PerfChangeTime   : Uint8B
+   +0x188 PerfChangeIntervalCount : Uint4B
+   +0x18c Force            : UChar
+   +0x18d ProvideGuidance  : UChar

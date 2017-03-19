@@ -1,0 +1,16 @@
+   +0x000 OperationID      : _LUID
+   +0x008 SecurityEvaluated : UChar
+   +0x009 GenerateAudit    : UChar
+   +0x00a GenerateOnClose  : UChar
+   +0x00b PrivilegesAllocated : UChar
+   +0x00c Flags            : Uint4B
+   +0x010 RemainingDesiredAccess : Uint4B
+   +0x014 PreviouslyGrantedAccess : Uint4B
+   +0x018 OriginalDesiredAccess : Uint4B
+   +0x020 SubjectSecurityContext : _SECURITY_SUBJECT_CONTEXT
+   +0x040 SecurityDescriptor : Ptr64 Void
+   +0x048 AuxData          : Ptr64 Void
+   +0x050 Privileges       : <unnamed-tag>
+   +0x07c AuditPrivileges  : UChar
+   +0x080 ObjectName       : _UNICODE_STRING
+   +0x090 ObjectTypeName   : _UNICODE_STRING

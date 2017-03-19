@@ -1,0 +1,6 @@
+   +0x000 RefCount         : Int4B
+   +0x004 TableSize        : Uint4B
+   +0x008 BitMaskFlags     : Uint4B
+   +0x010 CloseCompactionLock : _FAST_MUTEX
+   +0x048 CurrentStackIndex : Uint4B
+   +0x050 TraceDb          : [1] _HANDLE_TRACE_DB_ENTRY

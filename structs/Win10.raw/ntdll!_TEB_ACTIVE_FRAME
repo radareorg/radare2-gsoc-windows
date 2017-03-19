@@ -1,0 +1,3 @@
+   +0x000 Flags            : Uint4B
+   +0x008 Previous         : Ptr64 _TEB_ACTIVE_FRAME
+   +0x010 Context          : Ptr64 _TEB_ACTIVE_FRAME_CONTEXT

@@ -1,0 +1,13 @@
+   +0x000 WaitQueueEntry   : _KDEVICE_QUEUE_ENTRY
+   +0x000 DmaWaitEntry     : _LIST_ENTRY
+   +0x010 NumberOfChannels : Uint4B
+   +0x014 SyncCallback     : Pos 0, 1 Bit
+   +0x014 DmaContext       : Pos 1, 1 Bit
+   +0x014 ZeroMapRegisters : Pos 2, 1 Bit
+   +0x014 Reserved         : Pos 3, 29 Bits
+   +0x018 DeviceRoutine    : Ptr64     _IO_ALLOCATION_ACTION 
+   +0x020 DeviceContext    : Ptr64 Void
+   +0x028 NumberOfMapRegisters : Uint4B
+   +0x030 DeviceObject     : Ptr64 Void
+   +0x038 CurrentIrp       : Ptr64 Void
+   +0x040 BufferChainingDpc : Ptr64 _KDPC

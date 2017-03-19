@@ -1,0 +1,4 @@
+   +0x000 HashEntry        : _RTL_DYNAMIC_HASH_TABLE_ENTRY
+   +0x000 CurEntry         : Ptr64 _LIST_ENTRY
+   +0x018 ChainHead        : Ptr64 _LIST_ENTRY
+   +0x020 BucketIndex      : Uint4B

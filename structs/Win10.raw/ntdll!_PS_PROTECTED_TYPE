@@ -1,0 +1,4 @@
+   PsProtectedTypeNone = 0n0
+   PsProtectedTypeProtectedLight = 0n1
+   PsProtectedTypeProtected = 0n2
+   PsProtectedTypeMax = 0n3

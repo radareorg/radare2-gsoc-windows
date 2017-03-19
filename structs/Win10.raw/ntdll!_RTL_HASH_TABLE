@@ -1,0 +1,4 @@
+   +0x000 EntryCount       : Uint4B
+   +0x004 MaskBitCount     : Pos 0, 5 Bits
+   +0x004 BucketCount      : Pos 5, 27 Bits
+   +0x008 Buckets          : Ptr64 _SINGLE_LIST_ENTRY

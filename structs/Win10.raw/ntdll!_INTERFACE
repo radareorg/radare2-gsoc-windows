@@ -1,0 +1,5 @@
+   +0x000 Size             : Uint2B
+   +0x002 Version          : Uint2B
+   +0x008 Context          : Ptr64 Void
+   +0x010 InterfaceReference : Ptr64     void 
+   +0x018 InterfaceDereference : Ptr64     void 

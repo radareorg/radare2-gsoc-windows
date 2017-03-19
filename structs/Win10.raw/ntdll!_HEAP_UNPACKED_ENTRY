@@ -1,0 +1,10 @@
+   +0x000 PreviousBlockPrivateData : Ptr64 Void
+   +0x008 Size             : Uint2B
+   +0x00a Flags            : UChar
+   +0x00b SmallTagIndex    : UChar
+   +0x008 SubSegmentCode   : Uint4B
+   +0x00c PreviousSize     : Uint2B
+   +0x00e SegmentOffset    : UChar
+   +0x00e LFHFlags         : UChar
+   +0x00f UnusedBytes      : UChar
+   +0x008 CompactHeader    : Uint8B

@@ -1,0 +1,3 @@
+   +0x000 SafeInputValidation : Pos 0, 1 Bit
+   +0x000 Padding          : Pos 1, 1 Bit
+   +0x000 CommitLFHSubsegments : Pos 2, 1 Bit

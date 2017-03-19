@@ -1,0 +1,4 @@
+   ProcessVAImage = 0n0
+   ProcessVASection = 0n1
+   ProcessVAPrivate = 0n2
+   ProcessVAMax = 0n3

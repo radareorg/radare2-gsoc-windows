@@ -1,0 +1,5 @@
+   +0x000 Header           : _DISPATCHER_HEADER
+   +0x018 EntryListHead    : _LIST_ENTRY
+   +0x028 CurrentCount     : Uint4B
+   +0x02c MaximumCount     : Uint4B
+   +0x030 ThreadListHead   : _LIST_ENTRY

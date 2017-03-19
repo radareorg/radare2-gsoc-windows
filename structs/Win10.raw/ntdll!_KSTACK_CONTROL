@@ -1,0 +1,4 @@
+   +0x000 StackBase        : Uint8B
+   +0x008 ActualLimit      : Uint8B
+   +0x008 StackExpansion   : Pos 0, 1 Bit
+   +0x010 Previous         : _KERNEL_STACK_SEGMENT

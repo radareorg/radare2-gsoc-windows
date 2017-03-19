@@ -1,0 +1,5 @@
+   ProcessSectionData = 0n0
+   ProcessSectionImage = 0n1
+   ProcessSectionImageNx = 0n2
+   ProcessSectionPagefileBacked = 0n3
+   ProcessSectionMax = 0n4

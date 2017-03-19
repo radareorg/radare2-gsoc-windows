@@ -1,0 +1,2 @@
+   +0x000 Flags            : Uint4B
+   +0x008 FrameName        : Ptr64 Char

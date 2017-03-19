@@ -1,0 +1,11 @@
+   +0x000 OffsetLow        : Uint2B
+   +0x002 Selector         : Uint2B
+   +0x004 IstIndex         : Pos 0, 3 Bits
+   +0x004 Reserved0        : Pos 3, 5 Bits
+   +0x004 Type             : Pos 8, 5 Bits
+   +0x004 Dpl              : Pos 13, 2 Bits
+   +0x004 Present          : Pos 15, 1 Bit
+   +0x006 OffsetMiddle     : Uint2B
+   +0x008 OffsetHigh       : Uint4B
+   +0x00c Reserved1        : Uint4B
+   +0x000 Alignment        : Uint8B

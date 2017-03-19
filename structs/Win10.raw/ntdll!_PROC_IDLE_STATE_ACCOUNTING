@@ -1,0 +1,9 @@
+   +0x000 TotalTime        : Uint8B
+   +0x008 CancelCount      : Uint4B
+   +0x00c FailureCount     : Uint4B
+   +0x010 SuccessCount     : Uint4B
+   +0x014 InvalidBucketIndex : Uint4B
+   +0x018 MinTime          : Uint8B
+   +0x020 MaxTime          : Uint8B
+   +0x028 SelectionStatistics : _PPM_SELECTION_STATISTICS
+   +0x0a0 IdleTimeBuckets  : [26] _PROC_IDLE_STATE_BUCKET

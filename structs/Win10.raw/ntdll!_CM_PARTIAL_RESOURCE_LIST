@@ -1,0 +1,4 @@
+   +0x000 Version          : Uint2B
+   +0x002 Revision         : Uint2B
+   +0x004 Count            : Uint4B
+   +0x008 PartialDescriptors : [1] _CM_PARTIAL_RESOURCE_DESCRIPTOR

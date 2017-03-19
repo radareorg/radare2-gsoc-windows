@@ -1,0 +1,3 @@
+   +0x000 DelayFree        : Pos 0, 1 Bit
+   +0x000 Count            : Pos 1, 63 Bits
+   +0x000 AllBits          : Ptr64 Void

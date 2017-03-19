@@ -1,0 +1,3 @@
+   PfFileAccessTypeRead = 0n0
+   PfFileAccessTypeWrite = 0n1
+   PfFileAccessTypeMax = 0n2

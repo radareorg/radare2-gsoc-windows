@@ -1,0 +1,5 @@
+   +0x000 AllocationTag    : Uint2B
+   +0x002 InterceptorIndex : Pos 0, 4 Bits
+   +0x002 UserFlags        : Pos 4, 4 Bits
+   +0x003 ExtraSizeInUnits : UChar
+   +0x008 Settable         : Ptr64 Void

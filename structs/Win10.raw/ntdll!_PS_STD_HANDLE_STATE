@@ -1,0 +1,4 @@
+   PsNeverDuplicate = 0n0
+   PsRequestDuplicate = 0n1
+   PsAlwaysDuplicate = 0n2
+   PsMaxStdHandleStates = 0n3

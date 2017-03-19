@@ -1,0 +1,5 @@
+   +0x000 DpcList          : _KDPC_LIST
+   +0x010 DpcLock          : Uint8B
+   +0x018 DpcQueueDepth    : Int4B
+   +0x01c DpcCount         : Uint4B
+   +0x020 ActiveDpc        : Ptr64 _KDPC

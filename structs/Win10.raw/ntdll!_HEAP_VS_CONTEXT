@@ -1,0 +1,7 @@
+   +0x000 Lock             : _RTL_SRWLOCK
+   +0x008 FreeChunkTree    : _RTL_RB_TREE
+   +0x018 SubsegmentList   : _LIST_ENTRY
+   +0x028 TotalCommittedUnits : Uint8B
+   +0x030 FreeCommittedUnits : Uint8B
+   +0x038 BackendCtx       : Ptr64 Void
+   +0x040 Callbacks        : _HEAP_SUBALLOCATOR_CALLBACKS

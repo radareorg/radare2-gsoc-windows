@@ -1,0 +1,36 @@
+   +0x000 TreeNode         : _RTL_BALANCED_NODE
+   +0x000 FreeListEntry    : _SINGLE_LIST_ENTRY
+   +0x018 EntryFlags       : Uint4B
+   +0x018 EntryOffset      : UChar
+   +0x019 ThreadLocalFlags : UChar
+   +0x019 WaitingBit       : Pos 0, 1 Bit
+   +0x019 Spare0           : Pos 1, 7 Bits
+   +0x01a AcquiredByte     : UChar
+   +0x01a AcquiredBit      : Pos 0, 1 Bit
+   +0x01b CrossThreadFlags : UChar
+   +0x01b HeadNodeBit      : Pos 0, 1 Bit
+   +0x01b IoPriorityBit    : Pos 1, 1 Bit
+   +0x01b IoQoSWaiter      : Pos 2, 1 Bit
+   +0x01b Spare1           : Pos 3, 5 Bits
+   +0x018 StaticState      : Pos 0, 8 Bits
+   +0x018 AllFlags         : Pos 8, 24 Bits
+   +0x01c SpareFlags       : Uint4B
+   +0x020 LockState        : _KLOCK_ENTRY_LOCK_STATE
+   +0x020 LockUnsafe       : Ptr64 Void
+   +0x020 CrossThreadReleasableAndBusyByte : UChar
+   +0x021 Reserved         : [6] UChar
+   +0x027 InTreeByte       : UChar
+   +0x028 SessionState     : Ptr64 Void
+   +0x028 SessionId        : Uint4B
+   +0x02c SessionPad       : Uint4B
+   +0x030 OwnerTree        : _RTL_RB_TREE
+   +0x040 WaiterTree       : _RTL_RB_TREE
+   +0x030 CpuPriorityKey   : Char
+   +0x050 EntryLock        : Uint8B
+   +0x058 AllBoosts        : Pos 0, 17 Bits
+   +0x058 CpuBoostsBitmap  : Pos 0, 15 Bits
+   +0x058 IoBoost          : Pos 15, 1 Bit
+   +0x05a IoQoSBoost       : Pos 0, 1 Bit
+   +0x05a IoNormalPriorityWaiterCount : Pos 1, 8 Bits
+   +0x05a IoQoSWaiterCount : Pos 9, 7 Bits
+   +0x05c SparePad         : Uint4B

@@ -1,0 +1,11 @@
+   +0x000 KernelTime       : Uint8B
+   +0x008 UserTime         : Uint8B
+   +0x010 ReadyTime        : Uint8B
+   +0x018 CycleTime        : Uint8B
+   +0x020 ContextSwitches  : Uint8B
+   +0x028 ReadOperationCount : Int8B
+   +0x030 WriteOperationCount : Int8B
+   +0x038 OtherOperationCount : Int8B
+   +0x040 ReadTransferCount : Int8B
+   +0x048 WriteTransferCount : Int8B
+   +0x050 OtherTransferCount : Int8B

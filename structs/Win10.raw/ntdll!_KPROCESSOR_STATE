@@ -1,0 +1,2 @@
+   +0x000 SpecialRegisters : _KSPECIAL_REGISTERS
+   +0x0e0 ContextFrame     : _CONTEXT

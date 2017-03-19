@@ -1,0 +1,24 @@
+   +0x000 TotalReservedPages : Uint8B
+   +0x008 TotalCommittedPages : Uint8B
+   +0x010 Signature        : Uint4B
+   +0x014 GlobalFlags      : Uint4B
+   +0x018 FreeCommittedPages : Uint8B
+   +0x020 Interceptor      : Uint4B
+   +0x024 ProcessHeapListIndex : Uint2B
+   +0x026 GlobalLockCount  : Uint2B
+   +0x028 GlobalLockOwner  : Uint4B
+   +0x030 LargeMetadataLock : _RTL_SRWLOCK
+   +0x038 LargeAllocMetadata : _RTL_RB_TREE
+   +0x048 LargeReservedPages : Uint8B
+   +0x050 LargeCommittedPages : Uint8B
+   +0x058 SegmentAllocatorLock : _RTL_SRWLOCK
+   +0x060 SegmentListHead  : _LIST_ENTRY
+   +0x070 SegmentCount     : Uint8B
+   +0x078 FreePageRanges   : _RTL_RB_TREE
+   +0x088 StackTraceInitVar : _RTL_RUN_ONCE
+   +0x090 ContextExtendLock : _RTL_SRWLOCK
+   +0x098 AllocatedBase    : Ptr64 UChar
+   +0x0a0 UncommittedBase  : Ptr64 UChar
+   +0x0a8 ReservedLimit    : Ptr64 UChar
+   +0x0b0 VsContext        : _HEAP_VS_CONTEXT
+   +0x120 LfhContext       : _HEAP_LFH_CONTEXT

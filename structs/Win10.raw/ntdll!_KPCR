@@ -1,0 +1,27 @@
+   +0x000 NtTib            : _NT_TIB
+   +0x000 GdtBase          : Ptr64 _KGDTENTRY64
+   +0x008 TssBase          : Ptr64 _KTSS64
+   +0x010 UserRsp          : Uint8B
+   +0x018 Self             : Ptr64 _KPCR
+   +0x020 CurrentPrcb      : Ptr64 _KPRCB
+   +0x028 LockArray        : Ptr64 _KSPIN_LOCK_QUEUE
+   +0x030 Used_Self        : Ptr64 Void
+   +0x038 IdtBase          : Ptr64 _KIDTENTRY64
+   +0x040 Unused           : [2] Uint8B
+   +0x050 Irql             : UChar
+   +0x051 SecondLevelCacheAssociativity : UChar
+   +0x052 ObsoleteNumber   : UChar
+   +0x053 Fill0            : UChar
+   +0x054 Unused0          : [3] Uint4B
+   +0x060 MajorVersion     : Uint2B
+   +0x062 MinorVersion     : Uint2B
+   +0x064 StallScaleFactor : Uint4B
+   +0x068 Unused1          : [3] Ptr64 Void
+   +0x080 KernelReserved   : [15] Uint4B
+   +0x0bc SecondLevelCacheSize : Uint4B
+   +0x0c0 HalReserved      : [16] Uint4B
+   +0x100 Unused2          : Uint4B
+   +0x108 KdVersionBlock   : Ptr64 Void
+   +0x110 Unused3          : Ptr64 Void
+   +0x118 PcrAlign1        : [24] Uint4B
+   +0x180 Prcb             : _KPRCB

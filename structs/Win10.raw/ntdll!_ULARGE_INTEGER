@@ -1,0 +1,4 @@
+   +0x000 LowPart          : Uint4B
+   +0x004 HighPart         : Uint4B
+   +0x000 u                : <unnamed-tag>
+   +0x000 QuadPart         : Uint8B

@@ -1,0 +1,8 @@
+   +0x000 Context          : Ptr64 Void
+   +0x008 Constraints      : _PROCESSOR_IDLE_CONSTRAINTS
+   +0x038 DependencyCount  : Uint4B
+   +0x03c DependencyUsed   : Uint4B
+   +0x040 DependencyArray  : Ptr64 _PROCESSOR_IDLE_DEPENDENCY
+   +0x048 PlatformIdleStateIndex : Uint4B
+   +0x04c ProcessorIdleStateIndex : Uint4B
+   +0x050 IdleSelectFailureMask : Uint4B

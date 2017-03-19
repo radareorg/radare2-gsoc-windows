@@ -1,0 +1,4 @@
+   +0x000 Prev             : Ptr64 _XSTATE_SAVE
+   +0x008 Thread           : Ptr64 _KTHREAD
+   +0x010 Level            : UChar
+   +0x018 XStateContext    : _XSTATE_CONTEXT

@@ -1,0 +1,2 @@
+   +0x000 Next             : Ptr64 _KSPIN_LOCK_QUEUE
+   +0x008 Lock             : Ptr64 Uint8B

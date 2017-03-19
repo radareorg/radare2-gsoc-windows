@@ -1,0 +1,58 @@
+   +0x000 Segment          : _HEAP_SEGMENT
+   +0x000 Entry            : _HEAP_ENTRY
+   +0x010 SegmentSignature : Uint4B
+   +0x014 SegmentFlags     : Uint4B
+   +0x018 SegmentListEntry : _LIST_ENTRY
+   +0x028 Heap             : Ptr64 _HEAP
+   +0x030 BaseAddress      : Ptr64 Void
+   +0x038 NumberOfPages    : Uint4B
+   +0x040 FirstEntry       : Ptr64 _HEAP_ENTRY
+   +0x048 LastValidEntry   : Ptr64 _HEAP_ENTRY
+   +0x050 NumberOfUnCommittedPages : Uint4B
+   +0x054 NumberOfUnCommittedRanges : Uint4B
+   +0x058 SegmentAllocatorBackTraceIndex : Uint2B
+   +0x05a Reserved         : Uint2B
+   +0x060 UCRSegmentList   : _LIST_ENTRY
+   +0x070 Flags            : Uint4B
+   +0x074 ForceFlags       : Uint4B
+   +0x078 CompatibilityFlags : Uint4B
+   +0x07c EncodeFlagMask   : Uint4B
+   +0x080 Encoding         : _HEAP_ENTRY
+   +0x090 Interceptor      : Uint4B
+   +0x094 VirtualMemoryThreshold : Uint4B
+   +0x098 Signature        : Uint4B
+   +0x0a0 SegmentReserve   : Uint8B
+   +0x0a8 SegmentCommit    : Uint8B
+   +0x0b0 DeCommitFreeBlockThreshold : Uint8B
+   +0x0b8 DeCommitTotalFreeThreshold : Uint8B
+   +0x0c0 TotalFreeSize    : Uint8B
+   +0x0c8 MaximumAllocationSize : Uint8B
+   +0x0d0 ProcessHeapsListIndex : Uint2B
+   +0x0d2 HeaderValidateLength : Uint2B
+   +0x0d8 HeaderValidateCopy : Ptr64 Void
+   +0x0e0 NextAvailableTagIndex : Uint2B
+   +0x0e2 MaximumTagIndex  : Uint2B
+   +0x0e8 TagEntries       : Ptr64 _HEAP_TAG_ENTRY
+   +0x0f0 UCRList          : _LIST_ENTRY
+   +0x100 AlignRound       : Uint8B
+   +0x108 AlignMask        : Uint8B
+   +0x110 VirtualAllocdBlocks : _LIST_ENTRY
+   +0x120 SegmentList      : _LIST_ENTRY
+   +0x130 AllocatorBackTraceIndex : Uint2B
+   +0x134 NonDedicatedListLength : Uint4B
+   +0x138 BlocksIndex      : Ptr64 Void
+   +0x140 UCRIndex         : Ptr64 Void
+   +0x148 PseudoTagEntries : Ptr64 _HEAP_PSEUDO_TAG_ENTRY
+   +0x150 FreeLists        : _LIST_ENTRY
+   +0x160 LockVariable     : Ptr64 _HEAP_LOCK
+   +0x168 CommitRoutine    : Ptr64     long 
+   +0x170 StackTraceInitVar : _RTL_RUN_ONCE
+   +0x178 FrontEndHeap     : Ptr64 Void
+   +0x180 FrontHeapLockCount : Uint2B
+   +0x182 FrontEndHeapType : UChar
+   +0x183 RequestedFrontEndHeapType : UChar
+   +0x188 FrontEndHeapUsageData : Ptr64 Uint2B
+   +0x190 FrontEndHeapMaximumIndex : Uint2B
+   +0x192 FrontEndHeapStatusBitmap : [129] UChar
+   +0x218 Counters         : _HEAP_COUNTERS
+   +0x290 TuningParameters : _HEAP_TUNING_PARAMETERS

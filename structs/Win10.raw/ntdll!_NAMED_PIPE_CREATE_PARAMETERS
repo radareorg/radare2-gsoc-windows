@@ -1,0 +1,8 @@
+   +0x000 NamedPipeType    : Uint4B
+   +0x004 ReadMode         : Uint4B
+   +0x008 CompletionMode   : Uint4B
+   +0x00c MaximumInstances : Uint4B
+   +0x010 InboundQuota     : Uint4B
+   +0x014 OutboundQuota    : Uint4B
+   +0x018 DefaultTimeout   : _LARGE_INTEGER
+   +0x020 TimeoutSpecified : UChar

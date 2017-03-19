@@ -1,0 +1,5 @@
+   +0x000 AclRevision      : UChar
+   +0x001 Sbz1             : UChar
+   +0x002 AclSize          : Uint2B
+   +0x004 AceCount         : Uint2B
+   +0x006 Sbz2             : Uint2B

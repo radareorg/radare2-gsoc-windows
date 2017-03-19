@@ -1,0 +1,7 @@
+   +0x000 StackSegmentTable : _RTL_HASH_TABLE
+   +0x010 StackEntryTable  : _RTL_HASH_TABLE
+   +0x020 StackEntryTableLock : _RTL_SRWLOCK
+   +0x028 SegmentTableLock : _RTL_SRWLOCK
+   +0x030 Allocate         : Ptr64     void* 
+   +0x038 Free             : Ptr64     void 
+   +0x040 AllocatorContext : Ptr64 Void

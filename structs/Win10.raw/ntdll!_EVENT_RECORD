@@ -1,0 +1,7 @@
+   +0x000 EventHeader      : _EVENT_HEADER
+   +0x050 BufferContext    : _ETW_BUFFER_CONTEXT
+   +0x054 ExtendedDataCount : Uint2B
+   +0x056 UserDataLength   : Uint2B
+   +0x058 ExtendedData     : Ptr64 _EVENT_HEADER_EXTENDED_DATA_ITEM
+   +0x060 UserData         : Ptr64 Void
+   +0x068 UserContext      : Ptr64 Void

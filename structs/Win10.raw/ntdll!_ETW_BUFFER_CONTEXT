@@ -1,0 +1,4 @@
+   +0x000 ProcessorNumber  : UChar
+   +0x001 Alignment        : UChar
+   +0x000 ProcessorIndex   : Uint2B
+   +0x002 LoggerId         : Uint2B

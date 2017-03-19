@@ -1,0 +1,8 @@
+   +0x000 CrossThreadReleasable : Pos 0, 1 Bit
+   +0x000 Busy             : Pos 1, 1 Bit
+   +0x000 Reserved         : Pos 2, 61 Bits
+   +0x000 InTree           : Pos 63, 1 Bit
+   +0x000 LockState        : Ptr64 Void
+   +0x008 SessionState     : Ptr64 Void
+   +0x008 SessionId        : Uint4B
+   +0x00c SessionPad       : Uint4B

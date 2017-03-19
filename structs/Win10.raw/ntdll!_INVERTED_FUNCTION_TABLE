@@ -1,0 +1,5 @@
+   +0x000 CurrentSize      : Uint4B
+   +0x004 MaximumSize      : Uint4B
+   +0x008 Epoch            : Uint4B
+   +0x00c Overflow         : UChar
+   +0x010 TableEntry       : [512] _INVERTED_FUNCTION_TABLE_ENTRY

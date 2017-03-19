@@ -1,0 +1,5 @@
+   PowerUserPresent = 0n0
+   PowerUserNotPresent = 0n1
+   PowerUserInactive = 0n2
+   PowerUserMaximum = 0n3
+   PowerUserInvalid = 0n3

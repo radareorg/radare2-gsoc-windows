@@ -1,0 +1,41 @@
+   +0x000 IdleStates       : Ptr64 _PPM_IDLE_STATES
+   +0x008 IdleAccounting   : Ptr64 _PROC_IDLE_ACCOUNTING
+   +0x010 IdleTimeLast     : Uint8B
+   +0x018 IdleTimeTotal    : Uint8B
+   +0x020 IdleTimeEntry    : Uint8B
+   +0x028 IdleTimeExpiration : Uint8B
+   +0x030 NonInterruptibleTransition : UChar
+   +0x031 PepWokenTransition : UChar
+   +0x032 EfficiencyClass  : UChar
+   +0x033 SchedulingClass  : UChar
+   +0x034 TargetIdleState  : Uint4B
+   +0x038 IdlePolicy       : _PROC_IDLE_POLICY
+   +0x040 Synchronization  : _PPM_IDLE_SYNCHRONIZATION_STATE
+   +0x048 PerfFeedback     : _PROC_FEEDBACK
+   +0x0d8 Hypervisor       : _PROC_HYPERVISOR_STATE
+   +0x0dc LastSysTime      : Uint4B
+   +0x0e0 WmiDispatchPtr   : Uint8B
+   +0x0e8 WmiInterfaceEnabled : Int4B
+   +0x0f0 FFHThrottleStateInfo : _PPM_FFH_THROTTLE_STATE_INFO
+   +0x110 PerfActionDpc    : _KDPC
+   +0x150 PerfActionMask   : Int4B
+   +0x158 HvIdleCheck      : _PROC_IDLE_SNAP
+   +0x168 PerfCheck        : Ptr64 _PROC_PERF_CHECK
+   +0x170 Domain           : Ptr64 _PROC_PERF_DOMAIN
+   +0x178 PerfConstraint   : Ptr64 _PROC_PERF_CONSTRAINT
+   +0x180 Concurrency      : Ptr64 _PPM_CONCURRENCY_ACCOUNTING
+   +0x188 Load             : Ptr64 _PROC_PERF_LOAD
+   +0x190 PerfHistory      : Ptr64 _PROC_PERF_HISTORY
+   +0x198 GuaranteedPerformancePercent : UChar
+   +0x199 HvTargetState    : UChar
+   +0x19a Parked           : UChar
+   +0x19c LatestPerformancePercent : Uint4B
+   +0x1a0 AveragePerformancePercent : Uint4B
+   +0x1a4 LatestAffinitizedPercent : Uint4B
+   +0x1a8 RelativePerformance : Uint4B
+   +0x1ac Utility          : Uint4B
+   +0x1b0 AffinitizedUtility : Uint4B
+   +0x1b8 SnapTimeLast     : Uint8B
+   +0x1b8 EnergyConsumed   : Uint8B
+   +0x1c0 ActiveTime       : Uint8B
+   +0x1c8 TotalTime        : Uint8B

@@ -1,0 +1,5 @@
+   +0x000 ActiveFrame      : Ptr64 _RTL_ACTIVATION_CONTEXT_STACK_FRAME
+   +0x008 FrameListCache   : _LIST_ENTRY
+   +0x018 Flags            : Uint4B
+   +0x01c NextCookieSequenceNumber : Uint4B
+   +0x020 StackId          : Uint4B

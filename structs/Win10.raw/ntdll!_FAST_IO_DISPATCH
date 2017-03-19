@@ -1,0 +1,28 @@
+   +0x000 SizeOfFastIoDispatch : Uint4B
+   +0x008 FastIoCheckIfPossible : Ptr64     unsigned char 
+   +0x010 FastIoRead       : Ptr64     unsigned char 
+   +0x018 FastIoWrite      : Ptr64     unsigned char 
+   +0x020 FastIoQueryBasicInfo : Ptr64     unsigned char 
+   +0x028 FastIoQueryStandardInfo : Ptr64     unsigned char 
+   +0x030 FastIoLock       : Ptr64     unsigned char 
+   +0x038 FastIoUnlockSingle : Ptr64     unsigned char 
+   +0x040 FastIoUnlockAll  : Ptr64     unsigned char 
+   +0x048 FastIoUnlockAllByKey : Ptr64     unsigned char 
+   +0x050 FastIoDeviceControl : Ptr64     unsigned char 
+   +0x058 AcquireFileForNtCreateSection : Ptr64     void 
+   +0x060 ReleaseFileForNtCreateSection : Ptr64     void 
+   +0x068 FastIoDetachDevice : Ptr64     void 
+   +0x070 FastIoQueryNetworkOpenInfo : Ptr64     unsigned char 
+   +0x078 AcquireForModWrite : Ptr64     long 
+   +0x080 MdlRead          : Ptr64     unsigned char 
+   +0x088 MdlReadComplete  : Ptr64     unsigned char 
+   +0x090 PrepareMdlWrite  : Ptr64     unsigned char 
+   +0x098 MdlWriteComplete : Ptr64     unsigned char 
+   +0x0a0 FastIoReadCompressed : Ptr64     unsigned char 
+   +0x0a8 FastIoWriteCompressed : Ptr64     unsigned char 
+   +0x0b0 MdlReadCompleteCompressed : Ptr64     unsigned char 
+   +0x0b8 MdlWriteCompleteCompressed : Ptr64     unsigned char 
+   +0x0c0 FastIoQueryOpen  : Ptr64     unsigned char 
+   +0x0c8 ReleaseForModWrite : Ptr64     long 
+   +0x0d0 AcquireForCcFlush : Ptr64     long 
+   +0x0d8 ReleaseForCcFlush : Ptr64     long 

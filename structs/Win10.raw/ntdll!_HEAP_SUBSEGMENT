@@ -1,0 +1,12 @@
+   +0x000 LocalInfo        : Ptr64 _HEAP_LOCAL_SEGMENT_INFO
+   +0x008 UserBlocks       : Ptr64 _HEAP_USERDATA_HEADER
+   +0x010 DelayFreeList    : _SLIST_HEADER
+   +0x020 AggregateExchg   : _INTERLOCK_SEQ
+   +0x024 BlockSize        : Uint2B
+   +0x026 Flags            : Uint2B
+   +0x028 BlockCount       : Uint2B
+   +0x02a SizeIndex        : UChar
+   +0x02b AffinityIndex    : UChar
+   +0x024 Alignment        : [2] Uint4B
+   +0x02c Lock             : Uint4B
+   +0x030 SFreeListEntry   : _SINGLE_LIST_ENTRY

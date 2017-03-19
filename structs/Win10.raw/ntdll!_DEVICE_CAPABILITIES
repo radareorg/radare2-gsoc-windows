@@ -1,0 +1,31 @@
+   +0x000 Size             : Uint2B
+   +0x002 Version          : Uint2B
+   +0x004 DeviceD1         : Pos 0, 1 Bit
+   +0x004 DeviceD2         : Pos 1, 1 Bit
+   +0x004 LockSupported    : Pos 2, 1 Bit
+   +0x004 EjectSupported   : Pos 3, 1 Bit
+   +0x004 Removable        : Pos 4, 1 Bit
+   +0x004 DockDevice       : Pos 5, 1 Bit
+   +0x004 UniqueID         : Pos 6, 1 Bit
+   +0x004 SilentInstall    : Pos 7, 1 Bit
+   +0x004 RawDeviceOK      : Pos 8, 1 Bit
+   +0x004 SurpriseRemovalOK : Pos 9, 1 Bit
+   +0x004 WakeFromD0       : Pos 10, 1 Bit
+   +0x004 WakeFromD1       : Pos 11, 1 Bit
+   +0x004 WakeFromD2       : Pos 12, 1 Bit
+   +0x004 WakeFromD3       : Pos 13, 1 Bit
+   +0x004 HardwareDisabled : Pos 14, 1 Bit
+   +0x004 NonDynamic       : Pos 15, 1 Bit
+   +0x004 WarmEjectSupported : Pos 16, 1 Bit
+   +0x004 NoDisplayInUI    : Pos 17, 1 Bit
+   +0x004 Reserved1        : Pos 18, 1 Bit
+   +0x004 WakeFromInterrupt : Pos 19, 1 Bit
+   +0x004 Reserved         : Pos 20, 12 Bits
+   +0x008 Address          : Uint4B
+   +0x00c UINumber         : Uint4B
+   +0x010 DeviceState      : [7] _DEVICE_POWER_STATE
+   +0x02c SystemWake       : _SYSTEM_POWER_STATE
+   +0x030 DeviceWake       : _DEVICE_POWER_STATE
+   +0x034 D1Latency        : Uint4B
+   +0x038 D2Latency        : Uint4B
+   +0x03c D3Latency        : Uint4B

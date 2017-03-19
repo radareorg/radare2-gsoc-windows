@@ -1,0 +1,7 @@
+   DeviceWakeDepthNotWakeable = 0n0
+   DeviceWakeDepthD0 = 0n1
+   DeviceWakeDepthD1 = 0n2
+   DeviceWakeDepthD2 = 0n3
+   DeviceWakeDepthD3hot = 0n4
+   DeviceWakeDepthD3cold = 0n5
+   DeviceWakeDepthMaximum = 0n6

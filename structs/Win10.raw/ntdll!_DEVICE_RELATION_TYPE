@@ -1,0 +1,7 @@
+   BusRelations = 0n0
+   EjectionRelations = 0n1
+   PowerRelations = 0n2
+   RemovalRelations = 0n3
+   TargetDeviceRelation = 0n4
+   SingleBusRelations = 0n5
+   TransportRelations = 0n6

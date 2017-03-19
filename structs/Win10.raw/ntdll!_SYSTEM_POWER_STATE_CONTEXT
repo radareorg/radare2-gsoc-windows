@@ -1,0 +1,8 @@
+   +0x000 Reserved1        : Pos 0, 8 Bits
+   +0x000 TargetSystemState : Pos 8, 4 Bits
+   +0x000 EffectiveSystemState : Pos 12, 4 Bits
+   +0x000 CurrentSystemState : Pos 16, 4 Bits
+   +0x000 IgnoreHibernationPath : Pos 20, 1 Bit
+   +0x000 PseudoTransition : Pos 21, 1 Bit
+   +0x000 Reserved2        : Pos 22, 10 Bits
+   +0x000 ContextAsUlong   : Uint4B

@@ -1,0 +1,8 @@
+   +0x000 ExceptionList    : Uint8B
+   +0x008 StackBase        : Uint8B
+   +0x010 StackLimit       : Uint8B
+   +0x018 SubSystemTib     : Uint8B
+   +0x020 FiberData        : Uint8B
+   +0x020 Version          : Uint4B
+   +0x028 ArbitraryUserPointer : Uint8B
+   +0x030 Self             : Uint8B

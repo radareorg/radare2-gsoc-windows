@@ -1,0 +1,6 @@
+   +0x000 PromotePercent   : UChar
+   +0x001 DemotePercent    : UChar
+   +0x002 PromotePercentBase : UChar
+   +0x003 DemotePercentBase : UChar
+   +0x004 AllowScaling     : UChar
+   +0x005 ForceLightIdle   : UChar

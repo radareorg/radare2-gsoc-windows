@@ -1,0 +1,4 @@
+   IrqPriorityUndefined = 0n0
+   IrqPriorityLow = 0n1
+   IrqPriorityNormal = 0n2
+   IrqPriorityHigh = 0n3

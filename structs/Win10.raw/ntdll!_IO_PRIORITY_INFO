@@ -1,0 +1,4 @@
+   +0x000 Size             : Uint4B
+   +0x004 ThreadPriority   : Uint4B
+   +0x008 PagePriority     : Uint4B
+   +0x00c IoPriority       : _IO_PRIORITY_HINT

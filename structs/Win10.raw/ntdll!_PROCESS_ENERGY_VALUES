@@ -1,0 +1,16 @@
+   +0x000 Cycles           : [4] [2] Uint8B
+   +0x040 DiskEnergy       : Uint8B
+   +0x048 NetworkTailEnergy : Uint8B
+   +0x050 MBBTailEnergy    : Uint8B
+   +0x058 NetworkTxRxBytes : Uint8B
+   +0x060 MBBTxRxBytes     : Uint8B
+   +0x068 Foreground       : Pos 0, 1 Bit
+   +0x068 DesktopVisible   : Pos 1, 1 Bit
+   +0x068 WindowInformation : Uint2B
+   +0x06a CompositorRendered : Uint2B
+   +0x06c DirtyGenerated   : Uint2B
+   +0x06e DirtyPropagated  : Uint2B
+   +0x070 DesktopVisibilityReportTimestamp : Int8B
+   +0x078 DesktopVisibleTime : Uint8B
+   +0x080 ForegroundReportTimestamp : Int8B
+   +0x088 ForegroundTime   : Uint8B

@@ -1,0 +1,33 @@
+   +0x000 PowerButtonPresent : UChar
+   +0x001 SleepButtonPresent : UChar
+   +0x002 LidPresent       : UChar
+   +0x003 SystemS1         : UChar
+   +0x004 SystemS2         : UChar
+   +0x005 SystemS3         : UChar
+   +0x006 SystemS4         : UChar
+   +0x007 SystemS5         : UChar
+   +0x008 HiberFilePresent : UChar
+   +0x009 FullWake         : UChar
+   +0x00a VideoDimPresent  : UChar
+   +0x00b ApmPresent       : UChar
+   +0x00c UpsPresent       : UChar
+   +0x00d ThermalControl   : UChar
+   +0x00e ProcessorThrottle : UChar
+   +0x00f ProcessorMinThrottle : UChar
+   +0x010 ProcessorMaxThrottle : UChar
+   +0x011 FastSystemS4     : UChar
+   +0x012 Hiberboot        : UChar
+   +0x013 WakeAlarmPresent : UChar
+   +0x014 AoAc             : UChar
+   +0x015 DiskSpinDown     : UChar
+   +0x016 HiberFileType    : UChar
+   +0x017 AoAcConnectivitySupported : UChar
+   +0x018 spare3           : [6] UChar
+   +0x01e SystemBatteriesPresent : UChar
+   +0x01f BatteriesAreShortTerm : UChar
+   +0x020 BatteryScale     : [3] BATTERY_REPORTING_SCALE
+   +0x038 AcOnLineWake     : _SYSTEM_POWER_STATE
+   +0x03c SoftLidWake      : _SYSTEM_POWER_STATE
+   +0x040 RtcWake          : _SYSTEM_POWER_STATE
+   +0x044 MinDeviceWakeState : _SYSTEM_POWER_STATE
+   +0x048 DefaultLowLatencyWake : _SYSTEM_POWER_STATE

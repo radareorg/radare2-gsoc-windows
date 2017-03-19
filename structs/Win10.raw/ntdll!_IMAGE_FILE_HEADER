@@ -1,0 +1,7 @@
+   +0x000 Machine          : Uint2B
+   +0x002 NumberOfSections : Uint2B
+   +0x004 TimeDateStamp    : Uint4B
+   +0x008 PointerToSymbolTable : Uint4B
+   +0x00c NumberOfSymbols  : Uint4B
+   +0x010 SizeOfOptionalHeader : Uint2B
+   +0x012 Characteristics  : Uint2B

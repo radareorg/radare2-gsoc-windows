@@ -1,0 +1,11 @@
+   +0x000 SFreeListEntry   : _SINGLE_LIST_ENTRY
+   +0x000 SubSegment       : Ptr64 _HEAP_SUBSEGMENT
+   +0x008 Reserved         : Ptr64 Void
+   +0x010 SizeIndexAndPadding : Uint4B
+   +0x010 SizeIndex        : UChar
+   +0x011 GuardPagePresent : UChar
+   +0x012 PaddingBytes     : Uint2B
+   +0x014 Signature        : Uint4B
+   +0x018 EncodedOffsets   : _HEAP_USERDATA_OFFSETS
+   +0x020 BusyBitmap       : _RTL_BITMAP_EX
+   +0x030 BitmapData       : [1] Uint8B

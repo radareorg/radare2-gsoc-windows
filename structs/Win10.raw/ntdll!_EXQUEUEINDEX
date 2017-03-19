@@ -1,0 +1,4 @@
+   ExPoolUntrusted = 0n0
+   IoPoolUntrusted = 0n1
+   ExPoolTrusted = 0n2
+   ExPoolMax = 0n8

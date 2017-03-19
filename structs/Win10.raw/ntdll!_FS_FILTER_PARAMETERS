@@ -1,0 +1,5 @@
+   +0x000 AcquireForModifiedPageWriter : <unnamed-tag>
+   +0x000 ReleaseForModifiedPageWriter : <unnamed-tag>
+   +0x000 AcquireForSectionSynchronization : <unnamed-tag>
+   +0x000 NotifyStreamFileObject : <unnamed-tag>
+   +0x000 Others           : <unnamed-tag>

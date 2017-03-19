@@ -1,0 +1,18 @@
+   +0x000 WorkingSetType   : Pos 0, 3 Bits
+   +0x000 Reserved0        : Pos 3, 3 Bits
+   +0x000 MaximumWorkingSetHard : Pos 6, 1 Bit
+   +0x000 MinimumWorkingSetHard : Pos 7, 1 Bit
+   +0x001 SessionMaster    : Pos 0, 1 Bit
+   +0x001 TrimmerState     : Pos 1, 2 Bits
+   +0x001 Reserved         : Pos 3, 1 Bit
+   +0x001 PageStealers     : Pos 4, 4 Bits
+   +0x000 u1               : Uint2B
+   +0x002 MemoryPriority   : UChar
+   +0x003 WsleDeleted      : Pos 0, 1 Bit
+   +0x003 VmExiting        : Pos 1, 1 Bit
+   +0x003 ExpansionFailed  : Pos 2, 1 Bit
+   +0x003 SvmEnabled       : Pos 3, 1 Bit
+   +0x003 ForceAge         : Pos 4, 1 Bit
+   +0x003 NewMaximum       : Pos 5, 1 Bit
+   +0x003 CommitReleaseState : Pos 6, 2 Bits
+   +0x003 u2               : UChar

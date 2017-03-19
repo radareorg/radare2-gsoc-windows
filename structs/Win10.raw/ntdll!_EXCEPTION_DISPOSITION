@@ -1,0 +1,4 @@
+   ExceptionContinueExecution = 0n0
+   ExceptionContinueSearch = 0n1
+   ExceptionNestedException = 0n2
+   ExceptionCollidedUnwind = 0n3

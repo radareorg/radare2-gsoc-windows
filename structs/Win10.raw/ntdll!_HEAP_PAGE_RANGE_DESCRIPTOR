@@ -1,0 +1,11 @@
+   +0x000 TreeNode         : _RTL_BALANCED_NODE
+   +0x000 TreeSignature    : Uint4B
+   +0x004 ExtraPresent     : Pos 0, 1 Bit
+   +0x004 Spare0           : Pos 1, 15 Bits
+   +0x006 UnusedBytes      : Uint2B
+   +0x018 RangeFlags       : UChar
+   +0x019 Spare1           : UChar
+   +0x01a Key              : _HEAP_DESCRIPTOR_KEY
+   +0x01a Align            : UChar
+   +0x01b Offset           : UChar
+   +0x01b Size             : UChar

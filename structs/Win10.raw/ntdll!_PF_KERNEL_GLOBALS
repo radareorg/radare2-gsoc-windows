@@ -1,0 +1,8 @@
+   +0x000 AccessBufferAgeThreshold : Uint8B
+   +0x008 AccessBufferRef  : _EX_RUNDOWN_REF
+   +0x010 AccessBufferExistsEvent : _KEVENT
+   +0x028 AccessBufferMax  : Uint4B
+   +0x040 AccessBufferList : _SLIST_HEADER
+   +0x050 StreamSequenceNumber : Int4B
+   +0x054 Flags            : Uint4B
+   +0x058 ScenarioPrefetchCount : Int4B

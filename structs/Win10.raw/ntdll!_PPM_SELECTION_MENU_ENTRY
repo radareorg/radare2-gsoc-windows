@@ -1,0 +1,6 @@
+   +0x000 StrictDependency : UChar
+   +0x001 InitiatingState  : UChar
+   +0x002 DependentState   : UChar
+   +0x004 StateIndex       : Uint4B
+   +0x008 Dependencies     : Uint4B
+   +0x010 DependencyList   : Ptr64 _PPM_SELECTION_DEPENDENCY

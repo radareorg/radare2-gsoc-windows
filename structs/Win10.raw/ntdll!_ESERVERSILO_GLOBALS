@@ -1,0 +1,19 @@
+   +0x000 ObSiloState      : _OBP_SILODRIVERSTATE
+   +0x2e0 SeSiloState      : _SEP_SILOSTATE
+   +0x300 SeRmSiloState    : _SEP_RM_LSA_CONNECTION_STATE
+   +0x350 EtwSiloState     : Ptr64 _ETW_SILODRIVERSTATE
+   +0x358 MiSessionLeaderProcess : Ptr64 _EPROCESS
+   +0x360 ExpDefaultErrorPortProcess : Ptr64 _EPROCESS
+   +0x368 ExpDefaultErrorPort : Ptr64 Void
+   +0x370 HardErrorState   : Uint4B
+   +0x378 WnfSiloState     : _WNF_SILODRIVERSTATE
+   +0x3b0 ApiSetSection    : Ptr64 Void
+   +0x3b8 ApiSetSchema     : Ptr64 Void
+   +0x3c0 OneCoreForwardersEnabled : UChar
+   +0x3c8 SiloRootDirectoryName : _UNICODE_STRING
+   +0x3d8 Storage          : Ptr64 _PSP_STORAGE
+   +0x3e0 State            : _SERVERSILO_STATE
+   +0x3e4 ExitStatus       : Int4B
+   +0x3e8 DeleteEvent      : Ptr64 _KEVENT
+   +0x3f0 UserSharedData   : _SILO_USER_SHARED_DATA
+   +0x410 TerminateWorkItem : _WORK_QUEUE_ITEM

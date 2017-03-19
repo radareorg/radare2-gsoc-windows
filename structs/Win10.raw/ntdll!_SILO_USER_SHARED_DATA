@@ -1,0 +1,6 @@
+   +0x000 ServiceSessionId : Uint4B
+   +0x004 ActiveConsoleId  : Uint4B
+   +0x008 ConsoleSessionForegroundProcessId : Int8B
+   +0x010 NtProductType    : _NT_PRODUCT_TYPE
+   +0x014 SuiteMask        : Uint4B
+   +0x018 IsMultiSessionSku : UChar

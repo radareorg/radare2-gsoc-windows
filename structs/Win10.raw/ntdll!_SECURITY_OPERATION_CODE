@@ -1,0 +1,4 @@
+   SetSecurityDescriptor = 0n0
+   QuerySecurityDescriptor = 0n1
+   DeleteSecurityDescriptor = 0n2
+   AssignSecurityDescriptor = 0n3

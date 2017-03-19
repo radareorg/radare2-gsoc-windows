@@ -1,0 +1,6 @@
+   +0x000 Trustlet         : Pos 0, 1 Bit
+   +0x000 Ntos             : Pos 1, 1 Bit
+   +0x000 WriteHandle      : Pos 2, 1 Bit
+   +0x000 ReadHandle       : Pos 3, 1 Bit
+   +0x000 Reserved         : Pos 4, 4 Bits
+   +0x000 AccessRights     : UChar

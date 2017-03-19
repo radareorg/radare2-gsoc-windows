@@ -1,0 +1,2 @@
+   +0x000 SizeOfBitMap     : Uint8B
+   +0x008 Buffer           : Ptr64 Uint8B

@@ -1,0 +1,6 @@
+   +0x000 LastActive       : Uint8B
+   +0x008 LastTime         : Uint8B
+   +0x010 LastStall        : Uint8B
+   +0x018 Snap             : _PROC_PERF_CHECK_SNAP
+   +0x068 TempSnap         : _PROC_PERF_CHECK_SNAP
+   +0x0b8 TaggedThreadPercent : [2] UChar

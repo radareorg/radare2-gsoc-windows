@@ -1,0 +1,4 @@
+   +0x000 Level            : UChar
+   +0x000 Type             : Pos 0, 3 Bits
+   +0x000 Audit            : Pos 3, 1 Bit
+   +0x000 Signer           : Pos 4, 4 Bits

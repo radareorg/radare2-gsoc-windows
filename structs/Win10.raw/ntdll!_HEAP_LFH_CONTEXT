@@ -1,0 +1,7 @@
+   +0x000 BackendCtx       : Ptr64 Void
+   +0x008 Callbacks        : _HEAP_SUBALLOCATOR_CALLBACKS
+   +0x030 SubsegmentCreationLock : _RTL_SRWLOCK
+   +0x038 MaxAffinity      : UChar
+   +0x040 AffinityModArray : Ptr64 UChar
+   +0x050 SubsegmentCache  : _HEAP_LFH_SUBSEGMENT_CACHE
+   +0x0c0 Buckets          : [129] Ptr64 _HEAP_LFH_BUCKET

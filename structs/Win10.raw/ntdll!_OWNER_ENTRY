@@ -1,0 +1,6 @@
+   +0x000 OwnerThread      : Uint8B
+   +0x008 IoPriorityBoosted : Pos 0, 1 Bit
+   +0x008 OwnerReferenced  : Pos 1, 1 Bit
+   +0x008 IoQoSPriorityBoosted : Pos 2, 1 Bit
+   +0x008 OwnerCount       : Pos 3, 29 Bits
+   +0x008 TableSize        : Uint4B

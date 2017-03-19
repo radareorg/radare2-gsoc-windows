@@ -1,0 +1,27 @@
+   +0x000 GenerationCycles : Uint8B
+   +0x008 MinQuotaCycleTarget : Uint8B
+   +0x010 MaxQuotaCycleTarget : Uint8B
+   +0x018 RankCycleTarget  : Uint8B
+   +0x020 LongTermCycles   : Uint8B
+   +0x028 LastReportedCycles : Uint8B
+   +0x030 OverQuotaHistory : Uint8B
+   +0x038 ReadyTime        : Uint8B
+   +0x040 InsertTime       : Uint8B
+   +0x048 PerProcessorList : _LIST_ENTRY
+   +0x058 QueueNode        : _RTL_BALANCED_NODE
+   +0x070 Inserted         : Pos 0, 1 Bit
+   +0x070 MaxOverQuota     : Pos 1, 1 Bit
+   +0x070 MinOverQuota     : Pos 2, 1 Bit
+   +0x070 RankBias         : Pos 3, 1 Bit
+   +0x070 SoftCap          : Pos 4, 1 Bit
+   +0x070 ShareRankOwner   : Pos 5, 1 Bit
+   +0x070 Spare1           : Pos 6, 2 Bits
+   +0x071 Depth            : UChar
+   +0x072 ReadySummary     : Uint2B
+   +0x074 Rank             : Uint4B
+   +0x078 ShareRank        : Ptr64 Uint4B
+   +0x080 OwnerShareRank   : Uint4B
+   +0x088 ReadyListHead    : [16] _LIST_ENTRY
+   +0x188 ChildScbQueue    : _RTL_RB_TREE
+   +0x198 Parent           : Ptr64 _KSCB
+   +0x1a0 Root             : Ptr64 _KSCB

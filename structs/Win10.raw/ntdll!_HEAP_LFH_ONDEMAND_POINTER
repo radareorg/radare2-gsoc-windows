@@ -1,0 +1,5 @@
+   +0x000 Invalid          : Pos 0, 1 Bit
+   +0x000 AllocationInProgress : Pos 1, 1 Bit
+   +0x000 Spare0           : Pos 2, 14 Bits
+   +0x002 UsageData        : Uint2B
+   +0x000 AllBits          : Ptr64 Void

@@ -1,0 +1,15 @@
+   +0x000 SelectedCount    : Uint8B
+   +0x008 VetoCount        : Uint8B
+   +0x010 PreVetoCount     : Uint8B
+   +0x018 WrongProcessorCount : Uint8B
+   +0x020 LatencyCount     : Uint8B
+   +0x028 IdleDurationCount : Uint8B
+   +0x030 DeviceDependencyCount : Uint8B
+   +0x038 ProcessorDependencyCount : Uint8B
+   +0x040 PlatformOnlyCount : Uint8B
+   +0x048 InterruptibleCount : Uint8B
+   +0x050 LegacyOverrideCount : Uint8B
+   +0x058 CstateCheckCount : Uint8B
+   +0x060 NoCStateCount    : Uint8B
+   +0x068 CoordinatedDependencyCount : Uint8B
+   +0x070 PreVetoAccounting : Ptr64 _PPM_VETO_ACCOUNTING

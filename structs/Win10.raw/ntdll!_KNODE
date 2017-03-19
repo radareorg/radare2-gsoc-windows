@@ -1,0 +1,23 @@
+   +0x000 IdleNonParkedCpuSet : Uint8B
+   +0x008 IdleSmtSet       : Uint8B
+   +0x010 IdleCpuSet       : Uint8B
+   +0x040 DeepIdleSet      : Uint8B
+   +0x048 IdleConstrainedSet : Uint8B
+   +0x050 NonParkedSet     : Uint8B
+   +0x058 ParkLock         : Int4B
+   +0x05c Seed             : Uint4B
+   +0x080 SiblingMask      : Uint4B
+   +0x088 Affinity         : _GROUP_AFFINITY
+   +0x088 AffinityFill     : [10] UChar
+   +0x092 NodeNumber       : Uint2B
+   +0x094 PrimaryNodeNumber : Uint2B
+   +0x096 Stride           : UChar
+   +0x097 Spare0           : UChar
+   +0x098 SharedReadyQueueLeaders : Uint8B
+   +0x0a0 ProximityId      : Uint4B
+   +0x0a4 Lowest           : Uint4B
+   +0x0a8 Highest          : Uint4B
+   +0x0ac MaximumProcessors : UChar
+   +0x0ad Flags            : _flags
+   +0x0ae Spare10          : UChar
+   +0x0b0 HeteroSets       : [5] _KHETERO_PROCESSOR_SET

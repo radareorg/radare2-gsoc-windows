@@ -1,0 +1,9 @@
+   +0x000 WaitListEntry    : _LIST_ENTRY
+   +0x010 WaitType         : UChar
+   +0x011 BlockState       : UChar
+   +0x012 WaitKey          : Uint2B
+   +0x014 SpareLong        : Int4B
+   +0x018 Thread           : Ptr64 _KTHREAD
+   +0x018 NotificationQueue : Ptr64 _KQUEUE
+   +0x020 Object           : Ptr64 Void
+   +0x028 SparePtr         : Ptr64 Void

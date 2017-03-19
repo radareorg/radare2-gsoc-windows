@@ -1,0 +1,16 @@
+   +0x000 P1Home           : Uint8B
+   +0x008 P2Home           : Uint8B
+   +0x010 P3Home           : Uint8B
+   +0x018 P4Home           : Uint8B
+   +0x020 StackTop         : Ptr64 Void
+   +0x028 StackSize        : Uint8B
+   +0x030 RspOffset        : Uint8B
+   +0x038 Rip              : Uint8B
+   +0x040 FltSave          : Ptr64 _XSAVE_FORMAT
+   +0x048 Volatile         : Pos 0, 1 Bit
+   +0x048 Reserved         : Pos 1, 63 Bits
+   +0x048 Flags            : Uint8B
+   +0x050 TrapFrame        : Ptr64 _KTRAP_FRAME
+   +0x058 ExceptionFrame   : Ptr64 _KEXCEPTION_FRAME
+   +0x060 SourceThread     : Ptr64 _KTHREAD
+   +0x068 Return           : Uint8B

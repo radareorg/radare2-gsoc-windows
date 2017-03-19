@@ -1,0 +1,7 @@
+   +0x000 Id               : Uint2B
+   +0x002 Version          : UChar
+   +0x003 Channel          : UChar
+   +0x004 Level            : UChar
+   +0x005 Opcode           : UChar
+   +0x006 Task             : Uint2B
+   +0x008 Keyword          : Uint8B

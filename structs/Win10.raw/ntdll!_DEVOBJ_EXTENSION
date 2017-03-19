@@ -1,0 +1,15 @@
+   +0x000 Type             : Int2B
+   +0x002 Size             : Uint2B
+   +0x008 DeviceObject     : Ptr64 _DEVICE_OBJECT
+   +0x010 PowerFlags       : Uint4B
+   +0x018 Dope             : Ptr64 _DEVICE_OBJECT_POWER_EXTENSION
+   +0x020 ExtensionFlags   : Uint4B
+   +0x028 DeviceNode       : Ptr64 Void
+   +0x030 AttachedTo       : Ptr64 _DEVICE_OBJECT
+   +0x038 StartIoCount     : Int4B
+   +0x03c StartIoKey       : Int4B
+   +0x040 StartIoFlags     : Uint4B
+   +0x048 Vpb              : Ptr64 _VPB
+   +0x050 DependencyNode   : Ptr64 Void
+   +0x058 InterruptContext : Ptr64 Void
+   +0x060 VerifierContext  : Ptr64 Void

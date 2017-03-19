@@ -1,0 +1,6 @@
+   +0x000 Sizes            : _HEAP_VS_CHUNK_HEADER_SIZE
+   +0x008 EncodedSegmentPageOffset : Pos 0, 8 Bits
+   +0x008 UnusedBytes      : Pos 8, 1 Bit
+   +0x008 SkipDuringWalk   : Pos 9, 1 Bit
+   +0x008 Spare            : Pos 10, 22 Bits
+   +0x008 AllocatedChunkBits : Uint4B

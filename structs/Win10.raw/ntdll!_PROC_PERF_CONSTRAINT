@@ -1,0 +1,16 @@
+   +0x000 Prcb             : Ptr64 _KPRCB
+   +0x008 PerfContext      : Uint8B
+   +0x010 ProcCap          : Uint4B
+   +0x014 ProcFloor        : Uint4B
+   +0x018 PlatformCap      : Uint4B
+   +0x01c ThermalCap       : Uint4B
+   +0x020 LimitReasons     : Uint4B
+   +0x028 PlatformCapStartTime : Uint8B
+   +0x030 TargetPercent    : Uint4B
+   +0x034 SelectedPercent  : Uint4B
+   +0x038 SelectedFrequency : Uint4B
+   +0x03c PreviousFrequency : Uint4B
+   +0x040 PreviousPercent  : Uint4B
+   +0x044 LatestFrequencyPercent : Uint4B
+   +0x048 SelectedState    : Uint8B
+   +0x050 Force            : UChar

@@ -1,0 +1,17 @@
+   +0x000 Lock             : Uint8B
+   +0x008 CyclesLast       : Uint8B
+   +0x010 CyclesActive     : Uint8B
+   +0x018 Counters         : [2] Ptr64 _PROC_FEEDBACK_COUNTER
+   +0x028 LastUpdateTime   : Uint8B
+   +0x030 UnscaledTime     : Uint8B
+   +0x038 UnaccountedTime  : Int8B
+   +0x040 ScaledTime       : [2] Uint8B
+   +0x050 UnaccountedKernelTime : Uint8B
+   +0x058 PerformanceScaledKernelTime : Uint8B
+   +0x060 UserTimeLast     : Uint4B
+   +0x064 KernelTimeLast   : Uint4B
+   +0x068 IdleGenerationNumberLast : Uint8B
+   +0x070 HvActiveTimeLast : Uint8B
+   +0x078 StallCyclesLast  : Uint8B
+   +0x080 StallTime        : Uint8B
+   +0x088 KernelTimesIndex : UChar

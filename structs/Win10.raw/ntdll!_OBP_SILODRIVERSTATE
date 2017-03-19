@@ -1,0 +1,4 @@
+   +0x000 SystemDeviceMap  : Ptr64 _DEVICE_MAP
+   +0x008 SystemDosDeviceState : _OBP_SYSTEM_DOS_DEVICE_STATE
+   +0x078 DeviceMapLock    : _EX_PUSH_LOCK
+   +0x080 PrivateNamespaceLookupTable : _OBJECT_NAMESPACE_LOOKUPTABLE

@@ -1,0 +1,2 @@
+   +0x000 InterruptTime    : Uint8B
+   +0x008 PerformanceCounter : _LARGE_INTEGER

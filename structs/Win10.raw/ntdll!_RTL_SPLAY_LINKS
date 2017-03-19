@@ -1,0 +1,3 @@
+   +0x000 Parent           : Ptr64 _RTL_SPLAY_LINKS
+   +0x008 LeftChild        : Ptr64 _RTL_SPLAY_LINKS
+   +0x010 RightChild       : Ptr64 _RTL_SPLAY_LINKS

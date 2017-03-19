@@ -1,0 +1,2 @@
+   +0x000 AuditMask        : Uint4B
+   +0x004 MaxRelativeAccessMask : Uint4B

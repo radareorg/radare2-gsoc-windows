@@ -1,0 +1,4 @@
+   PerfInfoMMStatNotUsed = 0n0
+   PerfInfoMMStatAggregatePageCombine = 0n1
+   PerfInfoMMStatIterationPageCombine = 0n2
+   PerfInfoMMStatMax = 0n3

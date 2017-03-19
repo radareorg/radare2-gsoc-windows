@@ -1,0 +1,2 @@
+   +0x000 UniqueProcess    : Uint8B
+   +0x008 UniqueThread     : Uint8B

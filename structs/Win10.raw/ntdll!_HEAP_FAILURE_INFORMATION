@@ -1,0 +1,17 @@
+   +0x000 Version          : Uint4B
+   +0x004 StructureSize    : Uint4B
+   +0x008 FailureType      : _HEAP_FAILURE_TYPE
+   +0x010 HeapAddress      : Ptr64 Void
+   +0x018 Address          : Ptr64 Void
+   +0x020 Param1           : Ptr64 Void
+   +0x028 Param2           : Ptr64 Void
+   +0x030 Param3           : Ptr64 Void
+   +0x038 PreviousBlock    : Ptr64 _HEAP_ENTRY
+   +0x040 NextBlock        : Ptr64 _HEAP_ENTRY
+   +0x048 ExpectedEncodedEntry : _HEAP_ENTRY
+   +0x058 ExpectedDecodedEntry : _HEAP_ENTRY
+   +0x068 StackTrace       : [32] Ptr64 Void
+   +0x168 HeapMajorVersion : UChar
+   +0x169 HeapMinorVersion : UChar
+   +0x170 ExceptionRecord  : _EXCEPTION_RECORD
+   +0x210 ContextRecord    : _CONTEXT

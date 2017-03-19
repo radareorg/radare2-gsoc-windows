@@ -1,0 +1,11 @@
+   +0x000 EnabledFeatures  : Uint8B
+   +0x008 EnabledVolatileFeatures : Uint8B
+   +0x010 Size             : Uint4B
+   +0x014 ControlFlags     : Uint4B
+   +0x014 OptimizedSave    : Pos 0, 1 Bit
+   +0x014 CompactionEnabled : Pos 1, 1 Bit
+   +0x018 Features         : [64] _XSTATE_FEATURE
+   +0x218 EnabledSupervisorFeatures : Uint8B
+   +0x220 AlignedFeatures  : Uint8B
+   +0x228 AllFeatureSize   : Uint4B
+   +0x22c AllFeatures      : [64] Uint4B

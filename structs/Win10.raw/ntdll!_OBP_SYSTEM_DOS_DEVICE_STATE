@@ -1,0 +1,2 @@
+   +0x000 GlobalDeviceMap  : Uint4B
+   +0x004 LocalDeviceCount : [26] Uint4B

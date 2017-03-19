@@ -1,0 +1,3 @@
+   +0x000 PrivilegeCount   : Uint4B
+   +0x004 Control          : Uint4B
+   +0x008 Privilege        : [1] _LUID_AND_ATTRIBUTES

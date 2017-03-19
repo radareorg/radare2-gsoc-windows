@@ -1,0 +1,6 @@
+   PsWakeReasonUser = 0n0
+   PsWakeReasonExecutionRequired = 0n1
+   PsWakeReasonKernel = 0n2
+   PsWakeReasonInstrumentation = 0n3
+   PsWakeReasonPreserveProcess = 0n4
+   PsMaxWakeReasons = 0n5

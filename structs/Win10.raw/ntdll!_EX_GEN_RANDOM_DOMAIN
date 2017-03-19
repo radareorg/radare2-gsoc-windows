@@ -1,0 +1,4 @@
+   ExGenRandomDomainKernel = 0n0
+   ExGenRandomDomainFirst = 0n0
+   ExGenRandomDomainUserVisible = 0n1
+   ExGenRandomDomainMax = 0n2

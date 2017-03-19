@@ -1,0 +1,2 @@
+   +0x000 HandleAttributes : Uint4B
+   +0x004 GrantedAccess    : Uint4B

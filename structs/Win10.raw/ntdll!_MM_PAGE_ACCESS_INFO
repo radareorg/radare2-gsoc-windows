@@ -1,0 +1,4 @@
+   +0x000 Flags            : _MM_PAGE_ACCESS_INFO_FLAGS
+   +0x000 FileOffset       : Uint8B
+   +0x000 VirtualAddress   : Ptr64 Void
+   +0x000 PointerProtoPte  : Ptr64 Void

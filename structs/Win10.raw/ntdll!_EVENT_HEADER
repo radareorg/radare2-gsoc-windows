@@ -1,0 +1,13 @@
+   +0x000 Size             : Uint2B
+   +0x002 HeaderType       : Uint2B
+   +0x004 Flags            : Uint2B
+   +0x006 EventProperty    : Uint2B
+   +0x008 ThreadId         : Uint4B
+   +0x00c ProcessId        : Uint4B
+   +0x010 TimeStamp        : _LARGE_INTEGER
+   +0x018 ProviderId       : _GUID
+   +0x028 EventDescriptor  : _EVENT_DESCRIPTOR
+   +0x038 KernelTime       : Uint4B
+   +0x03c UserTime         : Uint4B
+   +0x038 ProcessorTime    : Uint8B
+   +0x040 ActivityId       : _GUID

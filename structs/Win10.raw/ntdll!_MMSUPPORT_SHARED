@@ -1,0 +1,9 @@
+   +0x000 WorkingSetLock   : Int4B
+   +0x008 ReleasedCommitDebt : Uint8B
+   +0x010 ResetPagesRepurposedCount : Uint8B
+   +0x018 WsSwapSupport    : Ptr64 Void
+   +0x020 CommitReleaseContext : Ptr64 Void
+   +0x028 AccessLog        : Ptr64 Void
+   +0x030 ChargedWslePages : Uint8B
+   +0x038 ActualWslePages  : Uint8B
+   +0x040 WorkingSetSizeOverhead : Uint8B

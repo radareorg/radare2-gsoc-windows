@@ -1,0 +1,3 @@
+   +0x000 ChainHead        : Ptr64 _LIST_ENTRY
+   +0x008 PrevLinkage      : Ptr64 _LIST_ENTRY
+   +0x010 Signature        : Uint8B

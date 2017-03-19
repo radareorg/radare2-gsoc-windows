@@ -1,0 +1,9 @@
+   +0x000 WorkPriQueue     : _KPRIQUEUE
+   +0x2b0 Node             : Ptr64 _ENODE
+   +0x2b8 WorkItemsProcessed : Uint4B
+   +0x2bc WorkItemsProcessedLastPass : Uint4B
+   +0x2c0 ThreadCount      : Int4B
+   +0x2c4 MinThreads       : Pos 0, 31 Bits
+   +0x2c4 TryFailed        : Pos 31, 1 Bit
+   +0x2c8 MaxThreads       : Int4B
+   +0x2cc QueueIndex       : _EXQUEUEINDEX

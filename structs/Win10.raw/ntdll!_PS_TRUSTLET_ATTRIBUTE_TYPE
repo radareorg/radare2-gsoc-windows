@@ -1,0 +1,5 @@
+   +0x000 Version          : UChar
+   +0x001 DataCount        : UChar
+   +0x002 SemanticType     : UChar
+   +0x003 AccessRights     : _PS_TRUSTLET_ATTRIBUTE_ACCESSRIGHTS
+   +0x000 AttributeType    : Uint4B

@@ -1,0 +1,5 @@
+   ObCreateHandle = 0n0
+   ObOpenHandle = 0n1
+   ObDuplicateHandle = 0n2
+   ObInheritHandle = 0n3
+   ObMaxOpenReason = 0n4

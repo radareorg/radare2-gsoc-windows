@@ -1,0 +1,5 @@
+   +0x000 Entry            : _LIST_ENTRY
+   +0x010 ExtraStuff       : _HEAP_ENTRY_EXTRA
+   +0x020 CommitSize       : Uint8B
+   +0x028 ReserveSize      : Uint8B
+   +0x030 BusyBlock        : _HEAP_ENTRY

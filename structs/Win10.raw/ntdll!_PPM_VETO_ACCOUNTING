@@ -1,0 +1,6 @@
+   +0x000 VetoPresent      : Int4B
+   +0x008 VetoListHead     : _LIST_ENTRY
+   +0x018 CsAccountingBlocks : UChar
+   +0x019 BlocksDrips      : UChar
+   +0x01c PreallocatedVetoCount : Uint4B
+   +0x020 PreallocatedVetoList : Ptr64 _PPM_VETO_ENTRY

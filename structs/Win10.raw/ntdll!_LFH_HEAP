@@ -1,0 +1,19 @@
+   +0x000 Lock             : _RTL_SRWLOCK
+   +0x008 SubSegmentZones  : _LIST_ENTRY
+   +0x018 Heap             : Ptr64 Void
+   +0x020 NextSegmentInfoArrayAddress : Ptr64 Void
+   +0x028 FirstUncommittedAddress : Ptr64 Void
+   +0x030 ReservedAddressLimit : Ptr64 Void
+   +0x038 SegmentCreate    : Uint4B
+   +0x03c SegmentDelete    : Uint4B
+   +0x040 MinimumCacheDepth : Uint4B
+   +0x044 CacheShiftThreshold : Uint4B
+   +0x048 SizeInCache      : Uint8B
+   +0x050 RunInfo          : _HEAP_BUCKET_RUN_INFO
+   +0x060 UserBlockCache   : [12] _USER_MEMORY_CACHE_ENTRY
+   +0x2a0 MemoryPolicies   : _HEAP_LFH_MEM_POLICIES
+   +0x2a4 Buckets          : [129] _HEAP_BUCKET
+   +0x4a8 SegmentInfoArrays : [129] Ptr64 _HEAP_LOCAL_SEGMENT_INFO
+   +0x8b0 AffinitizedInfoArrays : [129] Ptr64 _HEAP_LOCAL_SEGMENT_INFO
+   +0xcb8 SegmentAllocator : Ptr64 _SEGMENT_HEAP
+   +0xcc0 LocalData        : [1] _HEAP_LOCAL_DATA

@@ -1,0 +1,12 @@
+   +0x000 TotalTime        : Uint8B
+   +0x008 IdleTime         : Uint8B
+   +0x010 ExpectedIdleDuration : Uint8B
+   +0x018 MaxIdleDuration  : Uint8B
+   +0x020 OverrideState    : Uint4B
+   +0x024 TimeCheck        : Uint4B
+   +0x028 PromotePercent   : UChar
+   +0x029 DemotePercent    : UChar
+   +0x02a Parked           : UChar
+   +0x02b Interruptible    : UChar
+   +0x02c PlatformIdle     : UChar
+   +0x02d ExpectedWakeReason : UChar

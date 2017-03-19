@@ -1,0 +1,5 @@
+   +0x000 Count            : Int4B
+   +0x008 Owner            : Ptr64 Void
+   +0x010 Contention       : Uint4B
+   +0x018 Event            : _KEVENT
+   +0x030 OldIrql          : Uint4B

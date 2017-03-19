@@ -1,0 +1,21 @@
+   +0x000 NextPageColor    : Uint2B
+   +0x002 LastTrimStamp    : Uint2B
+   +0x004 PageFaultCount   : Uint4B
+   +0x008 TrimmedPageCount : Uint8B
+   +0x010 VmWorkingSetList : Ptr64 _MMWSL_INSTANCE
+   +0x018 WorkingSetExpansionLinks : _LIST_ENTRY
+   +0x028 AgeDistribution  : [7] Uint8B
+   +0x060 ExitOutswapGate  : Ptr64 _KGATE
+   +0x068 MinimumWorkingSetSize : Uint8B
+   +0x070 WorkingSetLeafSize : Uint8B
+   +0x078 WorkingSetLeafPrivateSize : Uint8B
+   +0x080 WorkingSetSize   : Uint8B
+   +0x088 WorkingSetPrivateSize : Uint8B
+   +0x090 MaximumWorkingSetSize : Uint8B
+   +0x098 PeakWorkingSetSize : Uint8B
+   +0x0a0 HardFaultCount   : Uint4B
+   +0x0a4 PartitionId      : Uint2B
+   +0x0a6 Pad0             : Uint2B
+   +0x0a8 u1               : <unnamed-tag>
+   +0x0b0 Reserved0        : Uint8B
+   +0x0b8 Flags            : _MMSUPPORT_FLAGS

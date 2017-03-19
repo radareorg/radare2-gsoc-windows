@@ -1,0 +1,2 @@
+   +0x000 Header           : _PS_TRUSTLET_ATTRIBUTE_HEADER
+   +0x008 Data             : [1] Uint8B

@@ -1,0 +1,11 @@
+   +0x000 BalancedRoot     : _RTL_BALANCED_LINKS
+   +0x020 OrderedPointer   : Ptr64 Void
+   +0x028 WhichOrderedElement : Uint4B
+   +0x02c NumberGenericTableElements : Uint4B
+   +0x030 DepthOfTree      : Uint4B
+   +0x038 RestartKey       : Ptr64 _RTL_BALANCED_LINKS
+   +0x040 DeleteCount      : Uint4B
+   +0x048 CompareRoutine   : Ptr64     _RTL_GENERIC_COMPARE_RESULTS 
+   +0x050 AllocateRoutine  : Ptr64     void* 
+   +0x058 FreeRoutine      : Ptr64     void 
+   +0x060 TableContext     : Ptr64 Void

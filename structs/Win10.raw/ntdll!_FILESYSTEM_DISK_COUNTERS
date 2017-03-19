@@ -1,0 +1,2 @@
+   +0x000 FsBytesRead      : Uint8B
+   +0x008 FsBytesWritten   : Uint8B

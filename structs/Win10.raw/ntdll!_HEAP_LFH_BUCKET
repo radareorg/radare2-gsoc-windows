@@ -1,0 +1,9 @@
+   +0x000 State            : _HEAP_LFH_SUBSEGMENT_OWNER
+   +0x038 TotalBlockCount  : Uint8B
+   +0x040 TotalSubsegmentCount : Uint8B
+   +0x048 ReciprocalBlockSize : Uint4B
+   +0x04c Shift            : UChar
+   +0x050 AffinityMappingLock : _RTL_SRWLOCK
+   +0x058 ContentionCount  : Uint4B
+   +0x060 ProcAffinityMapping : Ptr64 UChar
+   +0x068 AffinitySlots    : Ptr64 Ptr64 _HEAP_LFH_AFFINITY_SLOT

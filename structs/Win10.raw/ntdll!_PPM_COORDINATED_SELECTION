@@ -1,0 +1,4 @@
+   +0x000 MaximumStates    : Uint4B
+   +0x004 SelectedStates   : Uint4B
+   +0x008 DefaultSelection : Uint4B
+   +0x010 Selection        : Ptr64 Uint4B

@@ -1,0 +1,2 @@
+   +0x000 UniqueProcess    : Ptr64 Void
+   +0x008 UniqueThread     : Ptr64 Void

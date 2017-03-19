@@ -1,0 +1,3 @@
+   KThreadTagNone = 0n0
+   KThreadTagMediaBuffering = 0n1
+   KThreadTagMax = 0n2

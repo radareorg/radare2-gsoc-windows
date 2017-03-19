@@ -1,0 +1,57 @@
+   +0x000 InLoadOrderLinks : _LIST_ENTRY
+   +0x010 InMemoryOrderLinks : _LIST_ENTRY
+   +0x020 InInitializationOrderLinks : _LIST_ENTRY
+   +0x030 DllBase          : Ptr64 Void
+   +0x038 EntryPoint       : Ptr64 Void
+   +0x040 SizeOfImage      : Uint4B
+   +0x048 FullDllName      : _UNICODE_STRING
+   +0x058 BaseDllName      : _UNICODE_STRING
+   +0x068 FlagGroup        : [4] UChar
+   +0x068 Flags            : Uint4B
+   +0x068 PackagedBinary   : Pos 0, 1 Bit
+   +0x068 MarkedForRemoval : Pos 1, 1 Bit
+   +0x068 ImageDll         : Pos 2, 1 Bit
+   +0x068 LoadNotificationsSent : Pos 3, 1 Bit
+   +0x068 TelemetryEntryProcessed : Pos 4, 1 Bit
+   +0x068 ProcessStaticImport : Pos 5, 1 Bit
+   +0x068 InLegacyLists    : Pos 6, 1 Bit
+   +0x068 InIndexes        : Pos 7, 1 Bit
+   +0x068 ShimDll          : Pos 8, 1 Bit
+   +0x068 InExceptionTable : Pos 9, 1 Bit
+   +0x068 ReservedFlags1   : Pos 10, 2 Bits
+   +0x068 LoadInProgress   : Pos 12, 1 Bit
+   +0x068 LoadConfigProcessed : Pos 13, 1 Bit
+   +0x068 EntryProcessed   : Pos 14, 1 Bit
+   +0x068 ProtectDelayLoad : Pos 15, 1 Bit
+   +0x068 ReservedFlags3   : Pos 16, 2 Bits
+   +0x068 DontCallForThreads : Pos 18, 1 Bit
+   +0x068 ProcessAttachCalled : Pos 19, 1 Bit
+   +0x068 ProcessAttachFailed : Pos 20, 1 Bit
+   +0x068 CorDeferredValidate : Pos 21, 1 Bit
+   +0x068 CorImage         : Pos 22, 1 Bit
+   +0x068 DontRelocate     : Pos 23, 1 Bit
+   +0x068 CorILOnly        : Pos 24, 1 Bit
+   +0x068 ReservedFlags5   : Pos 25, 3 Bits
+   +0x068 Redirected       : Pos 28, 1 Bit
+   +0x068 ReservedFlags6   : Pos 29, 2 Bits
+   +0x068 CompatDatabaseProcessed : Pos 31, 1 Bit
+   +0x06c ObsoleteLoadCount : Uint2B
+   +0x06e TlsIndex         : Uint2B
+   +0x070 HashLinks        : _LIST_ENTRY
+   +0x080 TimeDateStamp    : Uint4B
+   +0x088 EntryPointActivationContext : Ptr64 _ACTIVATION_CONTEXT
+   +0x090 Lock             : Ptr64 Void
+   +0x098 DdagNode         : Ptr64 _LDR_DDAG_NODE
+   +0x0a0 NodeModuleLink   : _LIST_ENTRY
+   +0x0b0 LoadContext      : Ptr64 _LDRP_LOAD_CONTEXT
+   +0x0b8 ParentDllBase    : Ptr64 Void
+   +0x0c0 SwitchBackContext : Ptr64 Void
+   +0x0c8 BaseAddressIndexNode : _RTL_BALANCED_NODE
+   +0x0e0 MappingInfoIndexNode : _RTL_BALANCED_NODE
+   +0x0f8 OriginalBase     : Uint8B
+   +0x100 LoadTime         : _LARGE_INTEGER
+   +0x108 BaseNameHashValue : Uint4B
+   +0x10c LoadReason       : _LDR_DLL_LOAD_REASON
+   +0x110 ImplicitPathOptions : Uint4B
+   +0x114 ReferenceCount   : Uint4B
+   +0x118 DependentLoadFlags : Uint4B

@@ -1,0 +1,2 @@
+   +0x000 ExceptionRecord  : Ptr64 _EXCEPTION_RECORD
+   +0x008 ContextRecord    : Ptr64 _CONTEXT

@@ -1,0 +1,4 @@
+   +0x000 FRUId            : Pos 0, 1 Bit
+   +0x000 FRUText          : Pos 1, 1 Bit
+   +0x000 Reserved         : Pos 2, 6 Bits
+   +0x000 AsUCHAR          : UChar

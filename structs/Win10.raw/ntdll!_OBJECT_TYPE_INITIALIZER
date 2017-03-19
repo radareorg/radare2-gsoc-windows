@@ -1,0 +1,33 @@
+   +0x000 Length           : Uint2B
+   +0x002 ObjectTypeFlags  : UChar
+   +0x002 CaseInsensitive  : Pos 0, 1 Bit
+   +0x002 UnnamedObjectsOnly : Pos 1, 1 Bit
+   +0x002 UseDefaultObject : Pos 2, 1 Bit
+   +0x002 SecurityRequired : Pos 3, 1 Bit
+   +0x002 MaintainHandleCount : Pos 4, 1 Bit
+   +0x002 MaintainTypeList : Pos 5, 1 Bit
+   +0x002 SupportsObjectCallbacks : Pos 6, 1 Bit
+   +0x002 CacheAligned     : Pos 7, 1 Bit
+   +0x003 ObjectTypeFlags2 : UChar
+   +0x003 UseExtendedParameters : Pos 0, 1 Bit
+   +0x003 Reserved         : Pos 1, 7 Bits
+   +0x004 ObjectTypeCode   : Uint4B
+   +0x008 InvalidAttributes : Uint4B
+   +0x00c GenericMapping   : _GENERIC_MAPPING
+   +0x01c ValidAccessMask  : Uint4B
+   +0x020 RetainAccess     : Uint4B
+   +0x024 PoolType         : _POOL_TYPE
+   +0x028 DefaultPagedPoolCharge : Uint4B
+   +0x02c DefaultNonPagedPoolCharge : Uint4B
+   +0x030 DumpProcedure    : Ptr64     void 
+   +0x038 OpenProcedure    : Ptr64     long 
+   +0x040 CloseProcedure   : Ptr64     void 
+   +0x048 DeleteProcedure  : Ptr64     void 
+   +0x050 ParseProcedure   : Ptr64     long 
+   +0x050 ParseProcedureEx : Ptr64     long 
+   +0x058 SecurityProcedure : Ptr64     long 
+   +0x060 QueryNameProcedure : Ptr64     long 
+   +0x068 OkayToCloseProcedure : Ptr64     unsigned char 
+   +0x070 WaitObjectFlagMask : Uint4B
+   +0x074 WaitObjectFlagOffset : Uint2B
+   +0x076 WaitObjectPointerOffset : Uint2B

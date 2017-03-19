@@ -1,0 +1,9 @@
+   +0x000 DriverObject     : Ptr64 _DRIVER_OBJECT
+   +0x008 AddDevice        : Ptr64     long 
+   +0x010 Count            : Uint4B
+   +0x018 ServiceKeyName   : _UNICODE_STRING
+   +0x028 ClientDriverExtension : Ptr64 _IO_CLIENT_EXTENSION
+   +0x030 FsFilterCallbacks : Ptr64 _FS_FILTER_CALLBACKS
+   +0x038 KseCallbacks     : Ptr64 Void
+   +0x040 DvCallbacks      : Ptr64 Void
+   +0x048 VerifierContext  : Ptr64 Void

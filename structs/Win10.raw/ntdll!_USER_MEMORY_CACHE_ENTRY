@@ -1,0 +1,7 @@
+   +0x000 UserBlocks       : _SLIST_HEADER
+   +0x010 AvailableBlocks  : Uint4B
+   +0x014 MinimumDepth     : Uint4B
+   +0x018 CacheShiftThreshold : Uint4B
+   +0x01c Allocations      : Uint2B
+   +0x01e Frees            : Uint2B
+   +0x020 CacheHits        : Uint2B

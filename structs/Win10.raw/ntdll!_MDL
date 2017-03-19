@@ -1,0 +1,10 @@
+   +0x000 Next             : Ptr64 _MDL
+   +0x008 Size             : Int2B
+   +0x00a MdlFlags         : Int2B
+   +0x00c AllocationProcessorNumber : Uint2B
+   +0x00e Reserved         : Uint2B
+   +0x010 Process          : Ptr64 _EPROCESS
+   +0x018 MappedSystemVa   : Ptr64 Void
+   +0x020 StartVa          : Ptr64 Void
+   +0x028 ByteCount        : Uint4B
+   +0x02c ByteOffset       : Uint4B

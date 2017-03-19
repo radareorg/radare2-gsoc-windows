@@ -1,0 +1,3 @@
+   +0x000 Value            : Int4B
+   +0x000 State            : Pos 0, 3 Bits
+   +0x000 StackCount       : Pos 3, 29 Bits

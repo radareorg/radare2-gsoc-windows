@@ -1,0 +1,4 @@
+   +0x000 StructureSize    : Uint4B
+   +0x004 SizeReturned     : Uint4B
+   +0x008 Flags            : Uint4B
+   +0x00c DesiredReadAlignment : Uint4B

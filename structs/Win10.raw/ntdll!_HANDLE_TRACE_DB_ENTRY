@@ -1,0 +1,4 @@
+   +0x000 ClientId         : _CLIENT_ID
+   +0x010 Handle           : Ptr64 Void
+   +0x018 Type             : Uint4B
+   +0x020 StackTrace       : [16] Ptr64 Void

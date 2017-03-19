@@ -1,0 +1,7 @@
+   +0x000 Count            : Uint4B
+   +0x004 Slot             : Uint4B
+   +0x008 UtilityTotal     : Uint4B
+   +0x00c AffinitizedUtilityTotal : Uint4B
+   +0x010 FrequencyTotal   : Uint4B
+   +0x014 TaggedPercentTotal : [2] Uint4B
+   +0x01c HistoryList      : [1] _PROC_PERF_HISTORY_ENTRY

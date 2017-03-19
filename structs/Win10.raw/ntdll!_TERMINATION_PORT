@@ -1,0 +1,2 @@
+   +0x000 Next             : Ptr64 _TERMINATION_PORT
+   +0x008 Port             : Ptr64 Void

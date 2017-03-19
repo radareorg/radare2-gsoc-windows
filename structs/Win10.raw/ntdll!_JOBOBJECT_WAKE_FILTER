@@ -1,0 +1,2 @@
+   +0x000 HighEdgeFilter   : Uint4B
+   +0x004 LowEdgeFilter    : Uint4B

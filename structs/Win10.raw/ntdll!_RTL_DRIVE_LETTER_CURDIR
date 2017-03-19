@@ -1,0 +1,4 @@
+   +0x000 Flags            : Uint2B
+   +0x002 Length           : Uint2B
+   +0x004 TimeStamp        : Uint4B
+   +0x008 DosPath          : _STRING

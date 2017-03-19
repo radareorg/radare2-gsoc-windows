@@ -1,0 +1,4 @@
+   +0x000 ListEntry        : _LIST_ENTRY
+   +0x010 SegmentEntry     : _LIST_ENTRY
+   +0x020 Address          : Ptr64 Void
+   +0x028 Size             : Uint8B

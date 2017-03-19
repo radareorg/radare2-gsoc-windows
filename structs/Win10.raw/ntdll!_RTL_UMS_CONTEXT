@@ -1,0 +1,20 @@
+   +0x000 Link             : _SINGLE_LIST_ENTRY
+   +0x010 Context          : _CONTEXT
+   +0x4e0 Teb              : Ptr64 Void
+   +0x4e8 UserContext      : Ptr64 Void
+   +0x4f0 ScheduledThread  : Pos 0, 1 Bit
+   +0x4f0 Suspended        : Pos 1, 1 Bit
+   +0x4f0 VolatileContext  : Pos 2, 1 Bit
+   +0x4f0 Terminated       : Pos 3, 1 Bit
+   +0x4f0 DebugActive      : Pos 4, 1 Bit
+   +0x4f0 RunningOnSelfThread : Pos 5, 1 Bit
+   +0x4f0 DenyRunningOnSelfThread : Pos 6, 1 Bit
+   +0x4f0 Flags            : Int4B
+   +0x4f8 KernelUpdateLock : Pos 0, 2 Bits
+   +0x4f8 PrimaryClientID  : Pos 2, 62 Bits
+   +0x4f8 ContextLock      : Uint8B
+   +0x500 PrimaryUmsContext : Ptr64 _RTL_UMS_CONTEXT
+   +0x508 SwitchCount      : Uint4B
+   +0x50c KernelYieldCount : Uint4B
+   +0x510 MixedYieldCount  : Uint4B
+   +0x514 YieldCount       : Uint4B

@@ -1,0 +1,7 @@
+   WorkingSetTypeUser = 0n0
+   WorkingSetTypeSession = 0n1
+   WorkingSetTypeSystemTypes = 0n2
+   WorkingSetTypeSystemCache = 0n2
+   WorkingSetTypePagedPool = 0n3
+   WorkingSetTypeSystemPtes = 0n4
+   WorkingSetTypeMaximum = 0n5

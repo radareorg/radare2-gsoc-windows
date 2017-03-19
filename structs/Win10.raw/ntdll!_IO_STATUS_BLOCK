@@ -1,0 +1,3 @@
+   +0x000 Status           : Int4B
+   +0x000 Pointer          : Ptr64 Void
+   +0x008 Information      : Uint8B

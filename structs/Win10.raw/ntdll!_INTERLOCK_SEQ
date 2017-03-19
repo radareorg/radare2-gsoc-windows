@@ -1,0 +1,5 @@
+   +0x000 Depth            : Uint2B
+   +0x002 Hint             : Pos 0, 15 Bits
+   +0x002 Lock             : Pos 15, 1 Bit
+   +0x002 Hint16           : Uint2B
+   +0x000 Exchg            : Int4B

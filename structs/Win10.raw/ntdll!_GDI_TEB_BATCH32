@@ -1,0 +1,4 @@
+   +0x000 Offset           : Pos 0, 31 Bits
+   +0x000 HasRenderingCommand : Pos 31, 1 Bit
+   +0x004 HDC              : Uint4B
+   +0x008 Buffer           : [310] Uint4B

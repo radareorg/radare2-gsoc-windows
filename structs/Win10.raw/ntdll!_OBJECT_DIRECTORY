@@ -1,0 +1,8 @@
+   +0x000 HashBuckets      : [37] Ptr64 _OBJECT_DIRECTORY_ENTRY
+   +0x128 Lock             : _EX_PUSH_LOCK
+   +0x130 DeviceMap        : Ptr64 _DEVICE_MAP
+   +0x138 ShadowDirectory  : Ptr64 _OBJECT_DIRECTORY
+   +0x140 SessionId        : Uint4B
+   +0x148 NamespaceEntry   : Ptr64 Void
+   +0x150 SessionObject    : Ptr64 Void
+   +0x158 Flags            : Uint4B

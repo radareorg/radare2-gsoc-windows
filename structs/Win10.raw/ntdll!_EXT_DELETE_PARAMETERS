@@ -1,0 +1,4 @@
+   +0x000 Version          : Uint4B
+   +0x004 Reserved         : Uint4B
+   +0x008 DeleteCallback   : Ptr64     void 
+   +0x010 DeleteContext    : Ptr64 Void

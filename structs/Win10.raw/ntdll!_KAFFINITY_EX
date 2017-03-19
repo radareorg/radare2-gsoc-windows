@@ -1,0 +1,4 @@
+   +0x000 Count            : Uint2B
+   +0x002 Size             : Uint2B
+   +0x004 Reserved         : Uint4B
+   +0x008 Bitmap           : [20] Uint8B

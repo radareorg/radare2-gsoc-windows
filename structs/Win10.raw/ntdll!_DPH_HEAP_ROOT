@@ -1,0 +1,33 @@
+   +0x000 Signature        : Uint4B
+   +0x004 HeapFlags        : Uint4B
+   +0x008 HeapCritSect     : Ptr64 _RTL_CRITICAL_SECTION
+   +0x010 nRemoteLockAcquired : Uint4B
+   +0x018 pVirtualStorageListHead : Ptr64 _DPH_HEAP_BLOCK
+   +0x020 pVirtualStorageListTail : Ptr64 _DPH_HEAP_BLOCK
+   +0x028 nVirtualStorageRanges : Uint4B
+   +0x030 nVirtualStorageBytes : Uint8B
+   +0x038 BusyNodesTable   : _RTL_AVL_TABLE
+   +0x0a0 NodeToAllocate   : Ptr64 _DPH_HEAP_BLOCK
+   +0x0a8 nBusyAllocations : Uint4B
+   +0x0b0 nBusyAllocationBytesCommitted : Uint8B
+   +0x0b8 pFreeAllocationListHead : Ptr64 _DPH_HEAP_BLOCK
+   +0x0c0 pFreeAllocationListTail : Ptr64 _DPH_HEAP_BLOCK
+   +0x0c8 nFreeAllocations : Uint4B
+   +0x0d0 nFreeAllocationBytesCommitted : Uint8B
+   +0x0d8 AvailableAllocationHead : _LIST_ENTRY
+   +0x0e8 nAvailableAllocations : Uint4B
+   +0x0f0 nAvailableAllocationBytesCommitted : Uint8B
+   +0x0f8 pUnusedNodeListHead : Ptr64 _DPH_HEAP_BLOCK
+   +0x100 pUnusedNodeListTail : Ptr64 _DPH_HEAP_BLOCK
+   +0x108 nUnusedNodes     : Uint4B
+   +0x110 nBusyAllocationBytesAccessible : Uint8B
+   +0x118 pNodePoolListHead : Ptr64 _DPH_HEAP_BLOCK
+   +0x120 pNodePoolListTail : Ptr64 _DPH_HEAP_BLOCK
+   +0x128 nNodePools       : Uint4B
+   +0x130 nNodePoolBytes   : Uint8B
+   +0x138 NextHeap         : _LIST_ENTRY
+   +0x148 ExtraFlags       : Uint4B
+   +0x14c Seed             : Uint4B
+   +0x150 NormalHeap       : Ptr64 Void
+   +0x158 CreateStackTrace : Ptr64 _RTL_TRACE_BLOCK
+   +0x160 FirstThread      : Ptr64 Void

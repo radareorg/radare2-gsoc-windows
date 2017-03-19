@@ -1,0 +1,10 @@
+   +0x000 Seconds          : Pos 0, 8 Bits
+   +0x000 Minutes          : Pos 8, 8 Bits
+   +0x000 Hours            : Pos 16, 8 Bits
+   +0x000 Precise          : Pos 24, 1 Bit
+   +0x000 Reserved         : Pos 25, 7 Bits
+   +0x000 Day              : Pos 32, 8 Bits
+   +0x000 Month            : Pos 40, 8 Bits
+   +0x000 Year             : Pos 48, 8 Bits
+   +0x000 Century          : Pos 56, 8 Bits
+   +0x000 AsLARGE_INTEGER  : _LARGE_INTEGER

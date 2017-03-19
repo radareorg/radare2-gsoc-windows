@@ -1,0 +1,39 @@
+   +0x000 InterfaceVersion : UChar
+   +0x001 ForceIdle        : UChar
+   +0x002 EstimateIdleDuration : UChar
+   +0x003 ExitLatencyTraceEnabled : UChar
+   +0x004 NonInterruptibleTransition : UChar
+   +0x005 UnaccountedTransition : UChar
+   +0x006 IdleDurationLimited : UChar
+   +0x007 IdleCheckLimited : UChar
+   +0x008 ExitLatencyCountdown : Uint4B
+   +0x00c TargetState      : Uint4B
+   +0x010 ActualState      : Uint4B
+   +0x014 OldState         : Uint4B
+   +0x018 OverrideIndex    : Uint4B
+   +0x01c ProcessorIdleCount : Uint4B
+   +0x020 Type             : Uint4B
+   +0x024 ReasonFlags      : Uint2B
+   +0x028 InitiateWakeStamp : Uint8B
+   +0x030 PreviousStatus   : Int4B
+   +0x034 PreviousCancelReason : Uint4B
+   +0x038 PrimaryProcessorMask : _KAFFINITY_EX
+   +0x0e0 SecondaryProcessorMask : _KAFFINITY_EX
+   +0x188 IdlePrepare      : Ptr64     void 
+   +0x190 IdlePreExecute   : Ptr64     long 
+   +0x198 IdleExecute      : Ptr64     long 
+   +0x1a0 IdlePreselect    : Ptr64     unsigned long 
+   +0x1a8 IdleTest         : Ptr64     unsigned long 
+   +0x1b0 IdleAvailabilityCheck : Ptr64     unsigned long 
+   +0x1b8 IdleComplete     : Ptr64     void 
+   +0x1c0 IdleCancel       : Ptr64     void 
+   +0x1c8 IdleIsHalted     : Ptr64     unsigned char 
+   +0x1d0 IdleInitiateWake : Ptr64     unsigned char 
+   +0x1d8 PrepareInfo      : _PROCESSOR_IDLE_PREPARE_INFO
+   +0x230 DeepIdleSnapshot : _KAFFINITY_EX
+   +0x2d8 Tracing          : Ptr64 _PERFINFO_PPM_STATE_SELECTION
+   +0x2e0 CoordinatedTracing : Ptr64 _PERFINFO_PPM_STATE_SELECTION
+   +0x2e8 ProcessorMenu    : _PPM_SELECTION_MENU
+   +0x2f8 CoordinatedMenu  : _PPM_SELECTION_MENU
+   +0x308 CoordinatedSelection : _PPM_COORDINATED_SELECTION
+   +0x320 State            : [1] _PPM_IDLE_STATE

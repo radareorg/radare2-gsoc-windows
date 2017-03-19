@@ -1,0 +1,4 @@
+   +0x000 DisableAffinity  : Pos 0, 1 Bit
+   +0x000 SlowSubsegmentGrowth : Pos 1, 1 Bit
+   +0x000 Spare            : Pos 2, 30 Bits
+   +0x000 AllPolicies      : Uint4B

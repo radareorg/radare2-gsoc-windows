@@ -1,0 +1,3 @@
+   +0x000 AsLong           : Int4B
+   +0x000 RefCount         : Pos 0, 24 Bits
+   +0x000 State            : Pos 24, 8 Bits

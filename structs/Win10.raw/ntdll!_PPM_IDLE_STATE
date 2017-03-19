@@ -1,0 +1,15 @@
+   +0x000 DomainMembers    : _KAFFINITY_EX
+   +0x0a8 Name             : _UNICODE_STRING
+   +0x0b8 Latency          : Uint4B
+   +0x0bc BreakEvenDuration : Uint4B
+   +0x0c0 Power            : Uint4B
+   +0x0c4 StateFlags       : Uint4B
+   +0x0c8 VetoAccounting   : _PPM_VETO_ACCOUNTING
+   +0x0f0 StateType        : UChar
+   +0x0f1 InterruptsEnabled : UChar
+   +0x0f2 Interruptible    : UChar
+   +0x0f3 ContextRetained  : UChar
+   +0x0f4 CacheCoherent    : UChar
+   +0x0f5 WakesSpuriously  : UChar
+   +0x0f6 PlatformOnly     : UChar
+   +0x0f7 NoCState         : UChar

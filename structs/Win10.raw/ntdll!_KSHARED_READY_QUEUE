@@ -1,0 +1,11 @@
+   +0x000 Lock             : Uint8B
+   +0x008 ReadySummary     : Uint4B
+   +0x010 ReadyListHead    : [32] _LIST_ENTRY
+   +0x210 RunningSummary   : [64] Char
+   +0x250 Span             : UChar
+   +0x251 LowProcIndex     : UChar
+   +0x252 QueueIndex       : UChar
+   +0x253 ProcCount        : UChar
+   +0x254 ScanOwner        : UChar
+   +0x255 Spare            : [3] UChar
+   +0x258 Affinity         : Uint8B

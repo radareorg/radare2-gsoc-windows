@@ -1,0 +1,4 @@
+   +0x000 EntropyCount     : Uint4B
+   +0x004 Buffer           : [64] Uint4B
+   +0x108 Dpc              : _KDPC
+   +0x148 LastDeliveredBuffer : Uint4B

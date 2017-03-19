@@ -1,0 +1,2 @@
+   +0x000 ListHead         : _SINGLE_LIST_ENTRY
+   +0x008 LastEntry        : Ptr64 _SINGLE_LIST_ENTRY

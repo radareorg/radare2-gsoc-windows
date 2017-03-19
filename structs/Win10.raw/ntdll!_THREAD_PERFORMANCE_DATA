@@ -1,0 +1,10 @@
+   +0x000 Size             : Uint2B
+   +0x002 Version          : Uint2B
+   +0x004 ProcessorNumber  : _PROCESSOR_NUMBER
+   +0x008 ContextSwitches  : Uint4B
+   +0x00c HwCountersCount  : Uint4B
+   +0x010 UpdateCount      : Uint8B
+   +0x018 WaitReasonBitMap : Uint8B
+   +0x020 HardwareCounters : Uint8B
+   +0x028 CycleTime        : _COUNTER_READING
+   +0x040 HwCounters       : [16] _COUNTER_READING

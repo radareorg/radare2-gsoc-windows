@@ -1,0 +1,3 @@
+   +0x000 InterfaceType    : _INTERFACE_TYPE
+   +0x004 BusNumber        : Uint4B
+   +0x008 PartialResourceList : _CM_PARTIAL_RESOURCE_LIST

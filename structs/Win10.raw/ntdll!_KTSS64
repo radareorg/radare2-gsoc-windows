@@ -1,0 +1,8 @@
+   +0x000 Reserved0        : Uint4B
+   +0x004 Rsp0             : Uint8B
+   +0x00c Rsp1             : Uint8B
+   +0x014 Rsp2             : Uint8B
+   +0x01c Ist              : [8] Uint8B
+   +0x05c Reserved1        : Uint8B
+   +0x064 Reserved2        : Uint2B
+   +0x066 IoMapBase        : Uint2B

@@ -1,0 +1,3 @@
+   HeapLockNotHeld = 0n0
+   HeapLockShared = 0n1
+   HeapLockExclusive = 0n2

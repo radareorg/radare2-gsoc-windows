@@ -1,0 +1,150 @@
+   +0x000 Event            : _KEVENT
+   +0x018 JobLinks         : _LIST_ENTRY
+   +0x028 ProcessListHead  : _LIST_ENTRY
+   +0x038 JobLock          : _ERESOURCE
+   +0x0a0 TotalUserTime    : _LARGE_INTEGER
+   +0x0a8 TotalKernelTime  : _LARGE_INTEGER
+   +0x0b0 TotalCycleTime   : _LARGE_INTEGER
+   +0x0b8 ThisPeriodTotalUserTime : _LARGE_INTEGER
+   +0x0c0 ThisPeriodTotalKernelTime : _LARGE_INTEGER
+   +0x0c8 TotalContextSwitches : Uint8B
+   +0x0d0 TotalPageFaultCount : Uint4B
+   +0x0d4 TotalProcesses   : Uint4B
+   +0x0d8 ActiveProcesses  : Uint4B
+   +0x0dc TotalTerminatedProcesses : Uint4B
+   +0x0e0 PerProcessUserTimeLimit : _LARGE_INTEGER
+   +0x0e8 PerJobUserTimeLimit : _LARGE_INTEGER
+   +0x0f0 MinimumWorkingSetSize : Uint8B
+   +0x0f8 MaximumWorkingSetSize : Uint8B
+   +0x100 LimitFlags       : Uint4B
+   +0x104 ActiveProcessLimit : Uint4B
+   +0x108 Affinity         : _KAFFINITY_EX
+   +0x1b0 AccessState      : Ptr64 _JOB_ACCESS_STATE
+   +0x1b8 AccessStateQuotaReference : Ptr64 Void
+   +0x1c0 UIRestrictionsClass : Uint4B
+   +0x1c4 EndOfJobTimeAction : Uint4B
+   +0x1c8 CompletionPort   : Ptr64 Void
+   +0x1d0 CompletionKey    : Ptr64 Void
+   +0x1d8 CompletionCount  : Uint8B
+   +0x1e0 SessionId        : Uint4B
+   +0x1e4 SchedulingClass  : Uint4B
+   +0x1e8 ReadOperationCount : Uint8B
+   +0x1f0 WriteOperationCount : Uint8B
+   +0x1f8 OtherOperationCount : Uint8B
+   +0x200 ReadTransferCount : Uint8B
+   +0x208 WriteTransferCount : Uint8B
+   +0x210 OtherTransferCount : Uint8B
+   +0x218 DiskIoInfo       : _PROCESS_DISK_COUNTERS
+   +0x240 ProcessMemoryLimit : Uint8B
+   +0x248 JobMemoryLimit   : Uint8B
+   +0x250 JobTotalMemoryLimit : Uint8B
+   +0x258 PeakProcessMemoryUsed : Uint8B
+   +0x260 PeakJobMemoryUsed : Uint8B
+   +0x268 EffectiveAffinity : _KAFFINITY_EX
+   +0x310 EffectivePerProcessUserTimeLimit : _LARGE_INTEGER
+   +0x318 EffectiveMinimumWorkingSetSize : Uint8B
+   +0x320 EffectiveMaximumWorkingSetSize : Uint8B
+   +0x328 EffectiveProcessMemoryLimit : Uint8B
+   +0x330 EffectiveProcessMemoryLimitJob : Ptr64 _EJOB
+   +0x338 EffectivePerProcessUserTimeLimitJob : Ptr64 _EJOB
+   +0x340 EffectiveNetIoRateLimitJob : Ptr64 _EJOB
+   +0x348 EffectiveHeapAttributionJob : Ptr64 _EJOB
+   +0x350 EffectiveLimitFlags : Uint4B
+   +0x354 EffectiveSchedulingClass : Uint4B
+   +0x358 EffectiveFreezeCount : Uint4B
+   +0x35c EffectiveBackgroundCount : Uint4B
+   +0x360 EffectiveSwapCount : Uint4B
+   +0x364 EffectiveNotificationLimitCount : Uint4B
+   +0x368 EffectivePriorityClass : UChar
+   +0x369 PriorityClass    : UChar
+   +0x36a NestingDepth     : UChar
+   +0x36b Reserved1        : [1] UChar
+   +0x36c CompletionFilter : Uint4B
+   +0x370 WakeChannel      : _WNF_STATE_NAME
+   +0x370 WakeInfo         : _PS_WAKE_INFORMATION
+   +0x3a8 WakeFilter       : _JOBOBJECT_WAKE_FILTER
+   +0x3b0 LowEdgeLatchFilter : Uint4B
+   +0x3b4 OwnedHighEdgeFilters : Uint4B
+   +0x3b8 NotificationLink : Ptr64 _EJOB
+   +0x3c0 CurrentJobMemoryUsed : Uint8B
+   +0x3c8 NotificationInfo : Ptr64 _JOB_NOTIFICATION_INFORMATION
+   +0x3d0 NotificationInfoQuotaReference : Ptr64 Void
+   +0x3d8 NotificationPacket : Ptr64 _IO_MINI_COMPLETION_PACKET_USER
+   +0x3e0 CpuRateControl   : Ptr64 _JOB_CPU_RATE_CONTROL
+   +0x3e8 EffectiveSchedulingGroup : Ptr64 Void
+   +0x3f0 ReadyTime        : Uint8B
+   +0x3f8 MemoryLimitsLock : _EX_PUSH_LOCK
+   +0x400 SiblingJobLinks  : _LIST_ENTRY
+   +0x410 ChildJobListHead : _LIST_ENTRY
+   +0x420 ParentJob        : Ptr64 _EJOB
+   +0x428 ParentSilo       : Ptr64 _EJOB
+   +0x430 RootJob          : Ptr64 _EJOB
+   +0x438 IteratorListHead : _LIST_ENTRY
+   +0x448 AncestorCount    : Uint8B
+   +0x450 Ancestors        : Ptr64 Ptr64 _EJOB
+   +0x450 SessionObject    : Ptr64 Void
+   +0x458 TimerListLock    : Uint8B
+   +0x460 TimerListHead    : _LIST_ENTRY
+   +0x470 Accounting       : _EPROCESS_VALUES
+   +0x4c8 ShadowActiveProcessCount : Uint4B
+   +0x4cc ActiveAuxiliaryProcessCount : Uint4B
+   +0x4d0 SequenceNumber   : Uint4B
+   +0x4d4 JobId            : Uint4B
+   +0x4d8 ContainerId      : _GUID
+   +0x4e8 ServerSiloGlobals : Ptr64 _ESERVERSILO_GLOBALS
+   +0x4f0 PropertySet      : _PS_PROPERTY_SET
+   +0x508 Storage          : Ptr64 _PSP_STORAGE
+   +0x510 NetRateControl   : Ptr64 _JOB_NET_RATE_CONTROL
+   +0x518 JobFlags         : Uint4B
+   +0x518 CloseDone        : Pos 0, 1 Bit
+   +0x518 MultiGroup       : Pos 1, 1 Bit
+   +0x518 OutstandingNotification : Pos 2, 1 Bit
+   +0x518 NotificationInProgress : Pos 3, 1 Bit
+   +0x518 UILimits         : Pos 4, 1 Bit
+   +0x518 CpuRateControlActive : Pos 5, 1 Bit
+   +0x518 OwnCpuRateControl : Pos 6, 1 Bit
+   +0x518 Terminating      : Pos 7, 1 Bit
+   +0x518 WorkingSetLock   : Pos 8, 1 Bit
+   +0x518 JobFrozen        : Pos 9, 1 Bit
+   +0x518 Background       : Pos 10, 1 Bit
+   +0x518 WakeNotificationAllocated : Pos 11, 1 Bit
+   +0x518 WakeNotificationEnabled : Pos 12, 1 Bit
+   +0x518 WakeNotificationPending : Pos 13, 1 Bit
+   +0x518 LimitNotificationRequired : Pos 14, 1 Bit
+   +0x518 ZeroCountNotificationRequired : Pos 15, 1 Bit
+   +0x518 CycleTimeNotificationRequired : Pos 16, 1 Bit
+   +0x518 CycleTimeNotificationPending : Pos 17, 1 Bit
+   +0x518 TimersVirtualized : Pos 18, 1 Bit
+   +0x518 JobSwapped       : Pos 19, 1 Bit
+   +0x518 ViolationDetected : Pos 20, 1 Bit
+   +0x518 EmptyJobNotified : Pos 21, 1 Bit
+   +0x518 NoSystemCharge   : Pos 22, 1 Bit
+   +0x518 DropNoWakeCharges : Pos 23, 1 Bit
+   +0x518 NoWakeChargePolicyDecided : Pos 24, 1 Bit
+   +0x518 NetRateControlActive : Pos 25, 1 Bit
+   +0x518 OwnNetRateControl : Pos 26, 1 Bit
+   +0x518 IoRateControlActive : Pos 27, 1 Bit
+   +0x518 OwnIoRateControl : Pos 28, 1 Bit
+   +0x518 DisallowNewProcesses : Pos 29, 1 Bit
+   +0x518 Silo             : Pos 30, 1 Bit
+   +0x518 Spare            : Pos 31, 1 Bit
+   +0x51c EffectiveHighEdgeFilters : Uint4B
+   +0x520 EnergyValues     : Ptr64 _PROCESS_ENERGY_VALUES
+   +0x528 SharedCommitCharge : Uint8B
+   +0x530 WakeRoot         : Ptr64 _EJOB
+   +0x538 DiskIoAttributionUserRefCount : Uint4B
+   +0x53c DiskIoAttributionRefCount : Uint4B
+   +0x540 DiskIoAttributionContext : Ptr64 Void
+   +0x540 DiskIoAttributionOwnerJob : Ptr64 _EJOB
+   +0x548 IoRateControlHeader : _JOB_RATE_CONTROL_HEADER
+   +0x570 GlobalIoControl  : _PS_IO_CONTROL_ENTRY
+   +0x5a8 IoControlStateLock : Int4B
+   +0x5b0 VolumeIoControlTree : _RTL_RB_TREE
+   +0x5c0 IoRateOverQuotaHistory : Uint8B
+   +0x5c8 IoRateCurrentGeneration : Uint4B
+   +0x5cc IoRateLastQueryGeneration : Uint4B
+   +0x5d0 IoRateGenerationLength : Uint4B
+   +0x5d4 IoRateOverQuotaNotifySequenceId : Uint4B
+   +0x5d8 IoControlLock    : _EX_PUSH_LOCK
+   +0x5e0 SiloHardReferenceCount : Uint8B
+   +0x5e8 RundownWorkItem  : _WORK_QUEUE_ITEM

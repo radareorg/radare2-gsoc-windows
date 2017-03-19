@@ -1,0 +1,15 @@
+   +0x000 Lock             : Uint8B
+   +0x008 BitmapRanges     : Ptr64 Ptr64 _RTL_SPARSE_BITMAP_RANGE
+   +0x010 RangeArrayCommitStatus : _RTL_BITMAP
+   +0x020 AllocateRoutine  : Ptr64     void* 
+   +0x028 FreeRoutine      : Ptr64     void 
+   +0x030 RangeCount       : Uint4B
+   +0x034 RangeIndexLimit  : Uint4B
+   +0x038 BitsPerRange     : Uint4B
+   +0x03c RangeCountMax    : Uint4B
+   +0x040 RangeMetadataOffset : Uint4B
+   +0x044 MetadataSizePerBit : Uint4B
+   +0x048 DefaultBitsSet   : Pos 0, 1 Bit
+   +0x048 SparseRangeArray : Pos 1, 1 Bit
+   +0x048 NoInternalLocking : Pos 2, 1 Bit
+   +0x048 SpareFlags       : Pos 3, 29 Bits

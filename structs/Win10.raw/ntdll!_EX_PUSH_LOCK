@@ -1,0 +1,7 @@
+   +0x000 Locked           : Pos 0, 1 Bit
+   +0x000 Waiting          : Pos 1, 1 Bit
+   +0x000 Waking           : Pos 2, 1 Bit
+   +0x000 MultipleShared   : Pos 3, 1 Bit
+   +0x000 Shared           : Pos 4, 60 Bits
+   +0x000 Value            : Uint8B
+   +0x000 Ptr              : Ptr64 Void

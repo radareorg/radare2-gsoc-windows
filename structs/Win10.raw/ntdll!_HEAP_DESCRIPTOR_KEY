@@ -1,0 +1,3 @@
+   +0x000 Key              : Uint2B
+   +0x000 EncodedCommitCount : UChar
+   +0x001 PageCount        : UChar

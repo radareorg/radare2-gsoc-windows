@@ -1,0 +1,4 @@
+   +0x000 TagBits          : Pos 0, 2 Bits
+   +0x000 Index            : Pos 2, 30 Bits
+   +0x000 GenericHandleOverlay : Ptr64 Void
+   +0x000 Value            : Uint8B

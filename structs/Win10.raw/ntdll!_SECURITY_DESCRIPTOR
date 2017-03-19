@@ -1,0 +1,7 @@
+   +0x000 Revision         : UChar
+   +0x001 Sbz1             : UChar
+   +0x002 Control          : Uint2B
+   +0x008 Owner            : Ptr64 Void
+   +0x010 Group            : Ptr64 Void
+   +0x018 Sacl             : Ptr64 _ACL
+   +0x020 Dacl             : Ptr64 _ACL

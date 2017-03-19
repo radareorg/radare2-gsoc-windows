@@ -1,0 +1,5 @@
+   +0x000 DeletedSubSegments : _SLIST_HEADER
+   +0x010 CrtZone          : Ptr64 _LFH_BLOCK_ZONE
+   +0x018 LowFragHeap      : Ptr64 _LFH_HEAP
+   +0x020 Sequence         : Uint4B
+   +0x024 DeleteRateThreshold : Uint4B

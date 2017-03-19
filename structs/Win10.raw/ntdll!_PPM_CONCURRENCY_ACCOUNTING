@@ -1,0 +1,6 @@
+   +0x000 Lock             : Uint8B
+   +0x008 Processors       : Uint4B
+   +0x00c ActiveProcessors : Uint4B
+   +0x010 LastUpdateTime   : Uint8B
+   +0x018 TotalTime        : Uint8B
+   +0x020 AccumulatedTime  : [1] Uint8B

@@ -1,0 +1,5 @@
+   +0x000 FreeListLock     : _EX_PUSH_LOCK
+   +0x008 FirstFreeHandleEntry : Ptr64 _HANDLE_TABLE_ENTRY
+   +0x010 LastFreeHandleEntry : Ptr64 _HANDLE_TABLE_ENTRY
+   +0x018 HandleCount      : Int4B
+   +0x01c HighWaterMark    : Uint4B

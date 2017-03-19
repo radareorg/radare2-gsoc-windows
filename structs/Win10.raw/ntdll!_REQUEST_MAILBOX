@@ -1,0 +1,5 @@
+   +0x000 Next             : Ptr64 _REQUEST_MAILBOX
+   +0x008 RequestSummary   : Uint8B
+   +0x010 RequestPacket    : _KREQUEST_PACKET
+   +0x030 NodeTargetCountAddr : Ptr64 Int4B
+   +0x038 NodeTargetCount  : Int4B

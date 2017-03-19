@@ -1,0 +1,4 @@
+   +0x000 Utility          : Uint2B
+   +0x002 AffinitizedUtility : Uint2B
+   +0x004 Frequency        : UChar
+   +0x005 TaggedPercent    : [2] UChar

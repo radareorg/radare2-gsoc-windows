@@ -1,0 +1,6 @@
+   DeviceUsageTypeUndefined = 0n0
+   DeviceUsageTypePaging = 0n1
+   DeviceUsageTypeHibernation = 0n2
+   DeviceUsageTypeDumpFile = 0n3
+   DeviceUsageTypeBoot = 0n4
+   DeviceUsageTypePostDisplay = 0n5

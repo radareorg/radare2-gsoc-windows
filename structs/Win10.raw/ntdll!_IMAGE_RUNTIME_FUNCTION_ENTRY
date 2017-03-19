@@ -1,0 +1,4 @@
+   +0x000 BeginAddress     : Uint4B
+   +0x004 EndAddress       : Uint4B
+   +0x008 UnwindInfoAddress : Uint4B
+   +0x008 UnwindData       : Uint4B

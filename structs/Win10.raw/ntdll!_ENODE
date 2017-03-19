@@ -1,0 +1,13 @@
+   +0x000 Ncb              : _KNODE
+   +0x140 ExWorkQueues     : [8] Ptr64 _EX_WORK_QUEUE
+   +0x180 ExWorkQueue      : _EX_WORK_QUEUE
+   +0x450 IoWorkQueue      : _EX_WORK_QUEUE
+   +0x720 ExpThreadSetManagerEvent : _KEVENT
+   +0x738 ExpDeadlockTimer : _KTIMER
+   +0x778 ExpThreadReaperEvent : _KEVENT
+   +0x790 WaitBlocks       : [3] _KWAIT_BLOCK
+   +0x820 ExpWorkerThreadBalanceManagerPtr : Ptr64 _ETHREAD
+   +0x828 ExpWorkerSeed    : Uint4B
+   +0x82c ExWorkerFullInit : Pos 0, 1 Bit
+   +0x82c ExWorkerStructInit : Pos 1, 1 Bit
+   +0x82c ExWorkerFlags    : Uint4B

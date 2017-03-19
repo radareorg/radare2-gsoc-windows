@@ -1,0 +1,4 @@
+   +0x000 ProcessorIndex   : Uint4B
+   +0x004 ExpectedState    : UChar
+   +0x005 AllowDeeperStates : UChar
+   +0x006 LooseDependency  : UChar

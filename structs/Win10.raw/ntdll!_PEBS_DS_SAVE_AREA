@@ -1,0 +1,12 @@
+   +0x000 BtsBufferBase    : Uint8B
+   +0x008 BtsIndex         : Uint8B
+   +0x010 BtsAbsoluteMaximum : Uint8B
+   +0x018 BtsInterruptThreshold : Uint8B
+   +0x020 PebsBufferBase   : Uint8B
+   +0x028 PebsIndex        : Uint8B
+   +0x030 PebsAbsoluteMaximum : Uint8B
+   +0x038 PebsInterruptThreshold : Uint8B
+   +0x040 PebsCounterReset0 : Uint8B
+   +0x048 PebsCounterReset1 : Uint8B
+   +0x050 PebsCounterReset2 : Uint8B
+   +0x058 PebsCounterReset3 : Uint8B

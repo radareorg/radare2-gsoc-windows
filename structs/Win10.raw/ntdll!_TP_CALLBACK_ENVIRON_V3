@@ -1,0 +1,10 @@
+   +0x000 Version          : Uint4B
+   +0x008 Pool             : Ptr64 _TP_POOL
+   +0x010 CleanupGroup     : Ptr64 _TP_CLEANUP_GROUP
+   +0x018 CleanupGroupCancelCallback : Ptr64     void 
+   +0x020 RaceDll          : Ptr64 Void
+   +0x028 ActivationContext : Ptr64 _ACTIVATION_CONTEXT
+   +0x030 FinalizationCallback : Ptr64     void 
+   +0x038 u                : <unnamed-tag>
+   +0x03c CallbackPriority : _TP_CALLBACK_PRIORITY
+   +0x040 Size             : Uint4B

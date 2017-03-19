@@ -1,0 +1,3 @@
+   +0x000 Hash             : Ptr64 _RTL_HASH_TABLE
+   +0x008 HashEntry        : Ptr64 _RTL_HASH_ENTRY
+   +0x010 Bucket           : Ptr64 _SINGLE_LIST_ENTRY

@@ -1,0 +1,8 @@
+   +0x000 LimitLow         : Uint2B
+   +0x002 BaseLow          : Uint2B
+   +0x004 Bytes            : <unnamed-tag>
+   +0x004 Bits             : <unnamed-tag>
+   +0x008 BaseUpper        : Uint4B
+   +0x00c MustBeZero       : Uint4B
+   +0x000 DataLow          : Int8B
+   +0x008 DataHigh         : Int8B

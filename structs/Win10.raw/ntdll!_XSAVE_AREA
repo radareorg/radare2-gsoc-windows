@@ -1,0 +1,2 @@
+   +0x000 LegacyState      : _XSAVE_FORMAT
+   +0x200 Header           : _XSAVE_AREA_HEADER

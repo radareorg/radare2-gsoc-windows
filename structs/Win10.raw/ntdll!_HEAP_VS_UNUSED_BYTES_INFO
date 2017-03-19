@@ -1,0 +1,5 @@
+   +0x000 UnusedBytes      : Pos 0, 13 Bits
+   +0x000 LfhSubsegment    : Pos 13, 1 Bit
+   +0x000 ExtraPresent     : Pos 14, 1 Bit
+   +0x000 OneByteUnused    : Pos 15, 1 Bit
+   +0x000 Bytes            : [2] UChar

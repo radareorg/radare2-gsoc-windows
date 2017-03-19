@@ -1,0 +1,8 @@
+   +0x000 Value            : Uint4B
+   +0x000 Weight           : Uint2B
+   +0x000 MinRate          : Uint2B
+   +0x002 MaxRate          : Uint2B
+   +0x004 AllFlags         : Uint4B
+   +0x004 Type             : Pos 0, 1 Bit
+   +0x004 Disabled         : Pos 1, 1 Bit
+   +0x004 Spare1           : Pos 2, 30 Bits

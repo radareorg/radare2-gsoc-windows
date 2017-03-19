@@ -1,0 +1,112 @@
+   +0x000 NtTib            : _NT_TIB32
+   +0x01c EnvironmentPointer : Uint4B
+   +0x020 ClientId         : _CLIENT_ID32
+   +0x028 ActiveRpcHandle  : Uint4B
+   +0x02c ThreadLocalStoragePointer : Uint4B
+   +0x030 ProcessEnvironmentBlock : Uint4B
+   +0x034 LastErrorValue   : Uint4B
+   +0x038 CountOfOwnedCriticalSections : Uint4B
+   +0x03c CsrClientThread  : Uint4B
+   +0x040 Win32ThreadInfo  : Uint4B
+   +0x044 User32Reserved   : [26] Uint4B
+   +0x0ac UserReserved     : [5] Uint4B
+   +0x0c0 WOW32Reserved    : Uint4B
+   +0x0c4 CurrentLocale    : Uint4B
+   +0x0c8 FpSoftwareStatusRegister : Uint4B
+   +0x0cc ReservedForDebuggerInstrumentation : [16] Uint4B
+   +0x10c SystemReserved1  : [36] Uint4B
+   +0x19c WorkingOnBehalfTicket : [8] UChar
+   +0x1a4 ExceptionCode    : Int4B
+   +0x1a8 ActivationContextStackPointer : Uint4B
+   +0x1ac InstrumentationCallbackSp : Uint4B
+   +0x1b0 InstrumentationCallbackPreviousPc : Uint4B
+   +0x1b4 InstrumentationCallbackPreviousSp : Uint4B
+   +0x1b8 InstrumentationCallbackDisabled : UChar
+   +0x1b9 SpareBytes       : [23] UChar
+   +0x1d0 TxFsContext      : Uint4B
+   +0x1d4 GdiTebBatch      : _GDI_TEB_BATCH32
+   +0x6b4 RealClientId     : _CLIENT_ID32
+   +0x6bc GdiCachedProcessHandle : Uint4B
+   +0x6c0 GdiClientPID     : Uint4B
+   +0x6c4 GdiClientTID     : Uint4B
+   +0x6c8 GdiThreadLocalInfo : Uint4B
+   +0x6cc Win32ClientInfo  : [62] Uint4B
+   +0x7c4 glDispatchTable  : [233] Uint4B
+   +0xb68 glReserved1      : [29] Uint4B
+   +0xbdc glReserved2      : Uint4B
+   +0xbe0 glSectionInfo    : Uint4B
+   +0xbe4 glSection        : Uint4B
+   +0xbe8 glTable          : Uint4B
+   +0xbec glCurrentRC      : Uint4B
+   +0xbf0 glContext        : Uint4B
+   +0xbf4 LastStatusValue  : Uint4B
+   +0xbf8 StaticUnicodeString : _STRING32
+   +0xc00 StaticUnicodeBuffer : [261] Wchar
+   +0xe0c DeallocationStack : Uint4B
+   +0xe10 TlsSlots         : [64] Uint4B
+   +0xf10 TlsLinks         : LIST_ENTRY32
+   +0xf18 Vdm              : Uint4B
+   +0xf1c ReservedForNtRpc : Uint4B
+   +0xf20 DbgSsReserved    : [2] Uint4B
+   +0xf28 HardErrorMode    : Uint4B
+   +0xf2c Instrumentation  : [9] Uint4B
+   +0xf50 ActivityId       : _GUID
+   +0xf60 SubProcessTag    : Uint4B
+   +0xf64 PerflibData      : Uint4B
+   +0xf68 EtwTraceData     : Uint4B
+   +0xf6c WinSockData      : Uint4B
+   +0xf70 GdiBatchCount    : Uint4B
+   +0xf74 CurrentIdealProcessor : _PROCESSOR_NUMBER
+   +0xf74 IdealProcessorValue : Uint4B
+   +0xf74 ReservedPad0     : UChar
+   +0xf75 ReservedPad1     : UChar
+   +0xf76 ReservedPad2     : UChar
+   +0xf77 IdealProcessor   : UChar
+   +0xf78 GuaranteedStackBytes : Uint4B
+   +0xf7c ReservedForPerf  : Uint4B
+   +0xf80 ReservedForOle   : Uint4B
+   +0xf84 WaitingOnLoaderLock : Uint4B
+   +0xf88 SavedPriorityState : Uint4B
+   +0xf8c ReservedForCodeCoverage : Uint4B
+   +0xf90 ThreadPoolData   : Uint4B
+   +0xf94 TlsExpansionSlots : Uint4B
+   +0xf98 MuiGeneration    : Uint4B
+   +0xf9c IsImpersonating  : Uint4B
+   +0xfa0 NlsCache         : Uint4B
+   +0xfa4 pShimData        : Uint4B
+   +0xfa8 HeapVirtualAffinity : Uint2B
+   +0xfaa LowFragHeapDataSlot : Uint2B
+   +0xfac CurrentTransactionHandle : Uint4B
+   +0xfb0 ActiveFrame      : Uint4B
+   +0xfb4 FlsData          : Uint4B
+   +0xfb8 PreferredLanguages : Uint4B
+   +0xfbc UserPrefLanguages : Uint4B
+   +0xfc0 MergedPrefLanguages : Uint4B
+   +0xfc4 MuiImpersonation : Uint4B
+   +0xfc8 CrossTebFlags    : Uint2B
+   +0xfc8 SpareCrossTebBits : Pos 0, 16 Bits
+   +0xfca SameTebFlags     : Uint2B
+   +0xfca SafeThunkCall    : Pos 0, 1 Bit
+   +0xfca InDebugPrint     : Pos 1, 1 Bit
+   +0xfca HasFiberData     : Pos 2, 1 Bit
+   +0xfca SkipThreadAttach : Pos 3, 1 Bit
+   +0xfca WerInShipAssertCode : Pos 4, 1 Bit
+   +0xfca RanProcessInit   : Pos 5, 1 Bit
+   +0xfca ClonedThread     : Pos 6, 1 Bit
+   +0xfca SuppressDebugMsg : Pos 7, 1 Bit
+   +0xfca DisableUserStackWalk : Pos 8, 1 Bit
+   +0xfca RtlExceptionAttached : Pos 9, 1 Bit
+   +0xfca InitialThread    : Pos 10, 1 Bit
+   +0xfca SessionAware     : Pos 11, 1 Bit
+   +0xfca LoadOwner        : Pos 12, 1 Bit
+   +0xfca LoaderWorker     : Pos 13, 1 Bit
+   +0xfca SpareSameTebBits : Pos 14, 2 Bits
+   +0xfcc TxnScopeEnterCallback : Uint4B
+   +0xfd0 TxnScopeExitCallback : Uint4B
+   +0xfd4 TxnScopeContext  : Uint4B
+   +0xfd8 LockCount        : Uint4B
+   +0xfdc WowTebOffset     : Int4B
+   +0xfe0 ResourceRetValue : Uint4B
+   +0xfe4 ReservedForWdf   : Uint4B
+   +0xfe8 ReservedForCrt   : Uint8B
+   +0xff0 EffectiveContainerId : _GUID

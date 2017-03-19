@@ -1,0 +1,21 @@
+   +0x000 Reserved         : [104] Char
+   +0x000 Lock             : _RTL_STACK_DATABASE_LOCK
+   +0x068 Reserved2        : Ptr64 Void
+   +0x070 PeakHashCollisionListLength : Uint8B
+   +0x078 LowerMemoryStart : Ptr64 Void
+   +0x080 PreCommitted     : UChar
+   +0x081 DumpInProgress   : UChar
+   +0x088 CommitBase       : Ptr64 Void
+   +0x090 CurrentLowerCommitLimit : Ptr64 Void
+   +0x098 CurrentUpperCommitLimit : Ptr64 Void
+   +0x0a0 NextFreeLowerMemory : Ptr64 Char
+   +0x0a8 NextFreeUpperMemory : Ptr64 Char
+   +0x0b0 NumberOfEntriesLookedUp : Uint4B
+   +0x0b4 NumberOfEntriesAdded : Uint4B
+   +0x0b8 EntryIndexArray  : Ptr64 Ptr64 _RTL_STACK_TRACE_ENTRY
+   +0x0c0 NumberOfEntriesAllocated : Uint4B
+   +0x0c4 NumberOfEntriesAvailable : Uint4B
+   +0x0c8 NumberOfAllocationFailures : Uint4B
+   +0x0d0 FreeLists        : [32] _SLIST_HEADER
+   +0x2d0 NumberOfBuckets  : Uint4B
+   +0x2d8 Buckets          : [1] _RTL_STD_LIST_HEAD

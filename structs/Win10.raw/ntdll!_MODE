@@ -1,0 +1,3 @@
+   KernelMode = 0n0
+   UserMode = 0n1
+   MaximumMode = 0n2

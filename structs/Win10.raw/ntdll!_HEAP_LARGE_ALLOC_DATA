@@ -1,0 +1,6 @@
+   +0x000 TreeNode         : _RTL_BALANCED_NODE
+   +0x018 VirtualAddress   : Uint8B
+   +0x018 UnusedBytes      : Pos 0, 16 Bits
+   +0x020 ExtraPresent     : Pos 0, 1 Bit
+   +0x020 Spare            : Pos 1, 11 Bits
+   +0x020 AllocatedPages   : Pos 12, 52 Bits

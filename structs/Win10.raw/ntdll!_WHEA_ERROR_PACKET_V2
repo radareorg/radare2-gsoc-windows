@@ -1,0 +1,16 @@
+   +0x000 Signature        : Uint4B
+   +0x004 Version          : Uint4B
+   +0x008 Length           : Uint4B
+   +0x00c Flags            : _WHEA_ERROR_PACKET_FLAGS
+   +0x010 ErrorType        : _WHEA_ERROR_TYPE
+   +0x014 ErrorSeverity    : _WHEA_ERROR_SEVERITY
+   +0x018 ErrorSourceId    : Uint4B
+   +0x01c ErrorSourceType  : _WHEA_ERROR_SOURCE_TYPE
+   +0x020 NotifyType       : _GUID
+   +0x030 Context          : Uint8B
+   +0x038 DataFormat       : _WHEA_ERROR_PACKET_DATA_FORMAT
+   +0x03c Reserved1        : Uint4B
+   +0x040 DataOffset       : Uint4B
+   +0x044 DataLength       : Uint4B
+   +0x048 PshedDataOffset  : Uint4B
+   +0x04c PshedDataLength  : Uint4B

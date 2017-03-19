@@ -1,0 +1,8 @@
+   +0x000 Link             : _LIST_ENTRY
+   +0x010 VetoReason       : Uint4B
+   +0x014 ReferenceCount   : Uint4B
+   +0x018 HitCount         : Uint8B
+   +0x020 LastActivationTime : Uint8B
+   +0x028 TotalActiveTime  : Uint8B
+   +0x030 CsActivationTime : Uint8B
+   +0x038 CsActiveTime     : Uint8B

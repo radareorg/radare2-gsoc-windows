@@ -1,0 +1,3 @@
+   +0x000 SelectedState    : Uint4B
+   +0x004 VetoedStates     : Uint4B
+   +0x008 VetoReason       : [1] Uint4B

@@ -1,0 +1,5 @@
+   +0x000 Size             : Int2B
+   +0x008 ExtraCreateParameter : Ptr64 _ECP_LIST
+   +0x010 DeviceObjectHint : Ptr64 Void
+   +0x018 TxnParameters    : Ptr64 _TXN_PARAMETER_BLOCK
+   +0x020 SiloContext      : Ptr64 _EJOB

@@ -1,0 +1,2 @@
+   +0x000 CurrentPacket    : [3] Ptr64 Void
+   +0x018 WorkerRoutine    : Ptr64     void 

@@ -1,0 +1,7 @@
+   +0x000 DosDevicesDirectory : Ptr64 _OBJECT_DIRECTORY
+   +0x008 GlobalDosDevicesDirectory : Ptr64 _OBJECT_DIRECTORY
+   +0x010 DosDevicesDirectoryHandle : Ptr64 Void
+   +0x018 ReferenceCount   : Int4B
+   +0x01c DriveMap         : Uint4B
+   +0x020 DriveType        : [32] UChar
+   +0x040 ServerSilo       : Ptr64 _EJOB

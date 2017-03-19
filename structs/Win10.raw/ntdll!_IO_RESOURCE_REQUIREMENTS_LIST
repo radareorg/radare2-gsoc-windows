@@ -1,0 +1,7 @@
+   +0x000 ListSize         : Uint4B
+   +0x004 InterfaceType    : _INTERFACE_TYPE
+   +0x008 BusNumber        : Uint4B
+   +0x00c SlotNumber       : Uint4B
+   +0x010 Reserved         : [3] Uint4B
+   +0x01c AlternativeLists : Uint4B
+   +0x020 List             : [1] _IO_RESOURCE_LIST

@@ -1,0 +1,5 @@
+   +0x000 FunctionTable    : Ptr64 _IMAGE_RUNTIME_FUNCTION_ENTRY
+   +0x000 DynamicTable     : Ptr64 _DYNAMIC_FUNCTION_TABLE
+   +0x008 ImageBase        : Ptr64 Void
+   +0x010 SizeOfImage      : Uint4B
+   +0x014 SizeOfTable      : Uint4B

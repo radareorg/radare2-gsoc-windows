@@ -1,0 +1,6 @@
+   +0x000 Children         : [2] Ptr64 _RTL_BALANCED_NODE
+   +0x000 Left             : Ptr64 _RTL_BALANCED_NODE
+   +0x008 Right            : Ptr64 _RTL_BALANCED_NODE
+   +0x010 Red              : Pos 0, 1 Bit
+   +0x010 Balance          : Pos 0, 2 Bits
+   +0x010 ParentValue      : Uint8B

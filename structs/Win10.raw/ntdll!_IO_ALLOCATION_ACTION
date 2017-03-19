@@ -1,0 +1,3 @@
+   KeepObject = 0n1
+   DeallocateObject = 0n2
+   DeallocateObjectKeepRegisters = 0n3

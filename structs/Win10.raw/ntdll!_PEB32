@@ -1,0 +1,98 @@
+   +0x000 InheritedAddressSpace : UChar
+   +0x001 ReadImageFileExecOptions : UChar
+   +0x002 BeingDebugged    : UChar
+   +0x003 BitField         : UChar
+   +0x003 ImageUsesLargePages : Pos 0, 1 Bit
+   +0x003 IsProtectedProcess : Pos 1, 1 Bit
+   +0x003 IsImageDynamicallyRelocated : Pos 2, 1 Bit
+   +0x003 SkipPatchingUser32Forwarders : Pos 3, 1 Bit
+   +0x003 IsPackagedProcess : Pos 4, 1 Bit
+   +0x003 IsAppContainer   : Pos 5, 1 Bit
+   +0x003 IsProtectedProcessLight : Pos 6, 1 Bit
+   +0x003 IsLongPathAwareProcess : Pos 7, 1 Bit
+   +0x004 Mutant           : Uint4B
+   +0x008 ImageBaseAddress : Uint4B
+   +0x00c Ldr              : Uint4B
+   +0x010 ProcessParameters : Uint4B
+   +0x014 SubSystemData    : Uint4B
+   +0x018 ProcessHeap      : Uint4B
+   +0x01c FastPebLock      : Uint4B
+   +0x020 AtlThunkSListPtr : Uint4B
+   +0x024 IFEOKey          : Uint4B
+   +0x028 CrossProcessFlags : Uint4B
+   +0x028 ProcessInJob     : Pos 0, 1 Bit
+   +0x028 ProcessInitializing : Pos 1, 1 Bit
+   +0x028 ProcessUsingVEH  : Pos 2, 1 Bit
+   +0x028 ProcessUsingVCH  : Pos 3, 1 Bit
+   +0x028 ProcessUsingFTH  : Pos 4, 1 Bit
+   +0x028 ReservedBits0    : Pos 5, 27 Bits
+   +0x02c KernelCallbackTable : Uint4B
+   +0x02c UserSharedInfoPtr : Uint4B
+   +0x030 SystemReserved   : [1] Uint4B
+   +0x034 AtlThunkSListPtr32 : Uint4B
+   +0x038 ApiSetMap        : Uint4B
+   +0x03c TlsExpansionCounter : Uint4B
+   +0x040 TlsBitmap        : Uint4B
+   +0x044 TlsBitmapBits    : [2] Uint4B
+   +0x04c ReadOnlySharedMemoryBase : Uint4B
+   +0x050 SparePvoid0      : Uint4B
+   +0x054 ReadOnlyStaticServerData : Uint4B
+   +0x058 AnsiCodePageData : Uint4B
+   +0x05c OemCodePageData  : Uint4B
+   +0x060 UnicodeCaseTableData : Uint4B
+   +0x064 NumberOfProcessors : Uint4B
+   +0x068 NtGlobalFlag     : Uint4B
+   +0x070 CriticalSectionTimeout : _LARGE_INTEGER
+   +0x078 HeapSegmentReserve : Uint4B
+   +0x07c HeapSegmentCommit : Uint4B
+   +0x080 HeapDeCommitTotalFreeThreshold : Uint4B
+   +0x084 HeapDeCommitFreeBlockThreshold : Uint4B
+   +0x088 NumberOfHeaps    : Uint4B
+   +0x08c MaximumNumberOfHeaps : Uint4B
+   +0x090 ProcessHeaps     : Uint4B
+   +0x094 GdiSharedHandleTable : Uint4B
+   +0x098 ProcessStarterHelper : Uint4B
+   +0x09c GdiDCAttributeList : Uint4B
+   +0x0a0 LoaderLock       : Uint4B
+   +0x0a4 OSMajorVersion   : Uint4B
+   +0x0a8 OSMinorVersion   : Uint4B
+   +0x0ac OSBuildNumber    : Uint2B
+   +0x0ae OSCSDVersion     : Uint2B
+   +0x0b0 OSPlatformId     : Uint4B
+   +0x0b4 ImageSubsystem   : Uint4B
+   +0x0b8 ImageSubsystemMajorVersion : Uint4B
+   +0x0bc ImageSubsystemMinorVersion : Uint4B
+   +0x0c0 ActiveProcessAffinityMask : Uint4B
+   +0x0c4 GdiHandleBuffer  : [34] Uint4B
+   +0x14c PostProcessInitRoutine : Uint4B
+   +0x150 TlsExpansionBitmap : Uint4B
+   +0x154 TlsExpansionBitmapBits : [32] Uint4B
+   +0x1d4 SessionId        : Uint4B
+   +0x1d8 AppCompatFlags   : _ULARGE_INTEGER
+   +0x1e0 AppCompatFlagsUser : _ULARGE_INTEGER
+   +0x1e8 pShimData        : Uint4B
+   +0x1ec AppCompatInfo    : Uint4B
+   +0x1f0 CSDVersion       : _STRING32
+   +0x1f8 ActivationContextData : Uint4B
+   +0x1fc ProcessAssemblyStorageMap : Uint4B
+   +0x200 SystemDefaultActivationContextData : Uint4B
+   +0x204 SystemAssemblyStorageMap : Uint4B
+   +0x208 MinimumStackCommit : Uint4B
+   +0x20c FlsCallback      : Uint4B
+   +0x210 FlsListHead      : LIST_ENTRY32
+   +0x218 FlsBitmap        : Uint4B
+   +0x21c FlsBitmapBits    : [4] Uint4B
+   +0x22c FlsHighIndex     : Uint4B
+   +0x230 WerRegistrationData : Uint4B
+   +0x234 WerShipAssertPtr : Uint4B
+   +0x238 pUnused          : Uint4B
+   +0x23c pImageHeaderHash : Uint4B
+   +0x240 TracingFlags     : Uint4B
+   +0x240 HeapTracingEnabled : Pos 0, 1 Bit
+   +0x240 CritSecTracingEnabled : Pos 1, 1 Bit
+   +0x240 LibLoaderTracingEnabled : Pos 2, 1 Bit
+   +0x240 SpareTracingBits : Pos 3, 29 Bits
+   +0x248 CsrServerReadOnlySharedMemoryBase : Uint8B
+   +0x250 TppWorkerpListLock : Uint4B
+   +0x254 TppWorkerpList   : LIST_ENTRY32
+   +0x25c WaitOnAddressHashTable : [128] Uint4B

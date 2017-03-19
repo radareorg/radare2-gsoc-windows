@@ -1,0 +1,11 @@
+   +0x000 LsaProcessHandle : Ptr64 Void
+   +0x008 LsaCommandPortHandle : Ptr64 Void
+   +0x010 SepRmThreadHandle : Ptr64 Void
+   +0x018 RmCommandPortHandle : Ptr64 Void
+   +0x020 RmCommandServerPortHandle : Ptr64 Void
+   +0x028 LsaCommandPortSectionHandle : Ptr64 Void
+   +0x030 LsaCommandPortSectionSize : _LARGE_INTEGER
+   +0x038 LsaViewPortMemory : Ptr64 Void
+   +0x040 RmViewPortMemory : Ptr64 Void
+   +0x048 LsaCommandPortMemoryDelta : Int4B
+   +0x04c LsaCommandPortActive : UChar

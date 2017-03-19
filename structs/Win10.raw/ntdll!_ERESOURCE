@@ -1,0 +1,17 @@
+   +0x000 SystemResourcesList : _LIST_ENTRY
+   +0x010 OwnerTable       : Ptr64 _OWNER_ENTRY
+   +0x018 ActiveCount      : Int2B
+   +0x01a Flag             : Uint2B
+   +0x01a ReservedLowFlags : UChar
+   +0x01b WaiterPriority   : UChar
+   +0x020 SharedWaiters    : _KWAIT_CHAIN
+   +0x028 ExclusiveWaiters : Ptr64 _KEVENT
+   +0x030 OwnerEntry       : _OWNER_ENTRY
+   +0x040 ActiveEntries    : Uint4B
+   +0x044 ContentionCount  : Uint4B
+   +0x048 NumberOfSharedWaiters : Uint4B
+   +0x04c NumberOfExclusiveWaiters : Uint4B
+   +0x050 Reserved2        : Ptr64 Void
+   +0x058 Address          : Ptr64 Void
+   +0x058 CreatorBackTraceIndex : Uint8B
+   +0x060 SpinLock         : Uint8B

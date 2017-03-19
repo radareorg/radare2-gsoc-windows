@@ -1,0 +1,4 @@
+   +0x000 Revision         : UChar
+   +0x001 SubAuthorityCount : UChar
+   +0x002 IdentifierAuthority : _SID_IDENTIFIER_AUTHORITY
+   +0x008 SubAuthority     : [1] Uint4B

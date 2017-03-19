@@ -1,0 +1,6 @@
+   BusQueryDeviceID = 0n0
+   BusQueryHardwareIDs = 0n1
+   BusQueryCompatibleIDs = 0n2
+   BusQueryInstanceID = 0n3
+   BusQueryDeviceSerialNumber = 0n4
+   BusQueryContainerID = 0n5
