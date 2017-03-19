@@ -19,6 +19,14 @@ import sys
 
 
 def convert_type(t):
+    if t == 'Float':
+        return 'float'
+    if t == 'Int2B':
+        return 'int16_t'
+    if t == 'Int4B':
+        return 'int32_t'
+    if t == 'Int8B':
+        return 'int64_t'
     if t == 'Ptr64':
         return '*'
     if t == 'UChar':
@@ -94,7 +102,8 @@ def parse_variable(name, data):
                     define_mbr = parse_define_member(offset, mbr_name, raw_type)
                     define_mbrs.append(define_mbr)
                 defines.append((None, prev_name, define_mbrs))
-                i = j-1
+                if j < len(mbrs)-1:
+                    i = j-1
             # Unions
             else:
                 union_mbrs = [struct_mbrs[-1]]
@@ -106,7 +115,8 @@ def parse_variable(name, data):
                     union_mbr = parse_struct_member(offset, mbr_name, raw_type)
                     union_mbrs.append(union_mbr)
                 struct_mbrs[-1] = (('union', None, union_mbrs))
-                i = j-1
+                if j < len(mbrs)-1:
+                    i = j-1
         else:
             struct_mbr = parse_struct_member(offset, mbr_name, raw_type)
             struct_mbrs.append(struct_mbr)
@@ -165,15 +175,18 @@ def main():
     for f in os.listdir(input_dir):
         file_path = os.path.join(input_dir, f)
         if os.path.isfile(file_path) and '.raw' in file_path:
-            fp = open(file_path, 'r')
-            data = fp.read()
-            fp.close()
-            name = f.split('!')[1].split('.')[0]
-            data = parse_variable(name, data)
-            buf = format_data(data)
-            fp = open(os.path.join(output_dir, name+'.h'), 'w')
-            fp.write(buf)
-            fp.close()
+            try:
+                fp = open(file_path, 'r')
+                data = fp.read()
+                fp.close()
+                name = f.split('!')[1].split('.')[0]
+                data = parse_variable(name, data)
+                buf = format_data(data)
+                fp = open(os.path.join(output_dir, name+'.h'), 'w')
+                fp.write(buf)
+                fp.close()
+            except:
+                print('Error: Ignoring file: %s' % file_path)
 
 
 if __name__ == "__main__":
