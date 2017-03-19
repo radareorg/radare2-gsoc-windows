@@ -1,3 +1,4 @@
+
 struct _INTERFACE {
 	uint16_t	Size;
 	uint16_t	Version;

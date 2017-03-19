@@ -1,3 +1,4 @@
+
 struct _FAST_MUTEX {
 	int32_t	Count;
 	void	*Owner;

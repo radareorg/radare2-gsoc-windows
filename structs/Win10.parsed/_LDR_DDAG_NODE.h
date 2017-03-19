@@ -1,3 +1,4 @@
+
 struct _LDR_DDAG_NODE {
 	struct _LIST_ENTRY	Modules;
 	struct _LDR_SERVICE_TAG_RECORD	*ServiceTagList;

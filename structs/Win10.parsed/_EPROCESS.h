@@ -1,3 +1,4 @@
+
 /* Flags2 */
 #define	JobNotReallyActive	0x00000001
 #define	AccountingFolded	0x00000002
@@ -59,6 +60,9 @@
 #define	ProcessSelfDelete	0x40000000
 #define	SetTimerResolutionLink	0x80000000
 
+/* ExceptionPortValue */
+#define	ExceptionPortState	0x00000007
+
 /* Flags3 */
 #define	Minimal	0x00000001
 #define	ReplacingPageRoot	0x00000002
@@ -84,7 +88,8 @@
 #define	CommitFailLogged	0x00200000
 #define	ReserveFailLogged	0x00400000
 
-/* LastAppStateUptime */
+/* LastAppStateUpdateTime */
+#define	LastAppStateUptime	0x1FFFFFFFFFFFFFFF
 #define	LastAppState	0xE000000000000000
 
 struct _EPROCESS {
@@ -104,7 +109,6 @@ struct _EPROCESS {
 	union {
 		void	*ExceptionPortData;
 		uint64_t	ExceptionPortValue;
-		struct Bitsstruct 3struct 0,struct Pos	ExceptionPortState;
 	};
 	struct _EX_FAST_REF	Token;
 	uint64_t	WorkingSetPage;
@@ -205,7 +209,6 @@ struct _EPROCESS {
 	uint64_t	CreateUnbiasedInterruptTime;
 	uint64_t	TotalUnbiasedFrozenTime;
 	uint64_t	LastAppStateUpdateTime;
-	struct Bitsstruct 61struct 0,struct Pos	LastAppStateUptime;
 	uint64_t	SharedCommitCharge;
 	struct _EX_PUSH_LOCK	SharedCommitLock;
 	struct _LIST_ENTRY	SharedCommitLinks;

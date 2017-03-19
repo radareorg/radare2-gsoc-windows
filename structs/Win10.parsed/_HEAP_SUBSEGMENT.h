@@ -1,3 +1,4 @@
+
 struct _HEAP_SUBSEGMENT {
 	struct _HEAP_LOCAL_SEGMENT_INFO	*LocalInfo;
 	struct _HEAP_USERDATA_HEADER	*UserBlocks;

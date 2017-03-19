@@ -1,3 +1,4 @@
+
 struct _ACCESS_STATE {
 	struct _LUID	OperationID;
 	uint8_t	SecurityEvaluated;

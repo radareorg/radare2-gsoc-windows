@@ -1,3 +1,4 @@
+
 struct _KDPC {
 	union {
 		uint32_t	TargetInfoAsUlong;

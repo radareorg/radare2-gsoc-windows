@@ -1,3 +1,4 @@
+
 struct _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR {
 	uint32_t	SectionOffset;
 	uint32_t	SectionLength;

@@ -1,3 +1,4 @@
+
 struct _EPROCESS_VALUES {
 	uint64_t	KernelTime;
 	uint64_t	UserTime;

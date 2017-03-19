@@ -1,3 +1,4 @@
+
 struct _PPM_IDLE_STATES {
 	uint8_t	InterfaceVersion;
 	uint8_t	ForceIdle;

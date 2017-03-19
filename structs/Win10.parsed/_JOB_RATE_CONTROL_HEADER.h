@@ -1,3 +1,4 @@
+
 struct _JOB_RATE_CONTROL_HEADER {
 	void	*RateControlQuotaReference;
 	struct _RTL_BITMAP	OverQuotaHistory;

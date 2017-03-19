@@ -1,3 +1,4 @@
+
 struct _STACK_TRACE_DATABASE {
 	union {
 		struct Char	Reserved[104];

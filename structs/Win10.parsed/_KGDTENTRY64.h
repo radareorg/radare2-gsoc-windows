@@ -1,3 +1,4 @@
+
 struct _KGDTENTRY64 {
 	uint16_t	LimitLow;
 	uint16_t	BaseLow;

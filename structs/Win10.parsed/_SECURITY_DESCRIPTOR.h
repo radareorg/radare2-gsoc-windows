@@ -1,3 +1,4 @@
+
 struct _SECURITY_DESCRIPTOR {
 	uint8_t	Revision;
 	uint8_t	Sbz1;

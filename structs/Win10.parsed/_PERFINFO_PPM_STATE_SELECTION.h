@@ -1,3 +1,4 @@
+
 struct _PERFINFO_PPM_STATE_SELECTION {
 	uint32_t	SelectedState;
 	uint32_t	VetoedStates;

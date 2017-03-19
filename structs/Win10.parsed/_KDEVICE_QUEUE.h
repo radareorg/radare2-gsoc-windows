@@ -1,8 +1,6 @@
-/* Busy */
-#define	Reserved	0x000000FF
-#define	Hint	0xFFFFFFFFFFFFFF00
 
 /* Busy */
+#define	Reserved	0x000000FF
 #define	Hint	0xFFFFFFFFFFFFFF00
 
 struct _KDEVICE_QUEUE {

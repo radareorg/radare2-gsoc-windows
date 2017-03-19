@@ -1,3 +1,4 @@
+
 struct _KSPECIAL_REGISTERS {
 	uint64_t	Cr0;
 	uint64_t	Cr2;

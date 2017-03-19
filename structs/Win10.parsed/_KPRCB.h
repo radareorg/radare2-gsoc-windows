@@ -1,8 +1,10 @@
+
 /* PendingTickFlags */
 #define	PendingTick	0x00000001
 #define	PendingBackupTick	0x00000002
 
-/* DpcNormalProcessingActive */
+/* ThreadDpcState */
+#define	DpcNormalProcessingActive	0x00000001
 #define	DpcNormalProcessingRequested	0x00000002
 #define	DpcNormalThreadSignal	0x00000004
 #define	DpcNormalTimerExpiration	0x00000008
@@ -116,7 +118,6 @@ struct _KPRCB {
 		int16_t	NormalDpcState;
 	};
 	int16_t	ThreadDpcState;
-	struct Bitstruct 1struct 0,struct Pos	DpcNormalProcessingActive;
 	uint32_t	LastTimerHand;
 	uint32_t	LastTick;
 	uint32_t	ClockInterrupts;

@@ -1,3 +1,4 @@
+
 struct _IO_RESOURCE_REQUIREMENTS_LIST {
 	uint32_t	ListSize;
 	struct _INTERFACE_TYPE	InterfaceType;

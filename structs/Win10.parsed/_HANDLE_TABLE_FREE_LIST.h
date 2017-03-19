@@ -1,3 +1,4 @@
+
 struct _HANDLE_TABLE_FREE_LIST {
 	struct _EX_PUSH_LOCK	FreeListLock;
 	struct _HANDLE_TABLE_ENTRY	*FirstFreeHandleEntry;

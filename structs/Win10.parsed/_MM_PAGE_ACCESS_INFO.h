@@ -1,6 +1,9 @@
+
 struct _MM_PAGE_ACCESS_INFO {
 	union {
-		union	None;
+		struct _MM_PAGE_ACCESS_INFO_FLAGS	Flags;
+		uint64_t	FileOffset;
+		void	*VirtualAddress;
 		void	*PointerProtoPte;
 	};
 }__attribute__((packed));

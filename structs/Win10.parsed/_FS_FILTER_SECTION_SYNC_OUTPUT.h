@@ -1,3 +1,4 @@
+
 struct _FS_FILTER_SECTION_SYNC_OUTPUT {
 	uint32_t	StructureSize;
 	uint32_t	SizeReturned;

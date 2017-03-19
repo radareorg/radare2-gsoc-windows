@@ -1,3 +1,4 @@
+
 struct _XSAVE_AREA_HEADER {
 	uint64_t	Mask;
 	uint64_t	CompactionMask;

@@ -1,3 +1,4 @@
+
 struct _FILE_OBJECT {
 	int16_t	Type;
 	int16_t	Size;

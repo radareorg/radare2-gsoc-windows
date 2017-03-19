@@ -1,3 +1,4 @@
+
 struct _HEAP_FAILURE_INFORMATION {
 	uint32_t	Version;
 	uint32_t	StructureSize;

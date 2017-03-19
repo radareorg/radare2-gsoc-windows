@@ -1,3 +1,4 @@
+
 struct _SEGMENT_HEAP {
 	uint64_t	TotalReservedPages;
 	uint64_t	TotalCommittedPages;

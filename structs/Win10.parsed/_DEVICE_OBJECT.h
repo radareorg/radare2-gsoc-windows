@@ -1,3 +1,4 @@
+
 struct _DEVICE_OBJECT {
 	int16_t	Type;
 	uint16_t	Size;

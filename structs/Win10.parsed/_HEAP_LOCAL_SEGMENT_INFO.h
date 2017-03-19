@@ -1,3 +1,4 @@
+
 struct _HEAP_LOCAL_SEGMENT_INFO {
 	struct _HEAP_LOCAL_DATA	*LocalData;
 	struct _HEAP_SUBSEGMENT	*ActiveSubsegment;

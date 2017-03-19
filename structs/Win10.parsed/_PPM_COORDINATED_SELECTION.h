@@ -1,3 +1,4 @@
+
 struct _PPM_COORDINATED_SELECTION {
 	uint32_t	MaximumStates;
 	uint32_t	SelectedStates;

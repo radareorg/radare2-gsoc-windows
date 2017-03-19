@@ -1,3 +1,4 @@
+
 struct _MMSUPPORT_SHARED {
 	int32_t	WorkingSetLock;
 	uint64_t	ReleasedCommitDebt;

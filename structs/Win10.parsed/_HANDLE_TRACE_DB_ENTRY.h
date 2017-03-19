@@ -1,3 +1,4 @@
+
 struct _HANDLE_TRACE_DB_ENTRY {
 	struct _CLIENT_ID	ClientId;
 	void	*Handle;

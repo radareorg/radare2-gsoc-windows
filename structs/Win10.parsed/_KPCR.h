@@ -1,3 +1,4 @@
+
 struct _KPCR {
 	union {
 		struct _NT_TIB	NtTib;

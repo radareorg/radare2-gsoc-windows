@@ -1,3 +1,4 @@
+
 struct _KNODE {
 	uint64_t	IdleNonParkedCpuSet;
 	uint64_t	IdleSmtSet;

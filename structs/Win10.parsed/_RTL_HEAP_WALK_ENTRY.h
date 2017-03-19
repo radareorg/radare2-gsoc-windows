@@ -1,3 +1,4 @@
+
 struct _RTL_HEAP_WALK_ENTRY {
 	void	*DataAddress;
 	uint64_t	DataSize;

@@ -1,3 +1,4 @@
+
 struct _PROC_IDLE_STATE_ACCOUNTING {
 	uint64_t	TotalTime;
 	uint32_t	CancelCount;

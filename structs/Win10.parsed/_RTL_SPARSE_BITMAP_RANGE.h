@@ -1,3 +1,4 @@
+
 struct _RTL_SPARSE_BITMAP_RANGE {
 	uint64_t	Lock;
 	struct _RTL_BITMAP	RangeBitmap;

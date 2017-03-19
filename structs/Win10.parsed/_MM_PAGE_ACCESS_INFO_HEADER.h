@@ -1,3 +1,4 @@
+
 struct _MM_PAGE_ACCESS_INFO_HEADER {
 	struct _SINGLE_LIST_ENTRY	Link;
 	struct _MM_PAGE_ACCESS_TYPE	Type;

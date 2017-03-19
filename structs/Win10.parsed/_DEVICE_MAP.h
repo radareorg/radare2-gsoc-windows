@@ -1,3 +1,4 @@
+
 struct _DEVICE_MAP {
 	struct _OBJECT_DIRECTORY	*DosDevicesDirectory;
 	struct _OBJECT_DIRECTORY	*GlobalDosDevicesDirectory;

@@ -1,3 +1,4 @@
+
 /* ControlFlags */
 #define	OptimizedSave	0x00000001
 #define	CompactionEnabled	0x00000002

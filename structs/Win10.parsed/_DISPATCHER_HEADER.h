@@ -1,3 +1,4 @@
+
 /* TimerControlFlags */
 #define	Absolute	0x00000001
 #define	Wake	0x00000002
@@ -16,8 +17,6 @@
 #define	Timer2Running	0x00000010
 #define	Timer2Disabled	0x00000020
 #define	Timer2ReservedFlags	0x000000C0
-
-/* QueueControlFlags */
 #define	Abandoned	0x00000001
 #define	DisableIncrement	0x00000002
 #define	QueueReservedControlFlags	0x000000FC

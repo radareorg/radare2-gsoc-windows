@@ -1,3 +1,4 @@
+
 struct _MMSUPPORT_INSTANCE {
 	uint16_t	NextPageColor;
 	uint16_t	LastTrimStamp;

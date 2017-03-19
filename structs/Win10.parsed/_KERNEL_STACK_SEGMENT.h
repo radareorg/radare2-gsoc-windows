@@ -1,3 +1,4 @@
+
 struct _KERNEL_STACK_SEGMENT {
 	uint64_t	StackBase;
 	uint64_t	StackLimit;

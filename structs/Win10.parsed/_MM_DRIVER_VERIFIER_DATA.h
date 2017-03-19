@@ -1,3 +1,4 @@
+
 struct _MM_DRIVER_VERIFIER_DATA {
 	uint32_t	Level;
 	uint32_t	RaiseIrqls;

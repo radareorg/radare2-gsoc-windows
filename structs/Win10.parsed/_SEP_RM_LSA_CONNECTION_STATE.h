@@ -1,3 +1,4 @@
+
 struct _SEP_RM_LSA_CONNECTION_STATE {
 	void	*LsaProcessHandle;
 	void	*LsaCommandPortHandle;

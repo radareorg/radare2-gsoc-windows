@@ -1,3 +1,4 @@
+
 struct _CURDIR {
 	struct _UNICODE_STRING	DosPath;
 	void	*Handle;

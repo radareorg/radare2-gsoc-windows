@@ -1,3 +1,4 @@
+
 struct _PS_TRUSTLET_ATTRIBUTE_TYPE {
 	uint8_t	Version;
 	uint8_t	DataCount;

@@ -1,3 +1,4 @@
+
 struct _HEAP_DESCRIPTOR_KEY {
 	union {
 		uint16_t	Key;

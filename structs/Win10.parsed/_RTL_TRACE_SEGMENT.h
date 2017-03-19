@@ -1,3 +1,4 @@
+
 struct _RTL_TRACE_SEGMENT {
 	uint32_t	Magic;
 	struct _RTL_TRACE_DATABASE	*Database;

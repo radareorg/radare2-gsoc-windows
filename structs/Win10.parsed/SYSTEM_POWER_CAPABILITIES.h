@@ -1,3 +1,4 @@
+
 struct SYSTEM_POWER_CAPABILITIES {
 	uint8_t	PowerButtonPresent;
 	uint8_t	SleepButtonPresent;

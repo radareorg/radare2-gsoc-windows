@@ -1,3 +1,4 @@
+
 struct _SECURITY_SUBJECT_CONTEXT {
 	void	*ClientToken;
 	struct _SECURITY_IMPERSONATION_LEVEL	ImpersonationLevel;

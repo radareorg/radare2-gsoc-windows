@@ -1,3 +1,4 @@
+
 struct _GENERIC_MAPPING {
 	uint32_t	GenericRead;
 	uint32_t	GenericWrite;

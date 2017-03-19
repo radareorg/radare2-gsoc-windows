@@ -1,3 +1,4 @@
+
 struct _RTL_SPLAY_LINKS {
 	struct _RTL_SPLAY_LINKS	*Parent;
 	struct _RTL_SPLAY_LINKS	*LeftChild;

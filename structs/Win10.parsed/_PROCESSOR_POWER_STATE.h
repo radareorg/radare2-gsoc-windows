@@ -1,3 +1,4 @@
+
 struct _PROCESSOR_POWER_STATE {
 	struct _PPM_IDLE_STATES	*IdleStates;
 	struct _PROC_IDLE_ACCOUNTING	*IdleAccounting;

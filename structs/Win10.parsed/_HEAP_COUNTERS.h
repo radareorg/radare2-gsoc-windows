@@ -1,3 +1,4 @@
+
 struct _HEAP_COUNTERS {
 	uint64_t	TotalMemoryReserved;
 	uint64_t	TotalMemoryCommitted;

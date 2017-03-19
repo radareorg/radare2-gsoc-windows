@@ -1,3 +1,4 @@
+
 /* CrossThreadFlags */
 #define	Terminated	0x00000001
 #define	ThreadInserted	0x00000002
@@ -38,7 +39,8 @@
 #define	Prefetching	0x00000040
 #define	OwnsVadExclusive	0x00000080
 
-/* SystemPagePriorityActive */
+/* OwnsVadExclusive */
+#define	SystemPagePriorityActive	0x00000001
 #define	SystemPagePriority	0x0000000E
 
 struct _ETHREAD {
@@ -80,7 +82,6 @@ struct _ETHREAD {
 	uint32_t	CrossThreadFlags;
 	uint32_t	SameThreadPassiveFlags;
 	uint32_t	SameThreadApcFlags;
-	struct Bitstruct 1struct 0,struct Pos	SystemPagePriorityActive;
 	uint8_t	CacheManagerActive;
 	uint8_t	DisablePageFaultClustering;
 	uint8_t	ActiveFaultCount;

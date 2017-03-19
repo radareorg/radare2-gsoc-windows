@@ -1,3 +1,4 @@
+
 struct _WHEA_ERROR_RECORD_HEADER {
 	uint32_t	Signature;
 	struct _WHEA_REVISION	Revision;

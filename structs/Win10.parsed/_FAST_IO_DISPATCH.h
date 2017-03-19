@@ -1,3 +1,4 @@
+
 struct _FAST_IO_DISPATCH {
 	uint32_t	SizeOfFastIoDispatch;
 	struct charstruct unsigned	*FastIoCheckIfPossible;

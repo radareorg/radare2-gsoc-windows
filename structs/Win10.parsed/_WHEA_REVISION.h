@@ -1,3 +1,4 @@
+
 struct _WHEA_REVISION {
 	uint8_t	MinorRevision;
 	uint8_t	MajorRevision;

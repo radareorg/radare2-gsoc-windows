@@ -1,3 +1,4 @@
+
 struct _QUAD {
 	union {
 		int64_t	UseThisFieldToCopy;

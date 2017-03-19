@@ -1,3 +1,4 @@
+
 struct _TEB_ACTIVE_FRAME {
 	uint32_t	Flags;
 	struct _TEB_ACTIVE_FRAME	*Previous;

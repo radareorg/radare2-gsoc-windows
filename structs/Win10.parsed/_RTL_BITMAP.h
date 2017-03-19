@@ -1,3 +1,4 @@
+
 struct _RTL_BITMAP {
 	uint32_t	SizeOfBitMap;
 	uint32_t	*Buffer;

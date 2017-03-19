@@ -1,3 +1,4 @@
+
 struct _HEAP {
 	union {
 		struct _HEAP_SEGMENT	Segment;

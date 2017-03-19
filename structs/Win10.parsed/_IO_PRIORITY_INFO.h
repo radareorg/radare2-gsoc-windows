@@ -1,3 +1,4 @@
+
 struct _IO_PRIORITY_INFO {
 	uint32_t	Size;
 	uint32_t	ThreadPriority;

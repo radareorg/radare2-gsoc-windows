@@ -1,3 +1,4 @@
+
 struct _LFH_HEAP {
 	struct _RTL_SRWLOCK	Lock;
 	struct _LIST_ENTRY	SubSegmentZones;

@@ -1,3 +1,4 @@
+
 struct _HEAP_SEGMENT {
 	struct _HEAP_ENTRY	Entry;
 	uint32_t	SegmentSignature;

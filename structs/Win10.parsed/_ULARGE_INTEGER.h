@@ -1,3 +1,4 @@
+
 struct _ULARGE_INTEGER {
 	uint32_t	LowPart;
 	uint32_t	HighPart;

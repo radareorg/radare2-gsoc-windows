@@ -1,3 +1,4 @@
+
 struct _RTL_DYNAMIC_HASH_TABLE {
 	uint32_t	Flags;
 	uint32_t	Shift;

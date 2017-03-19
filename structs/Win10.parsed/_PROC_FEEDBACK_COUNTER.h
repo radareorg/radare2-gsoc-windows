@@ -1,3 +1,4 @@
+
 struct _PROC_FEEDBACK_COUNTER {
 	union {
 		void	*InstantaneousRead;

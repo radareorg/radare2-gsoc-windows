@@ -1,3 +1,4 @@
+
 struct _IO_MINI_COMPLETION_PACKET_USER {
 	struct _LIST_ENTRY	ListEntry;
 	uint32_t	PacketType;

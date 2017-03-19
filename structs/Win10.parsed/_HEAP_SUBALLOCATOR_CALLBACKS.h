@@ -1,3 +1,4 @@
+
 struct _HEAP_SUBALLOCATOR_CALLBACKS {
 	uint64_t	Allocate;
 	uint64_t	Free;

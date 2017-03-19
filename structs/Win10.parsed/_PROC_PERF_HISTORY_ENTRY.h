@@ -1,3 +1,4 @@
+
 struct _PROC_PERF_HISTORY_ENTRY {
 	uint16_t	Utility;
 	uint16_t	AffinitizedUtility;

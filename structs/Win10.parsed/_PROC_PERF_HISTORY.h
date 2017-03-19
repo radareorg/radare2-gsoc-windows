@@ -1,3 +1,4 @@
+
 struct _PROC_PERF_HISTORY {
 	uint32_t	Count;
 	uint32_t	Slot;

@@ -1,3 +1,4 @@
+
 struct _FS_FILTER_CALLBACK_DATA {
 	uint32_t	SizeOfFsFilterCallbackData;
 	uint8_t	Operation;

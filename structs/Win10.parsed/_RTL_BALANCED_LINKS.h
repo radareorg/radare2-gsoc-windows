@@ -1,3 +1,4 @@
+
 struct _RTL_BALANCED_LINKS {
 	struct _RTL_BALANCED_LINKS	*Parent;
 	struct _RTL_BALANCED_LINKS	*LeftChild;

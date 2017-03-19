@@ -1,3 +1,4 @@
+
 struct _MCA_EXCEPTION {
 	uint32_t	VersionNumber;
 	struct MCA_EXCEPTION_TYPE	ExceptionType;

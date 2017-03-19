@@ -1,13 +1,8 @@
-/* DefaultBitsSet */
+
+/* MetadataSizePerBit */
+#define	DefaultBitsSet	0x00000001
 #define	SparseRangeArray	0x00000002
 #define	NoInternalLocking	0x00000004
-#define	SpareFlags	0xFFFFFFF8
-
-/* DefaultBitsSet */
-#define	NoInternalLocking	0x00000004
-#define	SpareFlags	0xFFFFFFF8
-
-/* DefaultBitsSet */
 #define	SpareFlags	0xFFFFFFF8
 
 struct _RTL_SPARSE_BITMAP_CTX {
@@ -22,5 +17,4 @@ struct _RTL_SPARSE_BITMAP_CTX {
 	uint32_t	RangeCountMax;
 	uint32_t	RangeMetadataOffset;
 	uint32_t	MetadataSizePerBit;
-	struct Bitstruct 1struct 0,struct Pos	DefaultBitsSet;
 }__attribute__((packed));

@@ -1,3 +1,4 @@
+
 struct _EVENT_DESCRIPTOR {
 	uint16_t	Id;
 	uint8_t	Version;

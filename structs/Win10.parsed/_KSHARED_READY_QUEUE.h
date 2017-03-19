@@ -1,3 +1,4 @@
+
 struct _KSHARED_READY_QUEUE {
 	uint64_t	Lock;
 	uint32_t	ReadySummary;

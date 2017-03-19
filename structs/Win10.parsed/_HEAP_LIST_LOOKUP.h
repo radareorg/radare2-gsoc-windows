@@ -1,3 +1,4 @@
+
 struct _HEAP_LIST_LOOKUP {
 	struct _HEAP_LIST_LOOKUP	*ExtendedLookup;
 	uint32_t	ArraySize;

@@ -1,3 +1,4 @@
+
 struct _HEAP_ENTRY {
 	union {
 		struct _HEAP_UNPACKED_ENTRY	UnpackedEntry;

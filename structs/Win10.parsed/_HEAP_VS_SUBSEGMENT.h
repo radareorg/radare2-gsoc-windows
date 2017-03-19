@@ -1,3 +1,4 @@
+
 struct _HEAP_VS_SUBSEGMENT {
 	struct _LIST_ENTRY	ListEntry;
 	uint64_t	CommitBitmap;

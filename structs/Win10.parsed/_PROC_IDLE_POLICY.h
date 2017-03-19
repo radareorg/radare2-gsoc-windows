@@ -1,3 +1,4 @@
+
 struct _PROC_IDLE_POLICY {
 	uint8_t	PromotePercent;
 	uint8_t	DemotePercent;

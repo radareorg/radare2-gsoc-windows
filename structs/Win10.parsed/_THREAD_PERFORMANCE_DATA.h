@@ -1,3 +1,4 @@
+
 struct _THREAD_PERFORMANCE_DATA {
 	uint16_t	Size;
 	uint16_t	Version;

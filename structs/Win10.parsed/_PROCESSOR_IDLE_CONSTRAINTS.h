@@ -1,3 +1,4 @@
+
 struct _PROCESSOR_IDLE_CONSTRAINTS {
 	uint64_t	TotalTime;
 	uint64_t	IdleTime;

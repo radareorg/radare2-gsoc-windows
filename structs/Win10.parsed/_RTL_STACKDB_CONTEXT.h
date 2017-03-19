@@ -1,3 +1,4 @@
+
 struct _RTL_STACKDB_CONTEXT {
 	struct _RTL_HASH_TABLE	StackSegmentTable;
 	struct _RTL_HASH_TABLE	StackEntryTable;

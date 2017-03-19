@@ -1,3 +1,4 @@
+
 struct _RTL_AVL_TABLE {
 	struct _RTL_BALANCED_LINKS	BalancedRoot;
 	void	*OrderedPointer;

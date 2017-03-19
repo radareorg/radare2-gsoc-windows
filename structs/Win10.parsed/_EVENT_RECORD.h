@@ -1,3 +1,4 @@
+
 struct _EVENT_RECORD {
 	struct _EVENT_HEADER	EventHeader;
 	struct _ETW_BUFFER_CONTEXT	BufferContext;

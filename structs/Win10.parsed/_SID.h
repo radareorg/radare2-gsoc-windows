@@ -1,3 +1,4 @@
+
 struct _SID {
 	uint8_t	Revision;
 	uint8_t	SubAuthorityCount;

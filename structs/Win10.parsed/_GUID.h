@@ -1,3 +1,4 @@
+
 struct _GUID {
 	uint32_t	Data1;
 	uint16_t	Data2;

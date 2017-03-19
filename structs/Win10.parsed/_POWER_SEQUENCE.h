@@ -1,3 +1,4 @@
+
 struct _POWER_SEQUENCE {
 	uint32_t	SequenceD1;
 	uint32_t	SequenceD2;

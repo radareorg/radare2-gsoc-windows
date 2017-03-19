@@ -1,3 +1,4 @@
+
 struct _IO_STATUS_BLOCK {
 	union {
 		int32_t	Status;

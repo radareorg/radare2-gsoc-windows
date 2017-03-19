@@ -1,3 +1,4 @@
+
 struct _ERESOURCE {
 	struct _LIST_ENTRY	SystemResourcesList;
 	struct _OWNER_ENTRY	*OwnerTable;

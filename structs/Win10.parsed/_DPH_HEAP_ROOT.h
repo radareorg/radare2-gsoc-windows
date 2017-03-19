@@ -1,3 +1,4 @@
+
 struct _DPH_HEAP_ROOT {
 	uint32_t	Signature;
 	uint32_t	HeapFlags;

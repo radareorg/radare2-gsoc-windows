@@ -1,3 +1,4 @@
+
 struct _HEAP_FREE_ENTRY {
 	union {
 		struct _HEAP_ENTRY	HeapEntry;

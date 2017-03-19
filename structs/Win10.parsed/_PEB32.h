@@ -1,3 +1,4 @@
+
 /* BitField */
 #define	ImageUsesLargePages	0x00000001
 #define	IsProtectedProcess	0x00000002

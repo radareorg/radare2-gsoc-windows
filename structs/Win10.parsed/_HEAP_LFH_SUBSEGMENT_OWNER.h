@@ -1,8 +1,9 @@
-/* IsBucket */
+
+/* FullSubsegmentList */
+#define	IsBucket	0x00000001
 #define	Spare0	0x000000FE
 
 struct _HEAP_LFH_SUBSEGMENT_OWNER {
-	struct Bitstruct 1struct 0,struct Pos	IsBucket;
 	uint8_t	BucketIndex;
 	union {
 		uint8_t	SlotCount;

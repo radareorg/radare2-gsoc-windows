@@ -1,3 +1,4 @@
+
 struct _RTL_CRITICAL_SECTION {
 	struct _RTL_CRITICAL_SECTION_DEBUG	*DebugInfo;
 	int32_t	LockCount;

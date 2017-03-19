@@ -1,3 +1,4 @@
+
 struct _PROC_PERF_CHECK_SNAP {
 	uint64_t	Time;
 	uint64_t	Active;

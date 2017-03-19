@@ -1,3 +1,4 @@
+
 struct _PROCESSOR_IDLE_PREPARE_INFO {
 	void	*Context;
 	struct _PROCESSOR_IDLE_CONSTRAINTS	Constraints;

@@ -1,3 +1,4 @@
+
 struct _KSCHEDULING_GROUP {
 	struct _KSCHEDULING_GROUP_POLICY	Policy;
 	uint32_t	RelativeWeight;

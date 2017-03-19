@@ -1,3 +1,4 @@
+
 struct _HANDLE_TRACE_DEBUG_INFO {
 	int32_t	RefCount;
 	uint32_t	TableSize;

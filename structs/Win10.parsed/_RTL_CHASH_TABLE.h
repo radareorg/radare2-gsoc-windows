@@ -1,3 +1,4 @@
+
 struct _RTL_CHASH_TABLE {
 	struct _RTL_CHASH_ENTRY	*Table;
 	uint32_t	EntrySizeShift;

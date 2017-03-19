@@ -1,3 +1,4 @@
+
 struct _GROUP_AFFINITY {
 	uint64_t	Mask;
 	uint16_t	Group;

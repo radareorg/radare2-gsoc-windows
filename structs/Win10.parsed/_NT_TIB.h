@@ -1,3 +1,4 @@
+
 struct _NT_TIB {
 	struct _EXCEPTION_REGISTRATION_RECORD	*ExceptionList;
 	void	*StackBase;

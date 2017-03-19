@@ -1,3 +1,4 @@
+
 struct _FS_FILTER_CALLBACKS {
 	uint32_t	SizeOfFsFilterCallbacks;
 	uint32_t	Reserved;

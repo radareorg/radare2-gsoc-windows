@@ -1,3 +1,4 @@
+
 struct _HEAP_LOCAL_DATA {
 	struct _SLIST_HEADER	DeletedSubSegments;
 	struct _LFH_BLOCK_ZONE	*CrtZone;

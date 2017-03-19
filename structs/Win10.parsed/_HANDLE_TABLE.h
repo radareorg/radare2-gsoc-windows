@@ -1,3 +1,4 @@
+
 /* Flags */
 #define	StrictFIFO	0x00000001
 #define	EnableHandleExceptions	0x00000002

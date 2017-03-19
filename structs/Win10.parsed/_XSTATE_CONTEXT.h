@@ -1,3 +1,4 @@
+
 struct _XSTATE_CONTEXT {
 	uint64_t	Mask;
 	uint32_t	Length;

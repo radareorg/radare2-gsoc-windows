@@ -1,4 +1,6 @@
-/* DeviceD1 */
+
+/* Version */
+#define	DeviceD1	0x00000001
 #define	DeviceD2	0x00000002
 #define	LockSupported	0x00000004
 #define	EjectSupported	0x00000008
@@ -23,7 +25,6 @@
 struct _DEVICE_CAPABILITIES {
 	uint16_t	Size;
 	uint16_t	Version;
-	struct Bitstruct 1struct 0,struct Pos	DeviceD1;
 	uint32_t	Address;
 	uint32_t	UINumber;
 	struct _DEVICE_POWER_STATE	DeviceState[7];

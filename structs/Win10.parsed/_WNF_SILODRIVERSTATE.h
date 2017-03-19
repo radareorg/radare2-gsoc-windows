@@ -1,3 +1,4 @@
+
 struct _WNF_SILODRIVERSTATE {
 	struct _WNF_SCOPE_MAP	*ScopeMap;
 	void	*PermanentNameStoreRootKey;

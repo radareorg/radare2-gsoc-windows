@@ -1,3 +1,4 @@
+
 struct _PPM_VETO_ACCOUNTING {
 	int32_t	VetoPresent;
 	struct _LIST_ENTRY	VetoListHead;

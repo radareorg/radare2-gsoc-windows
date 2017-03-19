@@ -1,3 +1,4 @@
+
 struct _IO_STACK_LOCATION {
 	uint8_t	MajorFunction;
 	uint8_t	MinorFunction;

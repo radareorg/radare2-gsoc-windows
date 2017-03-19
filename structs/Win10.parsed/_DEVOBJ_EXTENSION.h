@@ -1,3 +1,4 @@
+
 struct _DEVOBJ_EXTENSION {
 	int16_t	Type;
 	uint16_t	Size;

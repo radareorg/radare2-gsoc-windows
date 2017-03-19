@@ -1,3 +1,4 @@
+
 struct _POWER_STATE {
 	union {
 		struct _SYSTEM_POWER_STATE	SystemState;

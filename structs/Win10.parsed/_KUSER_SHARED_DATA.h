@@ -1,3 +1,4 @@
+
 /* MitigationPolicies */
 #define	NXSupportPolicy	0x00000003
 #define	SEHValidationPolicy	0x0000000C

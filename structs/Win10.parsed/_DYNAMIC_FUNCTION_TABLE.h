@@ -1,3 +1,4 @@
+
 struct _DYNAMIC_FUNCTION_TABLE {
 	struct _LIST_ENTRY	ListEntry;
 	struct _IMAGE_RUNTIME_FUNCTION_ENTRY	*FunctionTable;

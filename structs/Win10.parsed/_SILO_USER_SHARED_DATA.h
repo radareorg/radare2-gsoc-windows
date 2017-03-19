@@ -1,3 +1,4 @@
+
 struct _SILO_USER_SHARED_DATA {
 	uint32_t	ServiceSessionId;
 	uint32_t	ActiveConsoleId;

@@ -1,3 +1,4 @@
+
 struct _HEAP_VS_CONTEXT {
 	struct _RTL_SRWLOCK	Lock;
 	struct _RTL_RB_TREE	FreeChunkTree;

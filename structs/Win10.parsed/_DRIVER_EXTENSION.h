@@ -1,3 +1,4 @@
+
 struct _DRIVER_EXTENSION {
 	struct _DRIVER_OBJECT	*DriverObject;
 	struct long	*AddDevice;

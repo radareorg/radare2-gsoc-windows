@@ -1,3 +1,4 @@
+
 struct _RTL_CRITICAL_SECTION_DEBUG {
 	uint16_t	Type;
 	uint16_t	CreatorBackTraceIndex;

@@ -1,3 +1,4 @@
+
 struct _INVERTED_FUNCTION_TABLE {
 	uint32_t	CurrentSize;
 	uint32_t	MaximumSize;

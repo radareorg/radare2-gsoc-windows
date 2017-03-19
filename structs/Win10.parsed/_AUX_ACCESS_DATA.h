@@ -1,3 +1,4 @@
+
 struct _AUX_ACCESS_DATA {
 	struct _PRIVILEGE_SET	*PrivilegesUsed;
 	struct _GENERIC_MAPPING	GenericMapping;

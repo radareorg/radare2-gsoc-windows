@@ -1,3 +1,4 @@
+
 /* ObjectTypeFlags */
 #define	CaseInsensitive	0x00000001
 #define	UnnamedObjectsOnly	0x00000002

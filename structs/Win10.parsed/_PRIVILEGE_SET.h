@@ -1,3 +1,4 @@
+
 struct _PRIVILEGE_SET {
 	uint32_t	PrivilegeCount;
 	uint32_t	Control;

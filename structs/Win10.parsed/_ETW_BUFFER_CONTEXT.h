@@ -1,3 +1,4 @@
+
 struct _ETW_BUFFER_CONTEXT {
 	uint8_t	ProcessorNumber;
 	uint8_t	Alignment;

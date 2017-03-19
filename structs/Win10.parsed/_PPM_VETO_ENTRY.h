@@ -1,3 +1,4 @@
+
 struct _PPM_VETO_ENTRY {
 	struct _LIST_ENTRY	Link;
 	uint32_t	VetoReason;

@@ -1,3 +1,4 @@
+
 struct _OBJECT_TYPE {
 	struct _LIST_ENTRY	TypeList;
 	struct _UNICODE_STRING	Name;

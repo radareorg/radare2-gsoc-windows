@@ -1,3 +1,4 @@
+
 struct _NAMED_PIPE_CREATE_PARAMETERS {
 	uint32_t	NamedPipeType;
 	uint32_t	ReadMode;

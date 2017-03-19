@@ -1,3 +1,4 @@
+
 struct _PPM_IDLE_STATE {
 	struct _KAFFINITY_EX	DomainMembers;
 	struct _UNICODE_STRING	Name;

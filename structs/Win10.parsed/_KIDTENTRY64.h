@@ -1,4 +1,6 @@
-/* IstIndex */
+
+/* Selector */
+#define	IstIndex	0x00000007
 #define	Reserved0	0x000000F8
 #define	Type	0x00001F00
 #define	Dpl	0x00006000
@@ -7,7 +9,6 @@
 struct _KIDTENTRY64 {
 	uint16_t	OffsetLow;
 	uint16_t	Selector;
-	struct Bitsstruct 3struct 0,struct Pos	IstIndex;
 	uint16_t	OffsetMiddle;
 	uint32_t	OffsetHigh;
 	uint32_t	Reserved1;

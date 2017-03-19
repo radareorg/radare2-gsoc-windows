@@ -1,4 +1,6 @@
-/* Inserted */
+
+/* QueueNode */
+#define	Inserted	0x00000001
 #define	MaxOverQuota	0x00000002
 #define	MinOverQuota	0x00000004
 #define	RankBias	0x00000008
@@ -18,7 +20,6 @@ struct _KSCB {
 	uint64_t	InsertTime;
 	struct _LIST_ENTRY	PerProcessorList;
 	struct _RTL_BALANCED_NODE	QueueNode;
-	struct Bitstruct 1struct 0,struct Pos	Inserted;
 	uint8_t	Depth;
 	uint16_t	ReadySummary;
 	uint32_t	Rank;

@@ -1,3 +1,4 @@
+
 struct _PROC_IDLE_ACCOUNTING {
 	uint32_t	StateCount;
 	uint32_t	TotalTransitions;

@@ -1,3 +1,4 @@
+
 struct _CM_FULL_RESOURCE_DESCRIPTOR {
 	struct _INTERFACE_TYPE	InterfaceType;
 	uint32_t	BusNumber;

@@ -1,3 +1,4 @@
+
 struct _KAPC {
 	uint8_t	Type;
 	uint8_t	SpareByte0;

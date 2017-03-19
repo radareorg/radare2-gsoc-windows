@@ -1,3 +1,4 @@
+
 /* JobFlags */
 #define	CloseDone	0x00000001
 #define	MultiGroup	0x00000002

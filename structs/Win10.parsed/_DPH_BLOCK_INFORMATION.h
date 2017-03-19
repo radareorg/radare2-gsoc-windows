@@ -1,3 +1,4 @@
+
 struct _DPH_BLOCK_INFORMATION {
 	uint32_t	StartStamp;
 	void	*Heap;

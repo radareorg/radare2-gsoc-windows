@@ -1,3 +1,4 @@
+
 struct _MAILSLOT_CREATE_PARAMETERS {
 	uint32_t	MailslotQuota;
 	uint32_t	MaximumMessageSize;

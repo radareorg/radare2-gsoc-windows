@@ -1,3 +1,4 @@
+
 struct _KPRIQUEUE {
 	struct _DISPATCHER_HEADER	Header;
 	struct _LIST_ENTRY	EntryListHead[32];

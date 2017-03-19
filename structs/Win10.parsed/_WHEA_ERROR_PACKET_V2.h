@@ -1,3 +1,4 @@
+
 struct _WHEA_ERROR_PACKET_V2 {
 	uint32_t	Signature;
 	uint32_t	Version;

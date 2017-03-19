@@ -1,3 +1,4 @@
+
 struct _KTHREAD_COUNTERS {
 	uint64_t	WaitReasonBitMap;
 	struct _THREAD_PERFORMANCE_DATA	*UserData;

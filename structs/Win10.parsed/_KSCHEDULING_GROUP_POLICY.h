@@ -1,13 +1,7 @@
+
 /* AllFlags */
 #define	Type	0x00000001
 #define	Disabled	0x00000002
-#define	Spare1	0xFFFFFFFC
-
-/* AllFlags */
-#define	Disabled	0x00000002
-#define	Spare1	0xFFFFFFFC
-
-/* AllFlags */
 #define	Spare1	0xFFFFFFFC
 
 struct _KSCHEDULING_GROUP_POLICY {

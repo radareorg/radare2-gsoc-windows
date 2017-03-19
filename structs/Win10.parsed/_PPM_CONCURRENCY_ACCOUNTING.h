@@ -1,3 +1,4 @@
+
 struct _PPM_CONCURRENCY_ACCOUNTING {
 	uint64_t	Lock;
 	uint32_t	Processors;

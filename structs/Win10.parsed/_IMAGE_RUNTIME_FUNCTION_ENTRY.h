@@ -1,3 +1,4 @@
+
 struct _IMAGE_RUNTIME_FUNCTION_ENTRY {
 	uint32_t	BeginAddress;
 	uint32_t	EndAddress;

@@ -1,3 +1,4 @@
+
 struct _KTSS64 {
 	uint32_t	Reserved0;
 	uint64_t	Rsp0;

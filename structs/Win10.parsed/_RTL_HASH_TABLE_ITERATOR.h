@@ -1,3 +1,4 @@
+
 struct _RTL_HASH_TABLE_ITERATOR {
 	struct _RTL_HASH_TABLE	*Hash;
 	struct _RTL_HASH_ENTRY	*HashEntry;

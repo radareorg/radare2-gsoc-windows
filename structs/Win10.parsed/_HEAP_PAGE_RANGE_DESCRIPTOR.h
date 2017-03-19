@@ -1,4 +1,6 @@
-/* ExtraPresent */
+
+/* TreeSignature */
+#define	ExtraPresent	0x00000001
 #define	Spare0	0x0000FFFE
 
 struct _HEAP_PAGE_RANGE_DESCRIPTOR {
@@ -6,7 +8,6 @@ struct _HEAP_PAGE_RANGE_DESCRIPTOR {
 		struct _RTL_BALANCED_NODE	TreeNode;
 		uint32_t	TreeSignature;
 	};
-	struct Bitstruct 1struct 0,struct Pos	ExtraPresent;
 	uint16_t	UnusedBytes;
 	uint8_t	RangeFlags;
 	uint8_t	Spare1;

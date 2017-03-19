@@ -1,3 +1,4 @@
+
 struct _DPH_HEAP_BLOCK {
 	union {
 		struct _DPH_HEAP_BLOCK	*pNextAlloc;

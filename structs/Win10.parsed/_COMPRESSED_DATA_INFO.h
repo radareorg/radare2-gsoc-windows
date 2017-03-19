@@ -1,3 +1,4 @@
+
 struct _COMPRESSED_DATA_INFO {
 	uint16_t	CompressionFormatAndEngine;
 	uint8_t	CompressionUnitShift;

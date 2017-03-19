@@ -1,3 +1,4 @@
+
 struct _PPM_SELECTION_MENU_ENTRY {
 	uint8_t	StrictDependency;
 	uint8_t	InitiatingState;

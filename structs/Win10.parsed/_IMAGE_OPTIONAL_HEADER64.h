@@ -1,3 +1,4 @@
+
 struct _IMAGE_OPTIONAL_HEADER64 {
 	uint16_t	Magic;
 	uint8_t	MajorLinkerVersion;

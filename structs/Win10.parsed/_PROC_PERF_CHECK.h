@@ -1,3 +1,4 @@
+
 struct _PROC_PERF_CHECK {
 	uint64_t	LastActive;
 	uint64_t	LastTime;

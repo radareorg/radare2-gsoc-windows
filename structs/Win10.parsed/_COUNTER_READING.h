@@ -1,3 +1,4 @@
+
 struct _COUNTER_READING {
 	struct _HARDWARE_COUNTER_TYPE	Type;
 	uint32_t	Index;

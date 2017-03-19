@@ -1,3 +1,4 @@
+
 struct _FILE_STANDARD_INFORMATION {
 	struct _LARGE_INTEGER	AllocationSize;
 	struct _LARGE_INTEGER	EndOfFile;

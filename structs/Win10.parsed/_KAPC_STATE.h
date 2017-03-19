@@ -1,3 +1,4 @@
+
 /* InProgressFlags */
 #define	KernelApcInProgress	0x00000001
 #define	SpecialApcInProgress	0x00000002

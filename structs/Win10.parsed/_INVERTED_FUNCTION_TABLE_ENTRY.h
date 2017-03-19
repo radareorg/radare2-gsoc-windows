@@ -1,3 +1,4 @@
+
 struct _INVERTED_FUNCTION_TABLE_ENTRY {
 	union {
 		struct _IMAGE_RUNTIME_FUNCTION_ENTRY	*FunctionTable;

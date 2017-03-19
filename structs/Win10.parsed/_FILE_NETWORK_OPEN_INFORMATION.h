@@ -1,3 +1,4 @@
+
 struct _FILE_NETWORK_OPEN_INFORMATION {
 	struct _LARGE_INTEGER	CreationTime;
 	struct _LARGE_INTEGER	LastAccessTime;

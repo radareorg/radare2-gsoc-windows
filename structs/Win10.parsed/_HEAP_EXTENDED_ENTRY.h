@@ -1,3 +1,4 @@
+
 struct _HEAP_EXTENDED_ENTRY {
 	void	*Reserved;
 	uint16_t	FunctionIndex;

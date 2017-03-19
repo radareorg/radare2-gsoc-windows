@@ -1,3 +1,4 @@
+
 struct _SYNCH_COUNTERS {
 	uint32_t	SpinLockAcquireCount;
 	uint32_t	SpinLockContentionCount;

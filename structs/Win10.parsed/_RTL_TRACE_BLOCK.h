@@ -1,3 +1,4 @@
+
 struct _RTL_TRACE_BLOCK {
 	uint32_t	Magic;
 	uint32_t	Count;

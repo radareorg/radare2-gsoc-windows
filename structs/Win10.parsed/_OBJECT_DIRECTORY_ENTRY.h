@@ -1,3 +1,4 @@
+
 struct _OBJECT_DIRECTORY_ENTRY {
 	struct _OBJECT_DIRECTORY_ENTRY	*ChainLink;
 	void	*Object;

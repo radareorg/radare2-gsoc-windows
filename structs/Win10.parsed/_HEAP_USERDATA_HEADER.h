@@ -1,3 +1,4 @@
+
 struct _HEAP_USERDATA_HEADER {
 	union {
 		struct _SINGLE_LIST_ENTRY	SFreeListEntry;

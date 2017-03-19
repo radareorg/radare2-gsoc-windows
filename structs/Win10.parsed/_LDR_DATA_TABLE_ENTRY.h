@@ -1,3 +1,33 @@
+
+/* Flags */
+#define	PackagedBinary	0x00000001
+#define	MarkedForRemoval	0x00000002
+#define	ImageDll	0x00000004
+#define	LoadNotificationsSent	0x00000008
+#define	TelemetryEntryProcessed	0x00000010
+#define	ProcessStaticImport	0x00000020
+#define	InLegacyLists	0x00000040
+#define	InIndexes	0x00000080
+#define	ShimDll	0x00000100
+#define	InExceptionTable	0x00000200
+#define	ReservedFlags1	0x00000C00
+#define	LoadInProgress	0x00001000
+#define	LoadConfigProcessed	0x00002000
+#define	EntryProcessed	0x00004000
+#define	ProtectDelayLoad	0x00008000
+#define	ReservedFlags3	0x00030000
+#define	DontCallForThreads	0x00040000
+#define	ProcessAttachCalled	0x00080000
+#define	ProcessAttachFailed	0x00100000
+#define	CorDeferredValidate	0x00200000
+#define	CorImage	0x00400000
+#define	DontRelocate	0x00800000
+#define	CorILOnly	0x01000000
+#define	ReservedFlags5	0x0E000000
+#define	Redirected	0x10000000
+#define	ReservedFlags6	0x60000000
+#define	CompatDatabaseProcessed	0x80000000
+
 struct _LDR_DATA_TABLE_ENTRY {
 	struct _LIST_ENTRY	InLoadOrderLinks;
 	struct _LIST_ENTRY	InMemoryOrderLinks;
@@ -10,33 +40,6 @@ struct _LDR_DATA_TABLE_ENTRY {
 	union {
 		uint8_t	FlagGroup[4];
 		uint32_t	Flags;
-		struct Bitstruct 1struct 0,struct Pos	PackagedBinary;
-		struct Bitstruct 1struct 1,struct Pos	MarkedForRemoval;
-		struct Bitstruct 1struct 2,struct Pos	ImageDll;
-		struct Bitstruct 1struct 3,struct Pos	LoadNotificationsSent;
-		struct Bitstruct 1struct 4,struct Pos	TelemetryEntryProcessed;
-		struct Bitstruct 1struct 5,struct Pos	ProcessStaticImport;
-		struct Bitstruct 1struct 6,struct Pos	InLegacyLists;
-		struct Bitstruct 1struct 7,struct Pos	InIndexes;
-		struct Bitstruct 1struct 8,struct Pos	ShimDll;
-		struct Bitstruct 1struct 9,struct Pos	InExceptionTable;
-		struct Bitsstruct 2struct 10,struct Pos	ReservedFlags1;
-		struct Bitstruct 1struct 12,struct Pos	LoadInProgress;
-		struct Bitstruct 1struct 13,struct Pos	LoadConfigProcessed;
-		struct Bitstruct 1struct 14,struct Pos	EntryProcessed;
-		struct Bitstruct 1struct 15,struct Pos	ProtectDelayLoad;
-		struct Bitsstruct 2struct 16,struct Pos	ReservedFlags3;
-		struct Bitstruct 1struct 18,struct Pos	DontCallForThreads;
-		struct Bitstruct 1struct 19,struct Pos	ProcessAttachCalled;
-		struct Bitstruct 1struct 20,struct Pos	ProcessAttachFailed;
-		struct Bitstruct 1struct 21,struct Pos	CorDeferredValidate;
-		struct Bitstruct 1struct 22,struct Pos	CorImage;
-		struct Bitstruct 1struct 23,struct Pos	DontRelocate;
-		struct Bitstruct 1struct 24,struct Pos	CorILOnly;
-		struct Bitsstruct 3struct 25,struct Pos	ReservedFlags5;
-		struct Bitstruct 1struct 28,struct Pos	Redirected;
-		struct Bitsstruct 2struct 29,struct Pos	ReservedFlags6;
-		struct Bitstruct 1struct 31,struct Pos	CompatDatabaseProcessed;
 	};
 	uint16_t	ObsoleteLoadCount;
 	uint16_t	TlsIndex;

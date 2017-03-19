@@ -1,3 +1,4 @@
+
 struct _KENTROPY_TIMING_STATE {
 	uint32_t	EntropyCount;
 	uint32_t	Buffer[64];

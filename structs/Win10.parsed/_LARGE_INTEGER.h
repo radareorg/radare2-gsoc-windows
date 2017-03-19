@@ -1,3 +1,4 @@
+
 struct _LARGE_INTEGER {
 	uint32_t	LowPart;
 	int32_t	HighPart;

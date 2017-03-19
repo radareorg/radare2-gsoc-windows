@@ -1,3 +1,4 @@
+
 struct _OBJECT_DIRECTORY {
 	struct _OBJECT_DIRECTORY_ENTRY	*HashBuckets[37];
 	struct _EX_PUSH_LOCK	Lock;

@@ -1,3 +1,4 @@
+
 struct _OB_EXTENDED_PARSE_PARAMETERS {
 	uint16_t	Length;
 	uint32_t	RestrictedAccessMask;

@@ -1,3 +1,4 @@
+
 struct _GENERAL_LOOKASIDE {
 	union {
 		struct _SLIST_HEADER	ListHead;
