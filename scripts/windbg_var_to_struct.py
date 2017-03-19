@@ -9,8 +9,8 @@ Ideally this script should be used with the output files created by
 Description:
     Didn't want to use any external libs so everything remotely complex is
     handled through the power of tuples. They are in the form:
-    (type, name, data) where 'type' and 'name' are strings and 'data' is an
-    array.
+    (offset, type, name, data) where 'offset' is a number 'type' and 'name' are
+    strings and 'data' is an array.
 '''
 
 
@@ -56,7 +56,7 @@ def parse_define_member(offset, mbr_name, raw_type):
     pos, bit = raw_type.split(',')
     pos = int(pos.split()[1])
     bit = int(bit.split()[0])
-    return (('#define', mbr_name, int('1'*bit, 2)<<pos))
+    return ((offset, '#define', mbr_name, int('1'*bit, 2)<<pos))
 
 
 def parse_struct_member(offset, mbr_name, raw_type):
@@ -71,89 +71,66 @@ def parse_struct_member(offset, mbr_name, raw_type):
             n = c_type+n
         else:
             t += c_type
-    return ((t, n, None))
+    return ((offset, t, n, None))
 
 
-def parse_variable(name, data):
-    mbrs = data.split('\n')[:-1]
-
-    defines = []
-    enums = []
-    structs = []
-
-    # Here we parse a struct, we have made an assumtion here!
-    current_offset = 0
-    prev_name = ''
-    struct_mbrs = []
-    i = 0
-    while i < len(mbrs):
-        mbr = mbrs[i]
-        offset, mbr_name, raw_type = split_member(mbr)
-        # If offsets match we hit a define, or union
-        if offset == current_offset and i > 0:
-            # Define
-            if 'Pos' in raw_type:
-                define_mbrs = []
-                for j in range(i, len(mbrs)):
-                    mbr = mbrs[j]
-                    offset, mbr_name, raw_type = split_member(mbr)
-                    if not offset == current_offset:
-                        break
-                    define_mbr = parse_define_member(offset, mbr_name, raw_type)
-                    define_mbrs.append(define_mbr)
-                defines.append((None, prev_name, define_mbrs))
-                if j < len(mbrs)-1:
-                    i = j-1
-            # Unions
-            else:
-                union_mbrs = [struct_mbrs[-1]]
-                for j in range(i, len(mbrs)):
-                    mbr = mbrs[j]
-                    offset, mbr_name, raw_type = split_member(mbr)
-                    if not offset == current_offset:
-                        break
-                    union_mbr = parse_struct_member(offset, mbr_name, raw_type)
-                    union_mbrs.append(union_mbr)
-                struct_mbrs[-1] = (('union', None, union_mbrs))
-                if j < len(mbrs)-1:
-                    i = j-1
+def parse_variable(data):
+    data = data.split('\n')[:-1]
+    mbrs = []
+    for i in range(0, len(data)):
+        mbr = data[i]
+        o, n, t = split_member(mbr)
+        if 'Pos' in t: # Defines
+            define_mbr = parse_define_member(o, n, t)
+            mbrs += [define_mbr]
         else:
-            struct_mbr = parse_struct_member(offset, mbr_name, raw_type)
-            struct_mbrs.append(struct_mbr)
-            current_offset = offset
-            prev_name = mbr_name
-        i += 1
-
-    structs.append(('struct', name, struct_mbrs))
-
-    return {'defines' : defines, 'enums' : enums, 'structs' : structs}
+            struct_mbr = parse_struct_member(o, n, t)
+            mbrs += [struct_mbr]
+    return mbrs
 
 
-def format_data(data):
+def format_data(name, data):
     buf = ''
-    for define in data['defines']:
-        t, n, d = define
-        buf += '/* %s */\n' % (n)
-        for mbr in d:
-            t_mbr, n_mbr, d_mbr = mbr
-            buf += "%s\t%s\t0x%.08X\n" % (t_mbr, n_mbr, d_mbr)
-        buf += '\n'
-    for enum in data['enums']:
-        buf += '/* TODO: enums */\n'
-    for struct in data['structs']:
-        t, n, d = struct
-        buf += '%s %s {\n' % (t, n)
-        for mbr in d:
-            t_mbr, n_mbr, d_mbr = mbr
-            if t_mbr == 'union': # TODO: Recurse to handle nesting!
-                buf += "\tunion {\n"
-                for union in d_mbr:
-                    t_mbr, n_mbr, d_mbr = union
-                    buf += '\t\t%s\t%s;\n' % (t_mbr, n_mbr)
-                buf += "\t};\n"
-            else:
-                buf += '\t%s\t%s;\n' % (t_mbr, n_mbr)
-        buf += '}__attribute__((packed));\n'
+
+    # Defines
+    o_prev = -1
+    temp = []
+    for i in range(0, len(data)):
+        o, t, n, d = data[i]
+        if t == '#define':
+            if not o == o_prev:
+                buf += '\n'
+                op, tp, np, dp = data[i-1]
+                buf += '/* %s */\n' % (np)
+            buf += "%s\t%s\t0x%.08X\n" % (t, n, d)
+            o_prev = o
+        else:
+            temp += [data[i]]
+    buf += '\n'
+
+    # Discard defines
+    data = temp
+
+    # Stucts and Unions
+    union = 0
+    buf += 'struct %s {\n' % (name)
+    for i in range(0, len(data)):
+        o, t, n, d = data[i]
+        on = -1
+        if i+1 < len(data):
+            on, tn, nn, dn = data[i+1]
+        if o == on and not union:
+            buf += "\tunion {\n"
+            union = 1
+        if union:
+            buf += '\t\t%s\t%s;\n' % (t, n)
+        else:
+            buf += '\t%s\t%s;\n' % (t, n)
+        if not o == on and union:
+            buf += "\t};\n"
+            union = 0
+    buf += '}__attribute__((packed));\n'
+
     return buf
 
 
@@ -174,14 +151,13 @@ def main():
 
     for f in os.listdir(input_dir):
         file_path = os.path.join(input_dir, f)
-        if os.path.isfile(file_path) and '.raw' in file_path:
+        if os.path.isfile(file_path) and '.raw' in file_path and not '.swp' in file_path:
             try:
                 fp = open(file_path, 'r')
                 data = fp.read()
                 fp.close()
                 name = f.split('!')[1].split('.')[0]
-                data = parse_variable(name, data)
-                buf = format_data(data)
+                buf = format_data(name, parse_variable(data))
                 fp = open(os.path.join(output_dir, name+'.h'), 'w')
                 fp.write(buf)
                 fp.close()
