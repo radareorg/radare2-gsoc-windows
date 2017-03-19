@@ -1,5 +1,5 @@
 # radare2-gsoc-windows
-Various Brainstorming/scripts/ideas/etc. for the GSOC-Windows Task
+Various Brainstorming/scripts/ideas/etc. for the GSOC-Windows Task [[1]](http://rada.re/gsoc/2017/ideas.html#title_5)
 
 # Proposals
 
