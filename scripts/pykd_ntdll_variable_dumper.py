@@ -46,6 +46,6 @@ for variable in variables:
     if "dtx is unsupported for this scenario" in dump:
         dump = "".join(dump.split('\n', 1)[1:])
 
-    f = open(os.path.join(output_dir, variable_name), 'w')
+    f = open(os.path.join(output_dir, variable_name+'.raw'), 'w')
     f.write(dump)
     f.close()
