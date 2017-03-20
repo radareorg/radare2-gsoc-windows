@@ -1,4 +1,9 @@
+# radare2-gsoc-windows
+Various Brainstorming/scripts/ideas/etc. for the GSOC-Windows Task [[1]](http://rada.re/gsoc/2017/ideas.html#title_5)
+ 
 # Proposals
+  
+Dumped from https://hackmd.io/CYYwjAHMwIYgtABkQdgKbwCwRAZngJzACsB8UmxuYAbAQGb15A==?both
 
 ## Fix
 
@@ -16,6 +21,7 @@
 -- Show threads, registers, etc...
 * [ ] Re-implement get_vaddr/allow binary plugins to provide the core with vaddr/paddr (`bin_mdmp.c:232`) [2]
 * [ ] E as a byte in `pf` [3]
+* [ ] General - Rethink sdb structure for additional types
 
 ## Enhancements
 
