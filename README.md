@@ -1,15 +1,13 @@
-# radare2-gsoc-windows
-Various Brainstorming/scripts/ideas/etc. for the GSOC-Windows Task [[1]](http://rada.re/gsoc/2017/ideas.html#title_5)
-
 # Proposals
 
-Dumped from https://hackmd.io/CYYwjAHMwIYgtABkQdgKbwCwRAZngJzACsB8UmxuYAbAQGb15A==?both
-
 ## Fix
+
 
 - [ ] Expose the function `r_bbin_mem_free` to remove the verbatim copy in `bin_mdmp.c:11`
 - [ ] `r_bin_mdmp_get_paddr` will only resolve exact matches, but this function should become redundant [2]
 - [ ] Fix missing Windows memory permissions `bin_mdmp.c:45`, depends on enhancements to the core.
+- [ ] Fix pf inconsistencies in PE and add missing structures
+- [ ] Fix MDMP not patching SizeOfRawData
 
 ## r2core Enhancements
 
@@ -111,7 +109,7 @@ Dumped from https://hackmd.io/CYYwjAHMwIYgtABkQdgKbwCwRAZngJzACsB8UmxuYAbAQGb15A
 
 * [ ] Refactor PE file type code [5]
 * [ ] Dump executable script https://www.zyantific.com/blog/dumping-packed-executables-using-minidumps/
--- Alex - PoC - Done on Countercept's private repo, I'll get it out and cleaned - very crude though - need to port header patching from mdmp.c
+-- Alex - Done - Might need to add unlinking of reloc and fixing of imagebase
 
 # Reasoning
 
