@@ -20,9 +20,9 @@ struct _EJOB {
 	uint32_t	ActiveProcessLimit;
 	struct _KAFFINITY_EX	Affinity;
 	uint8_t	PriorityClass;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
 	struct _JOB_ACCESS_STATE	*AccessState;
 	uint32_t	UIRestrictionsClass;
 	uint32_t	EndOfJobTimeAction;
@@ -30,10 +30,10 @@ struct _EJOB {
 	void	*CompletionKey;
 	uint32_t	SessionId;
 	uint32_t	SchedulingClass;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
 	uint64_t	ReadOperationCount;
 	uint64_t	WriteOperationCount;
 	uint64_t	OtherOperationCount;

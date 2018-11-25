@@ -9,10 +9,10 @@ struct _EX_WORK_QUEUE {
 	uint32_t	WorkItemsProcessed;
 	uint32_t	WorkItemsProcessedLastPass;
 	int32_t	ThreadCount;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
 	int32_t	MaxThreads;
 	struct _EXQUEUEINDEX	QueueIndex;
 }__attribute__((packed));

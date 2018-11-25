@@ -5,10 +5,10 @@ struct _LDR_DDAG_NODE {
 	uint32_t	LoadCount;
 	uint32_t	LoadWhileUnloadingCount;
 	uint32_t	LowestLink;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
 	struct _LDRP_CSLIST	Dependencies;
 	struct _LDRP_CSLIST	IncomingDependencies;
 	struct _LDR_DDAG_STATE	State;

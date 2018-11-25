@@ -6,10 +6,10 @@ struct _KDPC {
 	};
 	uint8_t	Importance;
 	uint16_t	Number;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
 	struct _SINGLE_LIST_ENTRY	DpcListEntry;
 	uint64_t	ProcessorHistory;
 	void	*DeferredRoutine;

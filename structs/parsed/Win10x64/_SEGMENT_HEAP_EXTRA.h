@@ -5,11 +5,11 @@
 
 struct _SEGMENT_HEAP_EXTRA {
 	uint16_t	AllocationTag;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
 	uint8_t	ExtraSizeInUnits;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
 	void	*Settable;
 }__attribute__((packed));

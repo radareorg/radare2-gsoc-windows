@@ -16,8 +16,8 @@ struct _PPM_IDLE_STATES {
 	uint32_t	ProcessorIdleCount;
 	uint32_t	Type;
 	uint16_t	ReasonFlags;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
 	uint64_t	InitiateWakeStamp;
 	int32_t	PreviousStatus;
 	uint32_t	PreviousCancelReason;

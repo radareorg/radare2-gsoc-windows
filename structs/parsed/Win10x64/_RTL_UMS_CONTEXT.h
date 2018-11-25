@@ -18,10 +18,10 @@ struct _RTL_UMS_CONTEXT {
 	void	*Teb;
 	void	*UserContext;
 	int32_t	Flags;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
 	uint64_t	ContextLock;
 	struct _RTL_UMS_CONTEXT	*PrimaryUmsContext;
 	uint32_t	SwitchCount;

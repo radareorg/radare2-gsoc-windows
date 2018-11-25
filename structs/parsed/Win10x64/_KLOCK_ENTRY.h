@@ -45,11 +45,11 @@ struct _KLOCK_ENTRY {
 		uint8_t	CrossThreadReleasableAndBusyByte;
 	};
 	uint8_t	Reserved[6];
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
+	uint8_t	__padding4__;
 	uint8_t	InTreeByte;
 	union {
 		void	*SessionState;
@@ -60,9 +60,9 @@ struct _KLOCK_ENTRY {
 	struct _RTL_RB_TREE	WaiterTree;
 	struct Char	CpuPriorityKey;
 	uint64_t	EntryLock;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
 	uint32_t	SparePad;
 }__attribute__((packed));

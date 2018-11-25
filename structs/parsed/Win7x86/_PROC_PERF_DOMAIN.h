@@ -25,8 +25,8 @@ struct _PROC_PERF_DOMAIN {
 	uint32_t	ConstrainedMaxPercent;
 	uint32_t	ConstrainedMinPercent;
 	uint8_t	Coordination;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
 	int32_t	PerfChangeIntervalCount;
 }__attribute__((packed));

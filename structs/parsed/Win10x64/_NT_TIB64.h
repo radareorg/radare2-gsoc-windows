@@ -7,10 +7,10 @@ struct _NT_TIB64 {
 	union {
 		uint64_t	FiberData;
 		uint32_t	Version;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
 	};
 	uint64_t	ArbitraryUserPointer;
 	uint64_t	Self;

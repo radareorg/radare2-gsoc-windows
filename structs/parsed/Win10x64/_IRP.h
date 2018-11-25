@@ -6,10 +6,10 @@ struct _IRP {
 	uint16_t	Reserved;
 	struct _MDL	*MdlAddress;
 	uint32_t	Flags;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
 	struct <unnamed-tag>	AssociatedIrp;
 	struct _LIST_ENTRY	ThreadListEntry;
 	struct _IO_STATUS_BLOCK	IoStatus;

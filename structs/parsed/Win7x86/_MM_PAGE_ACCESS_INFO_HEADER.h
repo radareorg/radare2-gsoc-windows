@@ -5,10 +5,10 @@ struct _MM_PAGE_ACCESS_INFO_HEADER {
 	union {
 		uint32_t	EmptySequenceNumber;
 		uint32_t	CurrentFileIndex;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
 	};
 	uint64_t	CreateTime;
 	union {

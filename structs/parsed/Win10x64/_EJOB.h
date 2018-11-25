@@ -149,10 +149,10 @@ struct _EJOB {
 	struct _JOB_RATE_CONTROL_HEADER	IoRateControlHeader;
 	struct _PS_IO_CONTROL_ENTRY	GlobalIoControl;
 	int32_t	IoControlStateLock;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
 	struct _RTL_RB_TREE	VolumeIoControlTree;
 	uint64_t	IoRateOverQuotaHistory;
 	uint32_t	IoRateCurrentGeneration;

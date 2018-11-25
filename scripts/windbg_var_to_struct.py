@@ -133,6 +133,7 @@ def format_data(name, data):
     union = 0
     buf += 'struct %s {\n' % (name)
     for i in range(0, len(data)):
+        padding = 0
         o, t, n, d = data[i]
         on = -1
         if i+1 < len(data):
@@ -148,7 +149,8 @@ def format_data(name, data):
         if "int" in t:
             offset_diff = on - o - type_sizes(t)
             for i in range(0, offset_diff):
-                buf += '\tuint8_t\t__padding__;\n'
+                buf += '\tuint8_t\t__padding%s__;\n' % padding
+                padding += 1
         if not o == on and union:
             buf += "\t};\n"
             union = 0

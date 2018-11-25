@@ -10,10 +10,10 @@ struct _HEAP_LFH_SUBSEGMENT_OWNER {
 		uint8_t	SlotIndex;
 	};
 	uint8_t	Spare1;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
 	uint64_t	AvailableSubsegmentCount;
 	struct _RTL_SRWLOCK	Lock;
 	struct _LIST_ENTRY	AvailableSubsegmentList;

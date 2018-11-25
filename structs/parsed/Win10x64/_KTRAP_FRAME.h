@@ -62,8 +62,8 @@ struct _KTRAP_FRAME {
 	uint8_t	Fill0;
 	uint8_t	Logging;
 	uint16_t	Fill1[2];
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
 	uint32_t	EFlags;
 	uint32_t	Fill2;
 	uint64_t	Rsp;

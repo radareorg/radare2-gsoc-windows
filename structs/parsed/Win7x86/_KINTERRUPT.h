@@ -23,9 +23,9 @@ struct _KINTERRUPT {
 	struct _KINTERRUPT_POLARITY	Polarity;
 	uint32_t	ServiceCount;
 	uint32_t	DispatchCount;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
 	uint64_t	Rsvd1;
 }__attribute__((packed));

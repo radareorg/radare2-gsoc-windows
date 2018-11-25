@@ -9,8 +9,8 @@ struct _STACK_TRACE_DATABASE {
 	void	*LowerMemoryStart;
 	uint8_t	PreCommitted;
 	uint8_t	DumpInProgress;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
 	void	*CommitBase;
 	void	*CurrentLowerCommitLimit;
 	void	*CurrentUpperCommitLimit;
@@ -22,10 +22,10 @@ struct _STACK_TRACE_DATABASE {
 	uint32_t	NumberOfEntriesAllocated;
 	uint32_t	NumberOfEntriesAvailable;
 	uint32_t	NumberOfAllocationFailures;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
 	struct _SLIST_HEADER	FreeLists[32];
 	uint32_t	NumberOfBuckets;
 	struct _RTL_STD_LIST_HEAD	Buckets[1];

@@ -12,7 +12,7 @@
 struct _OBJECT_TYPE_INITIALIZER {
 	uint16_t	Length;
 	uint8_t	ObjectTypeFlags;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
 	uint32_t	ObjectTypeCode;
 	uint32_t	InvalidAttributes;
 	struct _GENERIC_MAPPING	GenericMapping;

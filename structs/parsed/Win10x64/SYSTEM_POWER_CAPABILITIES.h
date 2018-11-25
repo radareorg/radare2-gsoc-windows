@@ -25,11 +25,11 @@ struct SYSTEM_POWER_CAPABILITIES {
 	uint8_t	HiberFileType;
 	uint8_t	AoAcConnectivitySupported;
 	uint8_t	spare3[6];
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
-	uint8_t	__padding__;
+	uint8_t	__padding0__;
+	uint8_t	__padding1__;
+	uint8_t	__padding2__;
+	uint8_t	__padding3__;
+	uint8_t	__padding4__;
 	uint8_t	SystemBatteriesPresent;
 	uint8_t	BatteriesAreShortTerm;
 	struct BATTERY_REPORTING_SCALE	BatteryScale[3];
