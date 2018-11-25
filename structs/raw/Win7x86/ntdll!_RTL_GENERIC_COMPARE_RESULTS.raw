@@ -1,0 +1,3 @@
+   GenericLessThan = 0n0
+   GenericGreaterThan = 0n1
+   GenericEqual = 0n2

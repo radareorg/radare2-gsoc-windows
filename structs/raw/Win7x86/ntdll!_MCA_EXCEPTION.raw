@@ -1,0 +1,9 @@
+   +0x000 VersionNumber    : Uint4B
+   +0x004 ExceptionType    : MCA_EXCEPTION_TYPE
+   +0x008 TimeStamp        : _LARGE_INTEGER
+   +0x010 ProcessorNumber  : Uint4B
+   +0x014 Reserved1        : Uint4B
+   +0x018 u                : <unnamed-tag>
+   +0x038 ExtCnt           : Uint4B
+   +0x03c Reserved3        : Uint4B
+   +0x040 ExtReg           : [24] Uint8B

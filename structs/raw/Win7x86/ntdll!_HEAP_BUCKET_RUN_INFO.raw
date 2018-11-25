@@ -1,0 +1,3 @@
+   +0x000 Bucket           : Uint4B
+   +0x004 RunLength        : Uint4B
+   +0x000 Aggregate64      : Int8B

@@ -1,0 +1,9 @@
+   +0x000 ExecuteDisable   : Pos 0, 1 Bit
+   +0x000 ExecuteEnable    : Pos 1, 1 Bit
+   +0x000 DisableThunkEmulation : Pos 2, 1 Bit
+   +0x000 Permanent        : Pos 3, 1 Bit
+   +0x000 ExecuteDispatchEnable : Pos 4, 1 Bit
+   +0x000 ImageDispatchEnable : Pos 5, 1 Bit
+   +0x000 DisableExceptionChainValidation : Pos 6, 1 Bit
+   +0x000 Spare            : Pos 7, 1 Bit
+   +0x000 ExecuteOptions   : UChar

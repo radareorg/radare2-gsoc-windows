@@ -1,0 +1,35 @@
+
+struct _MM_DRIVER_VERIFIER_DATA {
+	uint32_t	Level;
+	uint32_t	RaiseIrqls;
+	uint32_t	AcquireSpinLocks;
+	uint32_t	SynchronizeExecutions;
+	uint32_t	AllocationsAttempted;
+	uint32_t	AllocationsSucceeded;
+	uint32_t	AllocationsSucceededSpecialPool;
+	uint32_t	AllocationsWithNoTag;
+	uint32_t	TrimRequests;
+	uint32_t	Trims;
+	uint32_t	AllocationsFailed;
+	uint32_t	AllocationsFailedDeliberately;
+	uint32_t	Loads;
+	uint32_t	Unloads;
+	uint32_t	UnTrackedPool;
+	uint32_t	UserTrims;
+	uint32_t	CurrentPagedPoolAllocations;
+	uint32_t	CurrentNonPagedPoolAllocations;
+	uint32_t	PeakPagedPoolAllocations;
+	uint32_t	PeakNonPagedPoolAllocations;
+	uint32_t	PagedBytes;
+	uint32_t	NonPagedBytes;
+	uint32_t	PeakPagedBytes;
+	uint32_t	PeakNonPagedBytes;
+	uint32_t	BurstAllocationsFailedDeliberately;
+	uint32_t	SessionTrims;
+	uint32_t	OptionChanges;
+	uint32_t	VerifyMode;
+	struct _UNICODE_STRING	PreviousBucketName;
+	uint32_t	ActivityCounter;
+	uint32_t	PreviousActivityCounter;
+	uint32_t	WorkerTrimRequests;
+}__attribute__((packed));

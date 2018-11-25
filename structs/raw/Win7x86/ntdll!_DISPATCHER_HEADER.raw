@@ -1,0 +1,30 @@
+   +0x000 Type             : UChar
+   +0x001 TimerControlFlags : UChar
+   +0x001 Absolute         : Pos 0, 1 Bit
+   +0x001 Coalescable      : Pos 1, 1 Bit
+   +0x001 KeepShifting     : Pos 2, 1 Bit
+   +0x001 EncodedTolerableDelay : Pos 3, 5 Bits
+   +0x001 Abandoned        : UChar
+   +0x001 Signalling       : UChar
+   +0x002 ThreadControlFlags : UChar
+   +0x002 CpuThrottled     : Pos 0, 1 Bit
+   +0x002 CycleProfiling   : Pos 1, 1 Bit
+   +0x002 CounterProfiling : Pos 2, 1 Bit
+   +0x002 Reserved         : Pos 3, 5 Bits
+   +0x002 Hand             : UChar
+   +0x002 Size             : UChar
+   +0x003 TimerMiscFlags   : UChar
+   +0x003 Index            : Pos 0, 1 Bit
+   +0x003 Processor        : Pos 1, 5 Bits
+   +0x003 Inserted         : Pos 6, 1 Bit
+   +0x003 Expired          : Pos 7, 1 Bit
+   +0x003 DebugActive      : UChar
+   +0x003 ActiveDR7        : Pos 0, 1 Bit
+   +0x003 Instrumented     : Pos 1, 1 Bit
+   +0x003 Reserved2        : Pos 2, 4 Bits
+   +0x003 UmsScheduled     : Pos 6, 1 Bit
+   +0x003 UmsPrimary       : Pos 7, 1 Bit
+   +0x003 DpcActive        : UChar
+   +0x000 Lock             : Int4B
+   +0x004 SignalState      : Int4B
+   +0x008 WaitListHead     : _LIST_ENTRY

@@ -1,0 +1,9 @@
+   +0x000 Type             : Uint2B
+   +0x002 CreatorBackTraceIndex : Uint2B
+   +0x004 CriticalSection  : Ptr32 _RTL_CRITICAL_SECTION
+   +0x008 ProcessLocksList : _LIST_ENTRY
+   +0x010 EntryCount       : Uint4B
+   +0x014 ContentionCount  : Uint4B
+   +0x018 Flags            : Uint4B
+   +0x01c CreatorBackTraceIndexHigh : Uint2B
+   +0x01e SpareUSHORT      : Uint2B

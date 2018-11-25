@@ -1,0 +1,10 @@
+   +0x000 SectionOffset    : Uint4B
+   +0x004 SectionLength    : Uint4B
+   +0x008 Revision         : _WHEA_REVISION
+   +0x00a ValidBits        : _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
+   +0x00b Reserved         : UChar
+   +0x00c Flags            : _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS
+   +0x010 SectionType      : _GUID
+   +0x020 FRUId            : _GUID
+   +0x030 SectionSeverity  : _WHEA_ERROR_SEVERITY
+   +0x034 FRUText          : [20] Char

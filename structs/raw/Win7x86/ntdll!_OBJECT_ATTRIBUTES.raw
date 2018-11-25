@@ -1,0 +1,6 @@
+   +0x000 Length           : Uint4B
+   +0x004 RootDirectory    : Ptr32 Void
+   +0x008 ObjectName       : Ptr32 _UNICODE_STRING
+   +0x00c Attributes       : Uint4B
+   +0x010 SecurityDescriptor : Ptr32 Void
+   +0x014 SecurityQualityOfService : Ptr32 Void

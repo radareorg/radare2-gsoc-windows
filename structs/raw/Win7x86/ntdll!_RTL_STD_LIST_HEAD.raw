@@ -1,0 +1,2 @@
+   +0x000 Next             : Ptr32 _RTL_STD_LIST_ENTRY
+   +0x004 Lock             : _RTL_STACK_DATABASE_LOCK

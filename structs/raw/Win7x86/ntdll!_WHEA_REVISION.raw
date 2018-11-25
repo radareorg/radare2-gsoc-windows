@@ -1,0 +1,3 @@
+   +0x000 MinorRevision    : UChar
+   +0x001 MajorRevision    : UChar
+   +0x000 AsUSHORT         : Uint2B

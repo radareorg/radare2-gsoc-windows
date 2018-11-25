@@ -1,0 +1,4 @@
+   +0x000 ImpersonationData : Uint4B
+   +0x000 ImpersonationToken : Ptr32 Void
+   +0x000 ImpersonationLevel : Pos 0, 2 Bits
+   +0x000 EffectiveOnly    : Pos 2, 1 Bit

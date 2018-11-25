@@ -1,0 +1,8 @@
+   +0x000 ExceptionList    : Ptr32 _EXCEPTION_REGISTRATION_RECORD
+   +0x004 StackBase        : Ptr32 Void
+   +0x008 StackLimit       : Ptr32 Void
+   +0x00c SubSystemTib     : Ptr32 Void
+   +0x010 FiberData        : Ptr32 Void
+   +0x010 Version          : Uint4B
+   +0x014 ArbitraryUserPointer : Ptr32 Void
+   +0x018 Self             : Ptr32 _NT_TIB

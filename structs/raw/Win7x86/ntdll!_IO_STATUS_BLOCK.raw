@@ -1,0 +1,3 @@
+   +0x000 Status           : Int4B
+   +0x000 Pointer          : Ptr32 Void
+   +0x004 Information      : Uint4B

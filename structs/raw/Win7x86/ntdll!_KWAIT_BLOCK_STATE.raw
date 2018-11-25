@@ -1,0 +1,5 @@
+   WaitBlockBypassStart = 0n0
+   WaitBlockBypassComplete = 0n1
+   WaitBlockActive = 0n2
+   WaitBlockInactive = 0n3
+   WaitBlockAllStates = 0n4

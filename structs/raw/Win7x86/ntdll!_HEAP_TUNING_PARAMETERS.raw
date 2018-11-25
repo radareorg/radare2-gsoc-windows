@@ -1,0 +1,2 @@
+   +0x000 CommittThresholdShift : Uint4B
+   +0x004 MaxPreCommittThreshold : Uint4B

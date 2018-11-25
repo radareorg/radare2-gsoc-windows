@@ -1,0 +1,3 @@
+   ProcHypervisorNone = 0n0
+   ProcHypervisorPresent = 0n1
+   ProcHypervisorPower = 0n2

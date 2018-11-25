@@ -1,0 +1,2 @@
+   +0x000 Next             : Ptr32 _EXCEPTION_REGISTRATION_RECORD
+   +0x004 Handler          : Ptr32     _EXCEPTION_DISPOSITION 

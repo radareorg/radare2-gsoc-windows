@@ -1,0 +1,2 @@
+   +0x000 TimerExpiry      : [16] Ptr32 _KTIMER
+   +0x040 TimerEntries     : [256] _KTIMER_TABLE_ENTRY

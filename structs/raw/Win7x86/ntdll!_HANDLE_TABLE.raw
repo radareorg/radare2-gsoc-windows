@@ -1,0 +1,15 @@
+   +0x000 TableCode        : Uint4B
+   +0x004 QuotaProcess     : Ptr32 _EPROCESS
+   +0x008 UniqueProcessId  : Ptr32 Void
+   +0x00c HandleLock       : _EX_PUSH_LOCK
+   +0x010 HandleTableList  : _LIST_ENTRY
+   +0x018 HandleContentionEvent : _EX_PUSH_LOCK
+   +0x01c DebugInfo        : Ptr32 _HANDLE_TRACE_DEBUG_INFO
+   +0x020 ExtraInfoPages   : Int4B
+   +0x024 Flags            : Uint4B
+   +0x024 StrictFIFO       : Pos 0, 1 Bit
+   +0x028 FirstFreeHandle  : Uint4B
+   +0x02c LastFreeHandleEntry : Ptr32 _HANDLE_TABLE_ENTRY
+   +0x030 HandleCount      : Uint4B
+   +0x034 NextHandleNeedingPool : Uint4B
+   +0x038 HandleCountHighWatermark : Uint4B

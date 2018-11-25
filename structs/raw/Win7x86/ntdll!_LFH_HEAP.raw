@@ -1,0 +1,16 @@
+   +0x000 Lock             : _RTL_SRWLOCK
+   +0x000 padding          : _RTL_CRITICAL_SECTION
+   +0x018 SubSegmentZones  : _LIST_ENTRY
+   +0x020 ZoneBlockSize    : Uint4B
+   +0x024 Heap             : Ptr32 Void
+   +0x028 SegmentChange    : Uint4B
+   +0x02c SegmentCreate    : Uint4B
+   +0x030 SegmentInsertInFree : Uint4B
+   +0x034 SegmentDelete    : Uint4B
+   +0x038 CacheAllocs      : Uint4B
+   +0x03c CacheFrees       : Uint4B
+   +0x040 SizeInCache      : Uint4B
+   +0x048 RunInfo          : _HEAP_BUCKET_RUN_INFO
+   +0x050 UserBlockCache   : [12] _USER_MEMORY_CACHE_ENTRY
+   +0x110 Buckets          : [128] _HEAP_BUCKET
+   +0x310 LocalData        : [1] _HEAP_LOCAL_DATA

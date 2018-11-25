@@ -1,0 +1,7 @@
+   ProcessInMemory = 0n0
+   ProcessOutOfMemory = 0n1
+   ProcessInTransition = 0n2
+   ProcessOutTransition = 0n3
+   ProcessInSwap = 0n4
+   ProcessOutSwap = 0n5
+   ProcessAllSwapStates = 0n6

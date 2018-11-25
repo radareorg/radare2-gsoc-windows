@@ -1,0 +1,3 @@
+   +0x000 Group            : Uint2B
+   +0x002 Number           : UChar
+   +0x003 Reserved         : UChar

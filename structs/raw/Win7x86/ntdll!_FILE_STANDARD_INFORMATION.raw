@@ -1,0 +1,5 @@
+   +0x000 AllocationSize   : _LARGE_INTEGER
+   +0x008 EndOfFile        : _LARGE_INTEGER
+   +0x010 NumberOfLinks    : Uint4B
+   +0x014 DeletePending    : UChar
+   +0x015 Directory        : UChar

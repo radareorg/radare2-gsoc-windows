@@ -1,0 +1,9 @@
+   +0x000 Hint             : Ptr32 _HEAP_SUBSEGMENT
+   +0x004 ActiveSubsegment : Ptr32 _HEAP_SUBSEGMENT
+   +0x008 CachedItems      : [16] Ptr32 _HEAP_SUBSEGMENT
+   +0x048 SListHeader      : _SLIST_HEADER
+   +0x050 Counters         : _HEAP_BUCKET_COUNTERS
+   +0x058 LocalData        : Ptr32 _HEAP_LOCAL_DATA
+   +0x05c LastOpSequence   : Uint4B
+   +0x060 BucketIndex      : Uint2B
+   +0x062 LastUsed         : Uint2B

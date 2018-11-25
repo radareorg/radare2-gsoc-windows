@@ -1,0 +1,4 @@
+   +0x000 Size             : Int2B
+   +0x004 ExtraCreateParameter : Ptr32 _ECP_LIST
+   +0x008 DeviceObjectHint : Ptr32 Void
+   +0x00c TxnParameters    : Ptr32 _TXN_PARAMETER_BLOCK

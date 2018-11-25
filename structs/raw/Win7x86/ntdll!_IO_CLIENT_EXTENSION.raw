@@ -1,0 +1,2 @@
+   +0x000 NextExtension    : Ptr32 _IO_CLIENT_EXTENSION
+   +0x004 ClientIdentificationAddress : Ptr32 Void

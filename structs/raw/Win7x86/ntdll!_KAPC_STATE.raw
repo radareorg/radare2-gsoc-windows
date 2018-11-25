@@ -1,0 +1,5 @@
+   +0x000 ApcListHead      : [2] _LIST_ENTRY
+   +0x010 Process          : Ptr32 _KPROCESS
+   +0x014 KernelApcInProgress : UChar
+   +0x015 KernelApcPending : UChar
+   +0x016 UserApcPending   : UChar

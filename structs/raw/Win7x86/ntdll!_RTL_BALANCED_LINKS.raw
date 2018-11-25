@@ -1,0 +1,5 @@
+   +0x000 Parent           : Ptr32 _RTL_BALANCED_LINKS
+   +0x004 LeftChild        : Ptr32 _RTL_BALANCED_LINKS
+   +0x008 RightChild       : Ptr32 _RTL_BALANCED_LINKS
+   +0x00c Balance          : Char
+   +0x00d Reserved         : [3] UChar

@@ -1,0 +1,5 @@
+   +0x000 Type             : Int2B
+   +0x002 Size             : Int2B
+   +0x004 DeviceListHead   : _LIST_ENTRY
+   +0x00c Lock             : Uint4B
+   +0x010 Busy             : UChar

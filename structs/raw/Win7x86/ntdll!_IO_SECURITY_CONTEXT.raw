@@ -1,0 +1,4 @@
+   +0x000 SecurityQos      : Ptr32 _SECURITY_QUALITY_OF_SERVICE
+   +0x004 AccessState      : Ptr32 _ACCESS_STATE
+   +0x008 DesiredAccess    : Uint4B
+   +0x00c FullCreateOptions : Uint4B

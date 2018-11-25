@@ -1,0 +1,15 @@
+   +0x000 WorkingSetType   : Pos 0, 3 Bits
+   +0x000 ModwriterAttached : Pos 3, 1 Bit
+   +0x000 TrimHard         : Pos 4, 1 Bit
+   +0x000 MaximumWorkingSetHard : Pos 5, 1 Bit
+   +0x000 ForceTrim        : Pos 6, 1 Bit
+   +0x000 MinimumWorkingSetHard : Pos 7, 1 Bit
+   +0x001 SessionMaster    : Pos 0, 1 Bit
+   +0x001 TrimmerState     : Pos 1, 2 Bits
+   +0x001 Reserved         : Pos 3, 1 Bit
+   +0x001 PageStealers     : Pos 4, 4 Bits
+   +0x002 MemoryPriority   : Pos 0, 8 Bits
+   +0x003 WsleDeleted      : Pos 0, 1 Bit
+   +0x003 VmExiting        : Pos 1, 1 Bit
+   +0x003 ExpansionFailed  : Pos 2, 1 Bit
+   +0x003 Available        : Pos 3, 5 Bits

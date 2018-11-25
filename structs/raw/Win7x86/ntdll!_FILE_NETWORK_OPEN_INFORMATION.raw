@@ -1,0 +1,7 @@
+   +0x000 CreationTime     : _LARGE_INTEGER
+   +0x008 LastAccessTime   : _LARGE_INTEGER
+   +0x010 LastWriteTime    : _LARGE_INTEGER
+   +0x018 ChangeTime       : _LARGE_INTEGER
+   +0x020 AllocationSize   : _LARGE_INTEGER
+   +0x028 EndOfFile        : _LARGE_INTEGER
+   +0x030 FileAttributes   : Uint4B

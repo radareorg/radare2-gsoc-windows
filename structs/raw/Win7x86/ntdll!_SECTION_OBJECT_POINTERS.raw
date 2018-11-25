@@ -1,0 +1,3 @@
+   +0x000 DataSectionObject : Ptr32 Void
+   +0x004 SharedCacheMap   : Ptr32 Void
+   +0x008 ImageSectionObject : Ptr32 Void

@@ -1,0 +1,2 @@
+   +0x000 UniqueProcess    : Ptr32 Void
+   +0x004 UniqueThread     : Ptr32 Void

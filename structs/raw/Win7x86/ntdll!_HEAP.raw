@@ -1,0 +1,53 @@
+   +0x000 Entry            : _HEAP_ENTRY
+   +0x008 SegmentSignature : Uint4B
+   +0x00c SegmentFlags     : Uint4B
+   +0x010 SegmentListEntry : _LIST_ENTRY
+   +0x018 Heap             : Ptr32 _HEAP
+   +0x01c BaseAddress      : Ptr32 Void
+   +0x020 NumberOfPages    : Uint4B
+   +0x024 FirstEntry       : Ptr32 _HEAP_ENTRY
+   +0x028 LastValidEntry   : Ptr32 _HEAP_ENTRY
+   +0x02c NumberOfUnCommittedPages : Uint4B
+   +0x030 NumberOfUnCommittedRanges : Uint4B
+   +0x034 SegmentAllocatorBackTraceIndex : Uint2B
+   +0x036 Reserved         : Uint2B
+   +0x038 UCRSegmentList   : _LIST_ENTRY
+   +0x040 Flags            : Uint4B
+   +0x044 ForceFlags       : Uint4B
+   +0x048 CompatibilityFlags : Uint4B
+   +0x04c EncodeFlagMask   : Uint4B
+   +0x050 Encoding         : _HEAP_ENTRY
+   +0x058 PointerKey       : Uint4B
+   +0x05c Interceptor      : Uint4B
+   +0x060 VirtualMemoryThreshold : Uint4B
+   +0x064 Signature        : Uint4B
+   +0x068 SegmentReserve   : Uint4B
+   +0x06c SegmentCommit    : Uint4B
+   +0x070 DeCommitFreeBlockThreshold : Uint4B
+   +0x074 DeCommitTotalFreeThreshold : Uint4B
+   +0x078 TotalFreeSize    : Uint4B
+   +0x07c MaximumAllocationSize : Uint4B
+   +0x080 ProcessHeapsListIndex : Uint2B
+   +0x082 HeaderValidateLength : Uint2B
+   +0x084 HeaderValidateCopy : Ptr32 Void
+   +0x088 NextAvailableTagIndex : Uint2B
+   +0x08a MaximumTagIndex  : Uint2B
+   +0x08c TagEntries       : Ptr32 _HEAP_TAG_ENTRY
+   +0x090 UCRList          : _LIST_ENTRY
+   +0x098 AlignRound       : Uint4B
+   +0x09c AlignMask        : Uint4B
+   +0x0a0 VirtualAllocdBlocks : _LIST_ENTRY
+   +0x0a8 SegmentList      : _LIST_ENTRY
+   +0x0b0 AllocatorBackTraceIndex : Uint2B
+   +0x0b4 NonDedicatedListLength : Uint4B
+   +0x0b8 BlocksIndex      : Ptr32 Void
+   +0x0bc UCRIndex         : Ptr32 Void
+   +0x0c0 PseudoTagEntries : Ptr32 _HEAP_PSEUDO_TAG_ENTRY
+   +0x0c4 FreeLists        : _LIST_ENTRY
+   +0x0cc LockVariable     : Ptr32 _HEAP_LOCK
+   +0x0d0 CommitRoutine    : Ptr32     long 
+   +0x0d4 FrontEndHeap     : Ptr32 Void
+   +0x0d8 FrontHeapLockCount : Uint2B
+   +0x0da FrontEndHeapType : UChar
+   +0x0dc Counters         : _HEAP_COUNTERS
+   +0x130 TuningParameters : _HEAP_TUNING_PARAMETERS

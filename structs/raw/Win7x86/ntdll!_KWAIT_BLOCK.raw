@@ -1,0 +1,7 @@
+   +0x000 WaitListEntry    : _LIST_ENTRY
+   +0x008 Thread           : Ptr32 _KTHREAD
+   +0x00c Object           : Ptr32 Void
+   +0x010 NextWaitBlock    : Ptr32 _KWAIT_BLOCK
+   +0x014 WaitKey          : Uint2B
+   +0x016 WaitType         : UChar
+   +0x017 BlockState       : UChar

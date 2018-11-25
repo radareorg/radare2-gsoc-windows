@@ -1,0 +1,16 @@
+   +0x000 Type             : UChar
+   +0x001 SpareByte0       : UChar
+   +0x002 Size             : UChar
+   +0x003 SpareByte1       : UChar
+   +0x004 SpareLong0       : Uint4B
+   +0x008 Thread           : Ptr32 _KTHREAD
+   +0x00c ApcListEntry     : _LIST_ENTRY
+   +0x014 KernelRoutine    : Ptr32     void 
+   +0x018 RundownRoutine   : Ptr32     void 
+   +0x01c NormalRoutine    : Ptr32     void 
+   +0x020 NormalContext    : Ptr32 Void
+   +0x024 SystemArgument1  : Ptr32 Void
+   +0x028 SystemArgument2  : Ptr32 Void
+   +0x02c ApcStateIndex    : Char
+   +0x02d ApcMode          : Char
+   +0x02e Inserted         : UChar

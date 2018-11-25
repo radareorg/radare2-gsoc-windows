@@ -1,0 +1,7 @@
+   +0x000 WaitQueueEntry   : _KDEVICE_QUEUE_ENTRY
+   +0x010 DeviceRoutine    : Ptr32     _IO_ALLOCATION_ACTION 
+   +0x014 DeviceContext    : Ptr32 Void
+   +0x018 NumberOfMapRegisters : Uint4B
+   +0x01c DeviceObject     : Ptr32 Void
+   +0x020 CurrentIrp       : Ptr32 Void
+   +0x024 BufferChainingDpc : Ptr32 _KDPC

@@ -1,0 +1,12 @@
+   +0x000 TypeList         : _LIST_ENTRY
+   +0x008 Name             : _UNICODE_STRING
+   +0x010 DefaultObject    : Ptr32 Void
+   +0x014 Index            : UChar
+   +0x018 TotalNumberOfObjects : Uint4B
+   +0x01c TotalNumberOfHandles : Uint4B
+   +0x020 HighWaterNumberOfObjects : Uint4B
+   +0x024 HighWaterNumberOfHandles : Uint4B
+   +0x028 TypeInfo         : _OBJECT_TYPE_INITIALIZER
+   +0x078 TypeLock         : _EX_PUSH_LOCK
+   +0x07c Key              : Uint4B
+   +0x080 CallbackList     : _LIST_ENTRY

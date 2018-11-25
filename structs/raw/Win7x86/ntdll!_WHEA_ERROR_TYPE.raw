@@ -1,0 +1,7 @@
+   WheaErrTypeProcessor = 0n0
+   WheaErrTypeMemory = 0n1
+   WheaErrTypePCIExpress = 0n2
+   WheaErrTypeNMI = 0n3
+   WheaErrTypePCIXBus = 0n4
+   WheaErrTypePCIXDevice = 0n5
+   WheaErrTypeGeneric = 0n6

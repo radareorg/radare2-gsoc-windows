@@ -1,0 +1,14 @@
+   +0x000 SizeOfFsFilterCallbacks : Uint4B
+   +0x004 Reserved         : Uint4B
+   +0x008 PreAcquireForSectionSynchronization : Ptr32     long 
+   +0x00c PostAcquireForSectionSynchronization : Ptr32     void 
+   +0x010 PreReleaseForSectionSynchronization : Ptr32     long 
+   +0x014 PostReleaseForSectionSynchronization : Ptr32     void 
+   +0x018 PreAcquireForCcFlush : Ptr32     long 
+   +0x01c PostAcquireForCcFlush : Ptr32     void 
+   +0x020 PreReleaseForCcFlush : Ptr32     long 
+   +0x024 PostReleaseForCcFlush : Ptr32     void 
+   +0x028 PreAcquireForModifiedPageWriter : Ptr32     long 
+   +0x02c PostAcquireForModifiedPageWriter : Ptr32     void 
+   +0x030 PreReleaseForModifiedPageWriter : Ptr32     long 
+   +0x034 PostReleaseForModifiedPageWriter : Ptr32     void 

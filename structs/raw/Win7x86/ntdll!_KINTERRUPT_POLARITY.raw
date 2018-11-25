@@ -1,0 +1,3 @@
+   InterruptPolarityUnknown = 0n0
+   InterruptActiveHigh = 0n1
+   InterruptActiveLow = 0n2

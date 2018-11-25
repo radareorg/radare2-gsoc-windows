@@ -1,0 +1,4 @@
+   +0x000 BlockUnits       : Uint2B
+   +0x002 SizeIndex        : UChar
+   +0x003 UseAffinity      : Pos 0, 1 Bit
+   +0x003 DebugFlags       : Pos 1, 2 Bits

@@ -1,0 +1,4 @@
+   +0x000 Type             : UChar
+   +0x001 ShareDisposition : UChar
+   +0x002 Flags            : Uint2B
+   +0x004 u                : <unnamed-tag>

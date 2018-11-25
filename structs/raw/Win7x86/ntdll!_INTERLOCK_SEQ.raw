@@ -1,0 +1,5 @@
+   +0x000 Depth            : Uint2B
+   +0x002 FreeEntryOffset  : Uint2B
+   +0x000 OffsetAndDepth   : Uint4B
+   +0x004 Sequence         : Uint4B
+   +0x000 Exchg            : Int8B

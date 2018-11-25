@@ -1,0 +1,4 @@
+   +0x000 ClientToken      : Ptr32 Void
+   +0x004 ImpersonationLevel : _SECURITY_IMPERSONATION_LEVEL
+   +0x008 PrimaryToken     : Ptr32 Void
+   +0x00c ProcessAuditId   : Ptr32 Void

@@ -1,0 +1,5 @@
+   +0x000 DeletedSubSegments : _SLIST_HEADER
+   +0x008 CrtZone          : Ptr32 _LFH_BLOCK_ZONE
+   +0x00c LowFragHeap      : Ptr32 _LFH_HEAP
+   +0x010 Sequence         : Uint4B
+   +0x018 SegmentInfo      : [128] _HEAP_LOCAL_SEGMENT_INFO

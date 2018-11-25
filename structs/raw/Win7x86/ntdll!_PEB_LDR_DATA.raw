@@ -1,0 +1,9 @@
+   +0x000 Length           : Uint4B
+   +0x004 Initialized      : UChar
+   +0x008 SsHandle         : Ptr32 Void
+   +0x00c InLoadOrderModuleList : _LIST_ENTRY
+   +0x014 InMemoryOrderModuleList : _LIST_ENTRY
+   +0x01c InInitializationOrderModuleList : _LIST_ENTRY
+   +0x024 EntryInProgress  : Ptr32 Void
+   +0x028 ShutdownInProgress : UChar
+   +0x02c ShutdownThreadId : Ptr32 Void

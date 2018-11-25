@@ -1,0 +1,8 @@
+   +0x000 Primary          : Pos 0, 1 Bit
+   +0x000 ContainmentWarning : Pos 1, 1 Bit
+   +0x000 Reset            : Pos 2, 1 Bit
+   +0x000 ThresholdExceeded : Pos 3, 1 Bit
+   +0x000 ResourceNotAvailable : Pos 4, 1 Bit
+   +0x000 LatentError      : Pos 5, 1 Bit
+   +0x000 Reserved         : Pos 6, 26 Bits
+   +0x000 AsULONG          : Uint4B

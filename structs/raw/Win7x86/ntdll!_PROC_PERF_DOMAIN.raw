@@ -1,0 +1,26 @@
+   +0x000 Link             : _LIST_ENTRY
+   +0x008 Master           : Ptr32 _KPRCB
+   +0x00c Members          : _KAFFINITY_EX
+   +0x018 FeedbackHandler  : Ptr32     unsigned char 
+   +0x01c GetFFHThrottleState : Ptr32     void 
+   +0x020 BoostPolicyHandler : Ptr32     void 
+   +0x024 PerfSelectionHandler : Ptr32     unsigned long 
+   +0x028 PerfHandler      : Ptr32     void 
+   +0x02c Processors       : Ptr32 _PROC_PERF_CONSTRAINT
+   +0x030 PerfChangeTime   : Uint8B
+   +0x038 ProcessorCount   : Uint4B
+   +0x03c PreviousFrequencyMhz : Uint4B
+   +0x040 CurrentFrequencyMhz : Uint4B
+   +0x044 PreviousFrequency : Uint4B
+   +0x048 CurrentFrequency : Uint4B
+   +0x04c CurrentPerfContext : Uint4B
+   +0x050 DesiredFrequency : Uint4B
+   +0x054 MaxFrequency     : Uint4B
+   +0x058 MinPerfPercent   : Uint4B
+   +0x05c MinThrottlePercent : Uint4B
+   +0x060 MaxPercent       : Uint4B
+   +0x064 MinPercent       : Uint4B
+   +0x068 ConstrainedMaxPercent : Uint4B
+   +0x06c ConstrainedMinPercent : Uint4B
+   +0x070 Coordination     : UChar
+   +0x074 PerfChangeIntervalCount : Int4B

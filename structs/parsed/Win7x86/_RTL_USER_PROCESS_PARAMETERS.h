@@ -1,0 +1,33 @@
+
+struct _RTL_USER_PROCESS_PARAMETERS {
+	uint32_t	MaximumLength;
+	uint32_t	Length;
+	uint32_t	Flags;
+	uint32_t	DebugFlags;
+	voidstruct Ptr32	ConsoleHandle;
+	uint32_t	ConsoleFlags;
+	voidstruct Ptr32	StandardInput;
+	voidstruct Ptr32	StandardOutput;
+	voidstruct Ptr32	StandardError;
+	struct _CURDIR	CurrentDirectory;
+	struct _UNICODE_STRING	DllPath;
+	struct _UNICODE_STRING	ImagePathName;
+	struct _UNICODE_STRING	CommandLine;
+	voidstruct Ptr32	Environment;
+	uint32_t	StartingX;
+	uint32_t	StartingY;
+	uint32_t	CountX;
+	uint32_t	CountY;
+	uint32_t	CountCharsX;
+	uint32_t	CountCharsY;
+	uint32_t	FillAttribute;
+	uint32_t	WindowFlags;
+	uint32_t	ShowWindowFlags;
+	struct _UNICODE_STRING	WindowTitle;
+	struct _UNICODE_STRING	DesktopInfo;
+	struct _UNICODE_STRING	ShellInfo;
+	struct _UNICODE_STRING	RuntimeData;
+	struct _RTL_DRIVE_LETTER_CURDIR	CurrentDirectores[32];
+	uint32_t	EnvironmentSize;
+	uint32_t	EnvironmentVersion;
+}__attribute__((packed));

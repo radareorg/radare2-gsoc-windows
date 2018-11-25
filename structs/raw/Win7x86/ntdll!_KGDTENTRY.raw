@@ -1,0 +1,3 @@
+   +0x000 LimitLow         : Uint2B
+   +0x002 BaseLow          : Uint2B
+   +0x004 HighWord         : <unnamed-tag>

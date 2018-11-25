@@ -1,0 +1,7 @@
+   +0x000 TotalTime        : Uint8B
+   +0x008 IdleTransitions  : Uint4B
+   +0x00c FailedTransitions : Uint4B
+   +0x010 InvalidBucketIndex : Uint4B
+   +0x018 MinTime          : Uint8B
+   +0x020 MaxTime          : Uint8B
+   +0x028 IdleTimeBuckets  : [16] _PROC_IDLE_STATE_BUCKET

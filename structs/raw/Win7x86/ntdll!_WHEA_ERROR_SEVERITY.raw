@@ -1,0 +1,4 @@
+   WheaErrSevRecoverable = 0n0
+   WheaErrSevFatal = 0n1
+   WheaErrSevCorrected = 0n2
+   WheaErrSevInformational = 0n3

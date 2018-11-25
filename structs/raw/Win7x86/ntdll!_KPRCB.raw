@@ -1,0 +1,278 @@
+   +0x000 MinorVersion     : Uint2B
+   +0x002 MajorVersion     : Uint2B
+   +0x004 CurrentThread    : Ptr32 _KTHREAD
+   +0x008 NextThread       : Ptr32 _KTHREAD
+   +0x00c IdleThread       : Ptr32 _KTHREAD
+   +0x010 LegacyNumber     : UChar
+   +0x011 NestingLevel     : UChar
+   +0x012 BuildType        : Uint2B
+   +0x014 CpuType          : Char
+   +0x015 CpuID            : Char
+   +0x016 CpuStep          : Uint2B
+   +0x016 CpuStepping      : UChar
+   +0x017 CpuModel         : UChar
+   +0x018 ProcessorState   : _KPROCESSOR_STATE
+   +0x338 KernelReserved   : [16] Uint4B
+   +0x378 HalReserved      : [16] Uint4B
+   +0x3b8 CFlushSize       : Uint4B
+   +0x3bc CoresPerPhysicalProcessor : UChar
+   +0x3bd LogicalProcessorsPerCore : UChar
+   +0x3be PrcbPad0         : [2] UChar
+   +0x3c0 MHz              : Uint4B
+   +0x3c4 CpuVendor        : UChar
+   +0x3c5 GroupIndex       : UChar
+   +0x3c6 Group            : Uint2B
+   +0x3c8 GroupSetMember   : Uint4B
+   +0x3cc Number           : Uint4B
+   +0x3d0 PrcbPad1         : [72] UChar
+   +0x418 LockQueue        : [17] _KSPIN_LOCK_QUEUE
+   +0x4a0 NpxThread        : Ptr32 _KTHREAD
+   +0x4a4 InterruptCount   : Uint4B
+   +0x4a8 KernelTime       : Uint4B
+   +0x4ac UserTime         : Uint4B
+   +0x4b0 DpcTime          : Uint4B
+   +0x4b4 DpcTimeCount     : Uint4B
+   +0x4b8 InterruptTime    : Uint4B
+   +0x4bc AdjustDpcThreshold : Uint4B
+   +0x4c0 PageColor        : Uint4B
+   +0x4c4 DebuggerSavedIRQL : UChar
+   +0x4c5 NodeColor        : UChar
+   +0x4c6 PrcbPad20        : [2] UChar
+   +0x4c8 NodeShiftedColor : Uint4B
+   +0x4cc ParentNode       : Ptr32 _KNODE
+   +0x4d0 SecondaryColorMask : Uint4B
+   +0x4d4 DpcTimeLimit     : Uint4B
+   +0x4d8 PrcbPad21        : [2] Uint4B
+   +0x4e0 CcFastReadNoWait : Uint4B
+   +0x4e4 CcFastReadWait   : Uint4B
+   +0x4e8 CcFastReadNotPossible : Uint4B
+   +0x4ec CcCopyReadNoWait : Uint4B
+   +0x4f0 CcCopyReadWait   : Uint4B
+   +0x4f4 CcCopyReadNoWaitMiss : Uint4B
+   +0x4f8 MmSpinLockOrdering : Int4B
+   +0x4fc IoReadOperationCount : Int4B
+   +0x500 IoWriteOperationCount : Int4B
+   +0x504 IoOtherOperationCount : Int4B
+   +0x508 IoReadTransferCount : _LARGE_INTEGER
+   +0x510 IoWriteTransferCount : _LARGE_INTEGER
+   +0x518 IoOtherTransferCount : _LARGE_INTEGER
+   +0x520 CcFastMdlReadNoWait : Uint4B
+   +0x524 CcFastMdlReadWait : Uint4B
+   +0x528 CcFastMdlReadNotPossible : Uint4B
+   +0x52c CcMapDataNoWait  : Uint4B
+   +0x530 CcMapDataWait    : Uint4B
+   +0x534 CcPinMappedDataCount : Uint4B
+   +0x538 CcPinReadNoWait  : Uint4B
+   +0x53c CcPinReadWait    : Uint4B
+   +0x540 CcMdlReadNoWait  : Uint4B
+   +0x544 CcMdlReadWait    : Uint4B
+   +0x548 CcLazyWriteHotSpots : Uint4B
+   +0x54c CcLazyWriteIos   : Uint4B
+   +0x550 CcLazyWritePages : Uint4B
+   +0x554 CcDataFlushes    : Uint4B
+   +0x558 CcDataPages      : Uint4B
+   +0x55c CcLostDelayedWrites : Uint4B
+   +0x560 CcFastReadResourceMiss : Uint4B
+   +0x564 CcCopyReadWaitMiss : Uint4B
+   +0x568 CcFastMdlReadResourceMiss : Uint4B
+   +0x56c CcMapDataNoWaitMiss : Uint4B
+   +0x570 CcMapDataWaitMiss : Uint4B
+   +0x574 CcPinReadNoWaitMiss : Uint4B
+   +0x578 CcPinReadWaitMiss : Uint4B
+   +0x57c CcMdlReadNoWaitMiss : Uint4B
+   +0x580 CcMdlReadWaitMiss : Uint4B
+   +0x584 CcReadAheadIos   : Uint4B
+   +0x588 KeAlignmentFixupCount : Uint4B
+   +0x58c KeExceptionDispatchCount : Uint4B
+   +0x590 KeSystemCalls    : Uint4B
+   +0x594 AvailableTime    : Uint4B
+   +0x598 PrcbPad22        : [2] Uint4B
+   +0x5a0 PPLookasideList  : [16] _PP_LOOKASIDE_LIST
+   +0x620 PPNPagedLookasideList : [32] _GENERAL_LOOKASIDE_POOL
+   +0xf20 PPPagedLookasideList : [32] _GENERAL_LOOKASIDE_POOL
+   +0x1820 PacketBarrier    : Uint4B
+   +0x1824 ReverseStall     : Int4B
+   +0x1828 IpiFrame         : Ptr32 Void
+   +0x182c PrcbPad3         : [52] UChar
+   +0x1860 CurrentPacket    : [3] Ptr32 Void
+   +0x186c TargetSet        : Uint4B
+   +0x1870 WorkerRoutine    : Ptr32     void 
+   +0x1874 IpiFrozen        : Uint4B
+   +0x1878 PrcbPad4         : [40] UChar
+   +0x18a0 RequestSummary   : Uint4B
+   +0x18a4 SignalDone       : Ptr32 _KPRCB
+   +0x18a8 TrappedSecurityDomain : Uint8B
+   +0x18b0 BpbState         : UChar
+   +0x18b0 BpbCpuIdle       : Pos 0, 1 Bit
+   +0x18b0 BpbFlushRsbOnTrap : Pos 1, 1 Bit
+   +0x18b0 BpbIbpbOnReturn  : Pos 2, 1 Bit
+   +0x18b0 BpbIbpbOnTrap    : Pos 3, 1 Bit
+   +0x18b0 BpbReserved      : Pos 4, 4 Bits
+   +0x18b1 BpbFeatures      : UChar
+   +0x18b1 BpbClearOnIdle   : Pos 0, 1 Bit
+   +0x18b1 BpbEnabled       : Pos 1, 1 Bit
+   +0x18b1 BpbSmep          : Pos 2, 1 Bit
+   +0x18b1 BpbFeaturesReserved : Pos 3, 5 Bits
+   +0x18b2 BpbCurrentSpecCtrl : UChar
+   +0x18b3 BpbKernelSpecCtrl : UChar
+   +0x18b4 BpbNmiSpecCtrl   : UChar
+   +0x18b5 BpbUserSpecCtrl  : UChar
+   +0x18b6 PrcbPad50        : [42] UChar
+   +0x18e0 DpcData          : [2] _KDPC_DATA
+   +0x1908 DpcStack         : Ptr32 Void
+   +0x190c MaximumDpcQueueDepth : Int4B
+   +0x1910 DpcRequestRate   : Uint4B
+   +0x1914 MinimumDpcRate   : Uint4B
+   +0x1918 DpcLastCount     : Uint4B
+   +0x191c PrcbLock         : Uint4B
+   +0x1920 DpcGate          : _KGATE
+   +0x1930 ThreadDpcEnable  : UChar
+   +0x1931 QuantumEnd       : UChar
+   +0x1932 DpcRoutineActive : UChar
+   +0x1933 IdleSchedule     : UChar
+   +0x1934 DpcRequestSummary : Int4B
+   +0x1934 DpcRequestSlot   : [2] Int2B
+   +0x1934 NormalDpcState   : Int2B
+   +0x1936 DpcThreadActive  : Pos 0, 1 Bit
+   +0x1936 ThreadDpcState   : Int2B
+   +0x1938 TimerHand        : Uint4B
+   +0x193c LastTick         : Uint4B
+   +0x1940 MasterOffset     : Int4B
+   +0x1944 PrcbPad41        : [2] Uint4B
+   +0x194c PeriodicCount    : Uint4B
+   +0x1950 PeriodicBias     : Uint4B
+   +0x1958 TickOffset       : Uint8B
+   +0x1960 TimerTable       : _KTIMER_TABLE
+   +0x31a0 CallDpc          : _KDPC
+   +0x31c0 ClockKeepAlive   : Int4B
+   +0x31c4 ClockCheckSlot   : UChar
+   +0x31c5 ClockPollCycle   : UChar
+   +0x31c6 PrcbPad6         : [2] UChar
+   +0x31c8 DpcWatchdogPeriod : Int4B
+   +0x31cc DpcWatchdogCount : Int4B
+   +0x31d0 ThreadWatchdogPeriod : Int4B
+   +0x31d4 ThreadWatchdogCount : Int4B
+   +0x31d8 KeSpinLockOrdering : Int4B
+   +0x31dc PrcbPad70        : [1] Uint4B
+   +0x31e0 WaitListHead     : _LIST_ENTRY
+   +0x31e8 WaitLock         : Uint4B
+   +0x31ec ReadySummary     : Uint4B
+   +0x31f0 QueueIndex       : Uint4B
+   +0x31f4 DeferredReadyListHead : _SINGLE_LIST_ENTRY
+   +0x31f8 StartCycles      : Uint8B
+   +0x3200 CycleTime        : Uint8B
+   +0x3208 HighCycleTime    : Uint4B
+   +0x320c PrcbPad71        : Uint4B
+   +0x3210 PrcbPad72        : [2] Uint8B
+   +0x3220 DispatcherReadyListHead : [32] _LIST_ENTRY
+   +0x3320 ChainedInterruptList : Ptr32 Void
+   +0x3324 LookasideIrpFloat : Int4B
+   +0x3328 MmPageFaultCount : Int4B
+   +0x332c MmCopyOnWriteCount : Int4B
+   +0x3330 MmTransitionCount : Int4B
+   +0x3334 MmCacheTransitionCount : Int4B
+   +0x3338 MmDemandZeroCount : Int4B
+   +0x333c MmPageReadCount  : Int4B
+   +0x3340 MmPageReadIoCount : Int4B
+   +0x3344 MmCacheReadCount : Int4B
+   +0x3348 MmCacheIoCount   : Int4B
+   +0x334c MmDirtyPagesWriteCount : Int4B
+   +0x3350 MmDirtyWriteIoCount : Int4B
+   +0x3354 MmMappedPagesWriteCount : Int4B
+   +0x3358 MmMappedWriteIoCount : Int4B
+   +0x335c CachedCommit     : Uint4B
+   +0x3360 CachedResidentAvailable : Uint4B
+   +0x3364 HyperPte         : Ptr32 Void
+   +0x3368 PrcbPad8         : [4] UChar
+   +0x336c VendorString     : [13] UChar
+   +0x3379 InitialApicId    : UChar
+   +0x337a LogicalProcessorsPerPhysicalProcessor : UChar
+   +0x337b PrcbPad9         : [5] UChar
+   +0x3380 FeatureBits      : Uint4B
+   +0x3388 UpdateSignature  : _LARGE_INTEGER
+   +0x3390 IsrTime          : Uint8B
+   +0x3398 RuntimeAccumulation : Uint8B
+   +0x33a0 PowerState       : _PROCESSOR_POWER_STATE
+   +0x3468 DpcWatchdogDpc   : _KDPC
+   +0x3488 DpcWatchdogTimer : _KTIMER
+   +0x34b0 WheaInfo         : Ptr32 Void
+   +0x34b4 EtwSupport       : Ptr32 Void
+   +0x34b8 InterruptObjectPool : _SLIST_HEADER
+   +0x34c0 HypercallPageList : _SLIST_HEADER
+   +0x34c8 HypercallPageVirtual : Ptr32 Void
+   +0x34cc VirtualApicAssist : Ptr32 Void
+   +0x34d0 StatisticsPage   : Ptr32 Uint8B
+   +0x34d4 RateControl      : Ptr32 Void
+   +0x34d8 Cache            : [5] _CACHE_DESCRIPTOR
+   +0x3514 CacheCount       : Uint4B
+   +0x3518 CacheProcessorMask : [5] Uint4B
+   +0x352c PackageProcessorSet : _KAFFINITY_EX
+   +0x3538 PrcbPad91        : [1] Uint4B
+   +0x353c CoreProcessorSet : Uint4B
+   +0x3540 TimerExpirationDpc : _KDPC
+   +0x3560 SpinLockAcquireCount : Uint4B
+   +0x3564 SpinLockContentionCount : Uint4B
+   +0x3568 SpinLockSpinCount : Uint4B
+   +0x356c IpiSendRequestBroadcastCount : Uint4B
+   +0x3570 IpiSendRequestRoutineCount : Uint4B
+   +0x3574 IpiSendSoftwareInterruptCount : Uint4B
+   +0x3578 ExInitializeResourceCount : Uint4B
+   +0x357c ExReInitializeResourceCount : Uint4B
+   +0x3580 ExDeleteResourceCount : Uint4B
+   +0x3584 ExecutiveResourceAcquiresCount : Uint4B
+   +0x3588 ExecutiveResourceContentionsCount : Uint4B
+   +0x358c ExecutiveResourceReleaseExclusiveCount : Uint4B
+   +0x3590 ExecutiveResourceReleaseSharedCount : Uint4B
+   +0x3594 ExecutiveResourceConvertsCount : Uint4B
+   +0x3598 ExAcqResExclusiveAttempts : Uint4B
+   +0x359c ExAcqResExclusiveAcquiresExclusive : Uint4B
+   +0x35a0 ExAcqResExclusiveAcquiresExclusiveRecursive : Uint4B
+   +0x35a4 ExAcqResExclusiveWaits : Uint4B
+   +0x35a8 ExAcqResExclusiveNotAcquires : Uint4B
+   +0x35ac ExAcqResSharedAttempts : Uint4B
+   +0x35b0 ExAcqResSharedAcquiresExclusive : Uint4B
+   +0x35b4 ExAcqResSharedAcquiresShared : Uint4B
+   +0x35b8 ExAcqResSharedAcquiresSharedRecursive : Uint4B
+   +0x35bc ExAcqResSharedWaits : Uint4B
+   +0x35c0 ExAcqResSharedNotAcquires : Uint4B
+   +0x35c4 ExAcqResSharedStarveExclusiveAttempts : Uint4B
+   +0x35c8 ExAcqResSharedStarveExclusiveAcquiresExclusive : Uint4B
+   +0x35cc ExAcqResSharedStarveExclusiveAcquiresShared : Uint4B
+   +0x35d0 ExAcqResSharedStarveExclusiveAcquiresSharedRecursive : Uint4B
+   +0x35d4 ExAcqResSharedStarveExclusiveWaits : Uint4B
+   +0x35d8 ExAcqResSharedStarveExclusiveNotAcquires : Uint4B
+   +0x35dc ExAcqResSharedWaitForExclusiveAttempts : Uint4B
+   +0x35e0 ExAcqResSharedWaitForExclusiveAcquiresExclusive : Uint4B
+   +0x35e4 ExAcqResSharedWaitForExclusiveAcquiresShared : Uint4B
+   +0x35e8 ExAcqResSharedWaitForExclusiveAcquiresSharedRecursive : Uint4B
+   +0x35ec ExAcqResSharedWaitForExclusiveWaits : Uint4B
+   +0x35f0 ExAcqResSharedWaitForExclusiveNotAcquires : Uint4B
+   +0x35f4 ExSetResOwnerPointerExclusive : Uint4B
+   +0x35f8 ExSetResOwnerPointerSharedNew : Uint4B
+   +0x35fc ExSetResOwnerPointerSharedOld : Uint4B
+   +0x3600 ExTryToAcqExclusiveAttempts : Uint4B
+   +0x3604 ExTryToAcqExclusiveAcquires : Uint4B
+   +0x3608 ExBoostExclusiveOwner : Uint4B
+   +0x360c ExBoostSharedOwners : Uint4B
+   +0x3610 ExEtwSynchTrackingNotificationsCount : Uint4B
+   +0x3614 ExEtwSynchTrackingNotificationsAccountedCount : Uint4B
+   +0x3618 Context          : Ptr32 _CONTEXT
+   +0x361c ContextFlags     : Uint4B
+   +0x3620 ExtendedState    : Ptr32 _XSAVE_AREA
+   +0x3624 VectorToInterruptObject : [208] Ptr32 _KINTERRUPT
+   +0x3964 PrcbPad100       : [15] Uint4B
+   +0x39a0 ProcessorSignature : Uint4B
+   +0x39a4 PrcbShadowMappedPagePad1 : [335] Uint4B
+   +0x3ee0 KernelDirectoryTableBase : Uint4B
+   +0x3ee4 EspBaseShadow    : Uint4B
+   +0x3ee8 UserEspShadow    : Uint4B
+   +0x3eec ShadowFlags      : Uint4B
+   +0x3ef0 UserDS           : Uint4B
+   +0x3ef4 UserES           : Uint4B
+   +0x3ef8 UserFS           : Uint4B
+   +0x3efc EspIretd         : Ptr32 Void
+   +0x3f00 RestoreSegOption : Uint4B
+   +0x3f04 SavedEsi         : Uint4B
+   +0x3f08 DbgLogs          : [512] Uint4B
+   +0x4708 DbgCount         : Uint4B
+   +0x470c PrcbShadowMappedPagePad2 : [501] Uint4B

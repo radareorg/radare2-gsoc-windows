@@ -1,0 +1,7 @@
+   +0x000 Magic            : Uint4B
+   +0x004 Database         : Ptr32 _RTL_TRACE_DATABASE
+   +0x008 NextSegment      : Ptr32 _RTL_TRACE_SEGMENT
+   +0x00c TotalSize        : Uint4B
+   +0x010 SegmentStart     : Ptr32 Char
+   +0x014 SegmentEnd       : Ptr32 Char
+   +0x018 SegmentFree      : Ptr32 Char

@@ -1,0 +1,5 @@
+   +0x000 u1               : <unnamed-tag>
+   +0x004 LeftChild        : Ptr32 _MMADDRESS_NODE
+   +0x008 RightChild       : Ptr32 _MMADDRESS_NODE
+   +0x00c StartingVpn      : Uint4B
+   +0x010 EndingVpn        : Uint4B

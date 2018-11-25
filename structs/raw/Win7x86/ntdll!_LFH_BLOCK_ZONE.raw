@@ -1,0 +1,3 @@
+   +0x000 ListEntry        : _LIST_ENTRY
+   +0x008 FreePointer      : Ptr32 Void
+   +0x00c Limit            : Ptr32 Void

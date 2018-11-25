@@ -1,0 +1,26 @@
+   +0x000 Length           : Uint2B
+   +0x002 ObjectTypeFlags  : UChar
+   +0x002 CaseInsensitive  : Pos 0, 1 Bit
+   +0x002 UnnamedObjectsOnly : Pos 1, 1 Bit
+   +0x002 UseDefaultObject : Pos 2, 1 Bit
+   +0x002 SecurityRequired : Pos 3, 1 Bit
+   +0x002 MaintainHandleCount : Pos 4, 1 Bit
+   +0x002 MaintainTypeList : Pos 5, 1 Bit
+   +0x002 SupportsObjectCallbacks : Pos 6, 1 Bit
+   +0x002 CacheAligned     : Pos 7, 1 Bit
+   +0x004 ObjectTypeCode   : Uint4B
+   +0x008 InvalidAttributes : Uint4B
+   +0x00c GenericMapping   : _GENERIC_MAPPING
+   +0x01c ValidAccessMask  : Uint4B
+   +0x020 RetainAccess     : Uint4B
+   +0x024 PoolType         : _POOL_TYPE
+   +0x028 DefaultPagedPoolCharge : Uint4B
+   +0x02c DefaultNonPagedPoolCharge : Uint4B
+   +0x030 DumpProcedure    : Ptr32     void 
+   +0x034 OpenProcedure    : Ptr32     long 
+   +0x038 CloseProcedure   : Ptr32     void 
+   +0x03c DeleteProcedure  : Ptr32     void 
+   +0x040 ParseProcedure   : Ptr32     long 
+   +0x044 SecurityProcedure : Ptr32     long 
+   +0x048 QueryNameProcedure : Ptr32     long 
+   +0x04c OkayToCloseProcedure : Ptr32     unsigned char 

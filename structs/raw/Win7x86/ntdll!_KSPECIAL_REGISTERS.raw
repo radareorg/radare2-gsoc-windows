@@ -1,0 +1,15 @@
+   +0x000 Cr0              : Uint4B
+   +0x004 Cr2              : Uint4B
+   +0x008 Cr3              : Uint4B
+   +0x00c Cr4              : Uint4B
+   +0x010 KernelDr0        : Uint4B
+   +0x014 KernelDr1        : Uint4B
+   +0x018 KernelDr2        : Uint4B
+   +0x01c KernelDr3        : Uint4B
+   +0x020 KernelDr6        : Uint4B
+   +0x024 KernelDr7        : Uint4B
+   +0x028 Gdtr             : _DESCRIPTOR
+   +0x030 Idtr             : _DESCRIPTOR
+   +0x038 Tr               : Uint2B
+   +0x03a Ldtr             : Uint2B
+   +0x03c Reserved         : [6] Uint4B

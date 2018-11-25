@@ -1,0 +1,6 @@
+   +0x000 WakeEvent        : _KEVENT
+   +0x010 Next             : Ptr32 _EX_PUSH_LOCK_WAIT_BLOCK
+   +0x014 Last             : Ptr32 _EX_PUSH_LOCK_WAIT_BLOCK
+   +0x018 Previous         : Ptr32 _EX_PUSH_LOCK_WAIT_BLOCK
+   +0x01c ShareCount       : Int4B
+   +0x020 Flags            : Int4B

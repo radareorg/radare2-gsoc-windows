@@ -1,0 +1,30 @@
+   +0x000 Type             : Int2B
+   +0x002 Size             : Int2B
+   +0x004 DeviceObject     : Ptr32 _DEVICE_OBJECT
+   +0x008 Vpb              : Ptr32 _VPB
+   +0x00c FsContext        : Ptr32 Void
+   +0x010 FsContext2       : Ptr32 Void
+   +0x014 SectionObjectPointer : Ptr32 _SECTION_OBJECT_POINTERS
+   +0x018 PrivateCacheMap  : Ptr32 Void
+   +0x01c FinalStatus      : Int4B
+   +0x020 RelatedFileObject : Ptr32 _FILE_OBJECT
+   +0x024 LockOperation    : UChar
+   +0x025 DeletePending    : UChar
+   +0x026 ReadAccess       : UChar
+   +0x027 WriteAccess      : UChar
+   +0x028 DeleteAccess     : UChar
+   +0x029 SharedRead       : UChar
+   +0x02a SharedWrite      : UChar
+   +0x02b SharedDelete     : UChar
+   +0x02c Flags            : Uint4B
+   +0x030 FileName         : _UNICODE_STRING
+   +0x038 CurrentByteOffset : _LARGE_INTEGER
+   +0x040 Waiters          : Uint4B
+   +0x044 Busy             : Uint4B
+   +0x048 LastLock         : Ptr32 Void
+   +0x04c Lock             : _KEVENT
+   +0x05c Event            : _KEVENT
+   +0x06c CompletionContext : Ptr32 _IO_COMPLETION_CONTEXT
+   +0x070 IrpListLock      : Uint4B
+   +0x074 IrpList          : _LIST_ENTRY
+   +0x07c FileObjectExtension : Ptr32 Void

@@ -1,0 +1,4 @@
+   +0x000 DpcListHead      : _LIST_ENTRY
+   +0x008 DpcLock          : Uint4B
+   +0x00c DpcQueueDepth    : Int4B
+   +0x010 DpcCount         : Uint4B

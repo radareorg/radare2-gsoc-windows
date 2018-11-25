@@ -1,0 +1,20 @@
+   +0x000 Size             : Uint2B
+   +0x002 Flags            : UChar
+   +0x003 SmallTagIndex    : UChar
+   +0x000 SubSegmentCode   : Ptr32 Void
+   +0x004 PreviousSize     : Uint2B
+   +0x006 SegmentOffset    : UChar
+   +0x006 LFHFlags         : UChar
+   +0x007 UnusedBytes      : UChar
+   +0x000 FunctionIndex    : Uint2B
+   +0x002 ContextValue     : Uint2B
+   +0x000 InterceptorValue : Uint4B
+   +0x004 UnusedBytesLength : Uint2B
+   +0x006 EntryOffset      : UChar
+   +0x007 ExtendedBlockSignature : UChar
+   +0x000 Code1            : Uint4B
+   +0x004 Code2            : Uint2B
+   +0x006 Code3            : UChar
+   +0x007 Code4            : UChar
+   +0x000 AgregateCode     : Uint8B
+   +0x008 FreeList         : _LIST_ENTRY

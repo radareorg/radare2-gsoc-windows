@@ -1,0 +1,14 @@
+   +0x000 Magic            : Uint4B
+   +0x004 Flags            : Uint4B
+   +0x008 Tag              : Uint4B
+   +0x00c SegmentList      : Ptr32 _RTL_TRACE_SEGMENT
+   +0x010 MaximumSize      : Uint4B
+   +0x014 CurrentSize      : Uint4B
+   +0x018 Owner            : Ptr32 Void
+   +0x01c Lock             : _RTL_CRITICAL_SECTION
+   +0x034 NoOfBuckets      : Uint4B
+   +0x038 Buckets          : Ptr32 Ptr32 _RTL_TRACE_BLOCK
+   +0x03c HashFunction     : Ptr32     unsigned long 
+   +0x040 NoOfTraces       : Uint4B
+   +0x044 NoOfHits         : Uint4B
+   +0x048 HashCounter      : [16] Uint4B

@@ -1,0 +1,2 @@
+   +0x000 DosPath          : _UNICODE_STRING
+   +0x008 Handle           : Ptr32 Void

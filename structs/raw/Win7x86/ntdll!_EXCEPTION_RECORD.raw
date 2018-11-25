@@ -1,0 +1,6 @@
+   +0x000 ExceptionCode    : Int4B
+   +0x004 ExceptionFlags   : Uint4B
+   +0x008 ExceptionRecord  : Ptr32 _EXCEPTION_RECORD
+   +0x00c ExceptionAddress : Ptr32 Void
+   +0x010 NumberParameters : Uint4B
+   +0x014 ExceptionInformation : [15] Uint4B

@@ -1,0 +1,36 @@
+
+struct _DPH_HEAP_ROOT {
+	uint32_t	Signature;
+	uint32_t	HeapFlags;
+	struct _RTL_CRITICAL_SECTIONstruct Ptr32	HeapCritSect;
+	uint32_t	nRemoteLockAcquired;
+	struct _DPH_HEAP_BLOCKstruct Ptr32	pVirtualStorageListHead;
+	struct _DPH_HEAP_BLOCKstruct Ptr32	pVirtualStorageListTail;
+	uint32_t	nVirtualStorageRanges;
+	uint32_t	nVirtualStorageBytes;
+	struct _RTL_AVL_TABLE	BusyNodesTable;
+	struct _DPH_HEAP_BLOCKstruct Ptr32	NodeToAllocate;
+	uint32_t	nBusyAllocations;
+	uint32_t	nBusyAllocationBytesCommitted;
+	struct _DPH_HEAP_BLOCKstruct Ptr32	pFreeAllocationListHead;
+	struct _DPH_HEAP_BLOCKstruct Ptr32	pFreeAllocationListTail;
+	uint32_t	nFreeAllocations;
+	uint32_t	nFreeAllocationBytesCommitted;
+	struct _LIST_ENTRY	AvailableAllocationHead;
+	uint32_t	nAvailableAllocations;
+	uint32_t	nAvailableAllocationBytesCommitted;
+	struct _DPH_HEAP_BLOCKstruct Ptr32	pUnusedNodeListHead;
+	struct _DPH_HEAP_BLOCKstruct Ptr32	pUnusedNodeListTail;
+	uint32_t	nUnusedNodes;
+	uint32_t	nBusyAllocationBytesAccessible;
+	struct _DPH_HEAP_BLOCKstruct Ptr32	pNodePoolListHead;
+	struct _DPH_HEAP_BLOCKstruct Ptr32	pNodePoolListTail;
+	uint32_t	nNodePools;
+	uint32_t	nNodePoolBytes;
+	struct _LIST_ENTRY	NextHeap;
+	uint32_t	ExtraFlags;
+	uint32_t	Seed;
+	voidstruct Ptr32	NormalHeap;
+	struct _RTL_TRACE_BLOCKstruct Ptr32	CreateStackTrace;
+	voidstruct Ptr32	FirstThread;
+}__attribute__((packed));

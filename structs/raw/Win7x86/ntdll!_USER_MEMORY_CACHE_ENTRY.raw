@@ -1,0 +1,2 @@
+   +0x000 UserBlocks       : _SLIST_HEADER
+   +0x008 AvailableBlocks  : Uint4B

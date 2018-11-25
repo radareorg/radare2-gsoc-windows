@@ -1,0 +1,43 @@
+
+struct _KTRAP_FRAME {
+	uint32_t	DbgEbp;
+	uint32_t	DbgEip;
+	uint32_t	DbgArgMark;
+	uint32_t	DbgArgPointer;
+	uint16_t	TempSegCs;
+	uint8_t	Logging;
+	union {
+		uint8_t	NmiMsrIbrs;
+		uint8_t	Reserved;
+	};
+	uint32_t	TempEsp;
+	uint32_t	Dr0;
+	uint32_t	Dr1;
+	uint32_t	Dr2;
+	uint32_t	Dr3;
+	uint32_t	Dr6;
+	uint32_t	Dr7;
+	uint32_t	SegGs;
+	uint32_t	SegEs;
+	uint32_t	SegDs;
+	uint32_t	Edx;
+	uint32_t	Ecx;
+	uint32_t	Eax;
+	uint32_t	PreviousPreviousMode;
+	struct _EXCEPTION_REGISTRATION_RECORDstruct Ptr32	ExceptionList;
+	uint32_t	SegFs;
+	uint32_t	Edi;
+	uint32_t	Esi;
+	uint32_t	Ebx;
+	uint32_t	Ebp;
+	uint32_t	ErrCode;
+	uint32_t	Eip;
+	uint32_t	SegCs;
+	uint32_t	EFlags;
+	uint32_t	HardwareEsp;
+	uint32_t	HardwareSegSs;
+	uint32_t	V86Es;
+	uint32_t	V86Ds;
+	uint32_t	V86Fs;
+	uint32_t	V86Gs;
+}__attribute__((packed));

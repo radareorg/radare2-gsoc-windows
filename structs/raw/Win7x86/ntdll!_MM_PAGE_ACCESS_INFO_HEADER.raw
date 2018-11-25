@@ -1,0 +1,14 @@
+   +0x000 Link             : _SINGLE_LIST_ENTRY
+   +0x004 Type             : _MM_PAGE_ACCESS_TYPE
+   +0x008 EmptySequenceNumber : Uint4B
+   +0x008 CurrentFileIndex : Uint4B
+   +0x010 CreateTime       : Uint8B
+   +0x018 EmptyTime        : Uint8B
+   +0x018 TempEntry        : Ptr32 _MM_PAGE_ACCESS_INFO
+   +0x020 PageEntry        : Ptr32 _MM_PAGE_ACCESS_INFO
+   +0x024 FileEntry        : Ptr32 Uint4B
+   +0x028 FirstFileEntry   : Ptr32 Uint4B
+   +0x02c Process          : Ptr32 _EPROCESS
+   +0x030 SessionId        : Uint4B
+   +0x020 PageFrameEntry   : Ptr32 Uint4B
+   +0x024 LastPageFrameEntry : Ptr32 Uint4B

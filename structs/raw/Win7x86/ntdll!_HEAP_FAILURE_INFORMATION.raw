@@ -1,0 +1,13 @@
+   +0x000 Version          : Uint4B
+   +0x004 StructureSize    : Uint4B
+   +0x008 FailureType      : _HEAP_FAILURE_TYPE
+   +0x00c HeapAddress      : Ptr32 Void
+   +0x010 Address          : Ptr32 Void
+   +0x014 Param1           : Ptr32 Void
+   +0x018 Param2           : Ptr32 Void
+   +0x01c Param3           : Ptr32 Void
+   +0x020 PreviousBlock    : Ptr32 _HEAP_ENTRY
+   +0x024 NextBlock        : Ptr32 _HEAP_ENTRY
+   +0x028 ExpectedEncodedEntry : _HEAP_ENTRY
+   +0x030 ExpectedDecodedEntry : _HEAP_ENTRY
+   +0x038 StackTrace       : [32] Ptr32 Void

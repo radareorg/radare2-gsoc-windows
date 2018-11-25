@@ -1,0 +1,9 @@
+   +0x000 ControlWord      : Uint4B
+   +0x004 StatusWord       : Uint4B
+   +0x008 TagWord          : Uint4B
+   +0x00c ErrorOffset      : Uint4B
+   +0x010 ErrorSelector    : Uint4B
+   +0x014 DataOffset       : Uint4B
+   +0x018 DataSelector     : Uint4B
+   +0x01c RegisterArea     : [80] UChar
+   +0x06c Cr0NpxState      : Uint4B

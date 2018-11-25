@@ -1,0 +1,14 @@
+   +0x000 SystemResourcesList : _LIST_ENTRY
+   +0x008 OwnerTable       : Ptr32 _OWNER_ENTRY
+   +0x00c ActiveCount      : Int2B
+   +0x00e Flag             : Uint2B
+   +0x010 SharedWaiters    : Ptr32 _KSEMAPHORE
+   +0x014 ExclusiveWaiters : Ptr32 _KEVENT
+   +0x018 OwnerEntry       : _OWNER_ENTRY
+   +0x020 ActiveEntries    : Uint4B
+   +0x024 ContentionCount  : Uint4B
+   +0x028 NumberOfSharedWaiters : Uint4B
+   +0x02c NumberOfExclusiveWaiters : Uint4B
+   +0x030 Address          : Ptr32 Void
+   +0x030 CreatorBackTraceIndex : Uint4B
+   +0x034 SpinLock         : Uint4B

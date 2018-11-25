@@ -1,0 +1,8 @@
+   +0x000 Next             : Ptr32 _MDL
+   +0x004 Size             : Int2B
+   +0x006 MdlFlags         : Int2B
+   +0x008 Process          : Ptr32 _EPROCESS
+   +0x00c MappedSystemVa   : Ptr32 Void
+   +0x010 StartVa          : Ptr32 Void
+   +0x014 ByteCount        : Uint4B
+   +0x018 ByteOffset       : Uint4B

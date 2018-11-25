@@ -1,0 +1,7 @@
+   +0x000 CompressionFormatAndEngine : Uint2B
+   +0x002 CompressionUnitShift : UChar
+   +0x003 ChunkShift       : UChar
+   +0x004 ClusterShift     : UChar
+   +0x005 Reserved         : UChar
+   +0x006 NumberOfChunks   : Uint2B
+   +0x008 CompressedChunkSizes : [1] Uint4B

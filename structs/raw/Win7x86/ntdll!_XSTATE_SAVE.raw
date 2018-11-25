@@ -1,0 +1,8 @@
+   +0x000 Reserved1        : Int8B
+   +0x008 Reserved2        : Uint4B
+   +0x00c Prev             : Ptr32 _XSTATE_SAVE
+   +0x010 Reserved3        : Ptr32 _XSAVE_AREA
+   +0x014 Thread           : Ptr32 _KTHREAD
+   +0x018 Reserved4        : Ptr32 Void
+   +0x01c Level            : UChar
+   +0x000 XStateContext    : _XSTATE_CONTEXT

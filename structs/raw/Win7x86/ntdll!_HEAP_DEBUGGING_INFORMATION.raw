@@ -1,0 +1,7 @@
+   +0x000 InterceptorFunction : Ptr32 Void
+   +0x004 InterceptorValue : Uint2B
+   +0x008 ExtendedOptions  : Uint4B
+   +0x00c StackTraceDepth  : Uint4B
+   +0x010 MinTotalBlockSize : Uint4B
+   +0x014 MaxTotalBlockSize : Uint4B
+   +0x018 HeapLeakEnumerationRoutine : Ptr32     long 

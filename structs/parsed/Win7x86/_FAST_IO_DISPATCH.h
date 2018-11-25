@@ -1,0 +1,31 @@
+
+struct _FAST_IO_DISPATCH {
+	uint32_t	SizeOfFastIoDispatch;
+	struct charstruct unsignedstruct Ptr32	FastIoCheckIfPossible;
+	struct charstruct unsignedstruct Ptr32	FastIoRead;
+	struct charstruct unsignedstruct Ptr32	FastIoWrite;
+	struct charstruct unsignedstruct Ptr32	FastIoQueryBasicInfo;
+	struct charstruct unsignedstruct Ptr32	FastIoQueryStandardInfo;
+	struct charstruct unsignedstruct Ptr32	FastIoLock;
+	struct charstruct unsignedstruct Ptr32	FastIoUnlockSingle;
+	struct charstruct unsignedstruct Ptr32	FastIoUnlockAll;
+	struct charstruct unsignedstruct Ptr32	FastIoUnlockAllByKey;
+	struct charstruct unsignedstruct Ptr32	FastIoDeviceControl;
+	voidstruct Ptr32	AcquireFileForNtCreateSection;
+	voidstruct Ptr32	ReleaseFileForNtCreateSection;
+	voidstruct Ptr32	FastIoDetachDevice;
+	struct charstruct unsignedstruct Ptr32	FastIoQueryNetworkOpenInfo;
+	struct longstruct Ptr32	AcquireForModWrite;
+	struct charstruct unsignedstruct Ptr32	MdlRead;
+	struct charstruct unsignedstruct Ptr32	MdlReadComplete;
+	struct charstruct unsignedstruct Ptr32	PrepareMdlWrite;
+	struct charstruct unsignedstruct Ptr32	MdlWriteComplete;
+	struct charstruct unsignedstruct Ptr32	FastIoReadCompressed;
+	struct charstruct unsignedstruct Ptr32	FastIoWriteCompressed;
+	struct charstruct unsignedstruct Ptr32	MdlReadCompleteCompressed;
+	struct charstruct unsignedstruct Ptr32	MdlWriteCompleteCompressed;
+	struct charstruct unsignedstruct Ptr32	FastIoQueryOpen;
+	struct longstruct Ptr32	ReleaseForModWrite;
+	struct longstruct Ptr32	AcquireForCcFlush;
+	struct longstruct Ptr32	ReleaseForCcFlush;
+}__attribute__((packed));

@@ -1,0 +1,7 @@
+   +0x000 Signature        : Pos 0, 16 Bits
+   +0x000 Length           : Pos 16, 24 Bits
+   +0x000 Identifier       : Pos 40, 16 Bits
+   +0x000 Attributes       : Pos 56, 2 Bits
+   +0x000 DoNotLog         : Pos 58, 1 Bit
+   +0x000 Reserved         : Pos 59, 5 Bits
+   +0x000 AsULONGLONG      : Uint8B

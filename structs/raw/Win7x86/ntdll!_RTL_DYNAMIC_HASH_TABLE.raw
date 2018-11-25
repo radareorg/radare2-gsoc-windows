@@ -1,0 +1,9 @@
+   +0x000 Flags            : Uint4B
+   +0x004 Shift            : Uint4B
+   +0x008 TableSize        : Uint4B
+   +0x00c Pivot            : Uint4B
+   +0x010 DivisorMask      : Uint4B
+   +0x014 NumEntries       : Uint4B
+   +0x018 NonEmptyBuckets  : Uint4B
+   +0x01c NumEnumerators   : Uint4B
+   +0x020 Directory        : Ptr32 Void

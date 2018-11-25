@@ -1,0 +1,8 @@
+   +0x000 PreviousError    : Pos 0, 1 Bit
+   +0x000 Reserved1        : Pos 1, 1 Bit
+   +0x000 HypervisorError  : Pos 2, 1 Bit
+   +0x000 Simulated        : Pos 3, 1 Bit
+   +0x000 PlatformPfaControl : Pos 4, 1 Bit
+   +0x000 PlatformDirectedOffline : Pos 5, 1 Bit
+   +0x000 Reserved2        : Pos 6, 26 Bits
+   +0x000 AsULONG          : Uint4B

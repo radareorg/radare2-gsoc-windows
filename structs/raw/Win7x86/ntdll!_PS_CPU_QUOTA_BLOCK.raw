@@ -1,0 +1,14 @@
+   +0x000 ListEntry        : _LIST_ENTRY
+   +0x008 SessionId        : Uint4B
+   +0x00c CpuShareWeight   : Uint4B
+   +0x010 CapturedWeightData : _PSP_CPU_SHARE_CAPTURED_WEIGHT_DATA
+   +0x018 DuplicateInputMarker : Pos 0, 1 Bit
+   +0x018 Reserved         : Pos 1, 31 Bits
+   +0x018 MiscFlags        : Int4B
+   +0x000 BlockCurrentGenerationLock : Uint4B
+   +0x008 CyclesAccumulated : Uint8B
+   +0x040 CycleCredit      : Uint8B
+   +0x048 BlockCurrentGeneration : Uint4B
+   +0x04c CpuCyclePercent  : Uint4B
+   +0x050 CyclesFinishedForCurrentGeneration : UChar
+   +0x080 Cpu              : [32] _PS_PER_CPU_QUOTA_CACHE_AWARE

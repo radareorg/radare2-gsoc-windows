@@ -1,0 +1,42 @@
+   +0x000 Event            : _KEVENT
+   +0x010 JobLinks         : _LIST_ENTRY
+   +0x018 ProcessListHead  : _LIST_ENTRY
+   +0x020 JobLock          : _ERESOURCE
+   +0x058 TotalUserTime    : _LARGE_INTEGER
+   +0x060 TotalKernelTime  : _LARGE_INTEGER
+   +0x068 ThisPeriodTotalUserTime : _LARGE_INTEGER
+   +0x070 ThisPeriodTotalKernelTime : _LARGE_INTEGER
+   +0x078 TotalPageFaultCount : Uint4B
+   +0x07c TotalProcesses   : Uint4B
+   +0x080 ActiveProcesses  : Uint4B
+   +0x084 TotalTerminatedProcesses : Uint4B
+   +0x088 PerProcessUserTimeLimit : _LARGE_INTEGER
+   +0x090 PerJobUserTimeLimit : _LARGE_INTEGER
+   +0x098 MinimumWorkingSetSize : Uint4B
+   +0x09c MaximumWorkingSetSize : Uint4B
+   +0x0a0 LimitFlags       : Uint4B
+   +0x0a4 ActiveProcessLimit : Uint4B
+   +0x0a8 Affinity         : _KAFFINITY_EX
+   +0x0b4 PriorityClass    : UChar
+   +0x0b8 AccessState      : Ptr32 _JOB_ACCESS_STATE
+   +0x0bc UIRestrictionsClass : Uint4B
+   +0x0c0 EndOfJobTimeAction : Uint4B
+   +0x0c4 CompletionPort   : Ptr32 Void
+   +0x0c8 CompletionKey    : Ptr32 Void
+   +0x0cc SessionId        : Uint4B
+   +0x0d0 SchedulingClass  : Uint4B
+   +0x0d8 ReadOperationCount : Uint8B
+   +0x0e0 WriteOperationCount : Uint8B
+   +0x0e8 OtherOperationCount : Uint8B
+   +0x0f0 ReadTransferCount : Uint8B
+   +0x0f8 WriteTransferCount : Uint8B
+   +0x100 OtherTransferCount : Uint8B
+   +0x108 ProcessMemoryLimit : Uint4B
+   +0x10c JobMemoryLimit   : Uint4B
+   +0x110 PeakProcessMemoryUsed : Uint4B
+   +0x114 PeakJobMemoryUsed : Uint4B
+   +0x118 CurrentJobMemoryUsed : Uint8B
+   +0x120 MemoryLimitsLock : _EX_PUSH_LOCK
+   +0x124 JobSetLinks      : _LIST_ENTRY
+   +0x12c MemberLevel      : Uint4B
+   +0x130 JobFlags         : Uint4B

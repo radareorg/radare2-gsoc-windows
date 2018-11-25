@@ -1,0 +1,14 @@
+   +0x000 pNextAlloc       : Ptr32 _DPH_HEAP_BLOCK
+   +0x000 AvailableEntry   : _LIST_ENTRY
+   +0x000 TableLinks       : _RTL_BALANCED_LINKS
+   +0x010 pUserAllocation  : Ptr32 UChar
+   +0x014 pVirtualBlock    : Ptr32 UChar
+   +0x018 nVirtualBlockSize : Uint4B
+   +0x01c nVirtualAccessSize : Uint4B
+   +0x020 nUserRequestedSize : Uint4B
+   +0x024 nUserActualSize  : Uint4B
+   +0x028 UserValue        : Ptr32 Void
+   +0x02c UserFlags        : Uint4B
+   +0x030 StackTrace       : Ptr32 _RTL_TRACE_BLOCK
+   +0x034 AdjacencyEntry   : _LIST_ENTRY
+   +0x03c pVirtualRegion   : Ptr32 UChar

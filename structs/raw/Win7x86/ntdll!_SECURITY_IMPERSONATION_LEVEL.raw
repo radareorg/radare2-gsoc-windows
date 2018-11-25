@@ -1,0 +1,4 @@
+   SecurityAnonymous = 0n0
+   SecurityIdentification = 0n1
+   SecurityImpersonation = 0n2
+   SecurityDelegation = 0n3

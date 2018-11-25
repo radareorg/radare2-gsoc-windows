@@ -1,0 +1,8 @@
+   +0x000 Flags            : UChar
+   +0x000 State            : Pos 0, 2 Bits
+   +0x000 Affinity         : Pos 2, 1 Bit
+   +0x000 Priority         : Pos 3, 1 Bit
+   +0x000 Apc              : Pos 4, 1 Bit
+   +0x000 UserApc          : Pos 5, 1 Bit
+   +0x000 Alert            : Pos 6, 1 Bit
+   +0x000 Unused           : Pos 7, 1 Bit

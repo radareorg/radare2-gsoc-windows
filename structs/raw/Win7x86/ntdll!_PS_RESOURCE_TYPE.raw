@@ -1,0 +1,6 @@
+   PsResourceNonPagedPool = 0n0
+   PsResourcePagedPool = 0n1
+   PsResourcePageFile = 0n2
+   PsResourceWorkingSet = 0n3
+   PsResourceCpuRate = 0n4
+   PsResourceMax = 0n5

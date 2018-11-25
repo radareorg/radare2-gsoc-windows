@@ -1,0 +1,6 @@
+   +0x000 Type             : Int2B
+   +0x002 TimerFlag        : Int2B
+   +0x004 TimerList        : _LIST_ENTRY
+   +0x00c TimerRoutine     : Ptr32     void 
+   +0x010 Context          : Ptr32 Void
+   +0x014 DeviceObject     : Ptr32 _DEVICE_OBJECT

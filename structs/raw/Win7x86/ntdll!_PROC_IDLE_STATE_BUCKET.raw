@@ -1,0 +1,4 @@
+   +0x000 TotalTime        : Uint8B
+   +0x008 MinTime          : Uint8B
+   +0x010 MaxTime          : Uint8B
+   +0x018 Count            : Uint4B

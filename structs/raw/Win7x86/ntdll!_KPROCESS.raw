@@ -1,0 +1,34 @@
+   +0x000 Header           : _DISPATCHER_HEADER
+   +0x010 ProfileListHead  : _LIST_ENTRY
+   +0x018 DirectoryTableBase : Uint4B
+   +0x01c LdtDescriptor    : _KGDTENTRY
+   +0x024 Int21Descriptor  : _KIDTENTRY
+   +0x02c ThreadListHead   : _LIST_ENTRY
+   +0x034 ProcessLock      : Uint4B
+   +0x038 Affinity         : _KAFFINITY_EX
+   +0x044 ReadyListHead    : _LIST_ENTRY
+   +0x04c SwapListEntry    : _SINGLE_LIST_ENTRY
+   +0x050 ActiveProcessors : _KAFFINITY_EX
+   +0x05c AutoAlignment    : Pos 0, 1 Bit
+   +0x05c DisableBoost     : Pos 1, 1 Bit
+   +0x05c DisableQuantum   : Pos 2, 1 Bit
+   +0x05c ActiveGroupsMask : Pos 3, 1 Bit
+   +0x05c ReservedFlags    : Pos 4, 28 Bits
+   +0x05c ProcessFlags     : Int4B
+   +0x060 BasePriority     : Char
+   +0x061 QuantumReset     : Char
+   +0x062 Visited          : UChar
+   +0x063 Unused3          : UChar
+   +0x064 ThreadSeed       : [1] Uint4B
+   +0x068 IdealNode        : [1] Uint2B
+   +0x06a IdealGlobalNode  : Uint2B
+   +0x06c Flags            : _KEXECUTE_OPTIONS
+   +0x06d AddressPolicy    : UChar
+   +0x06e IopmOffset       : Uint2B
+   +0x070 Unused4          : Uint4B
+   +0x074 StackCount       : _KSTACK_COUNT
+   +0x078 ProcessListEntry : _LIST_ENTRY
+   +0x080 CycleTime        : Uint8B
+   +0x088 KernelTime       : Uint4B
+   +0x08c UserTime         : Uint4B
+   +0x090 VdmTrapcHandler  : Ptr32 Void

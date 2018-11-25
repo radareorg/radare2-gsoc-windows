@@ -1,0 +1,3 @@
+   +0x000 LowPart          : Uint4B
+   +0x004 High1Time        : Int4B
+   +0x008 High2Time        : Int4B

@@ -1,0 +1,13 @@
+   +0x000 DomainMembers    : _KAFFINITY_EX
+   +0x00c IdleCheck        : Ptr32     long 
+   +0x010 IdleHandler      : Ptr32     void 
+   +0x014 Context          : Ptr32 Void
+   +0x018 Latency          : Uint4B
+   +0x01c Power            : Uint4B
+   +0x020 TimeCheck        : Uint4B
+   +0x024 StateFlags       : Uint4B
+   +0x028 PromotePercent   : UChar
+   +0x029 DemotePercent    : UChar
+   +0x02a PromotePercentBase : UChar
+   +0x02b DemotePercentBase : UChar
+   +0x02c StateType        : UChar

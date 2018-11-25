@@ -1,0 +1,27 @@
+   +0x000 IdleStates       : Ptr32 _PPM_IDLE_STATES
+   +0x008 IdleTimeLast     : Uint8B
+   +0x010 IdleTimeTotal    : Uint8B
+   +0x018 IdleTimeEntry    : Uint8B
+   +0x020 IdleAccounting   : Ptr32 _PROC_IDLE_ACCOUNTING
+   +0x024 Hypervisor       : _PROC_HYPERVISOR_STATE
+   +0x028 PerfHistoryTotal : Uint4B
+   +0x02c ThermalConstraint : UChar
+   +0x02d PerfHistoryCount : UChar
+   +0x02e PerfHistorySlot  : UChar
+   +0x02f Reserved         : UChar
+   +0x030 LastSysTime      : Uint4B
+   +0x034 WmiDispatchPtr   : Uint4B
+   +0x038 WmiInterfaceEnabled : Int4B
+   +0x040 FFHThrottleStateInfo : _PPM_FFH_THROTTLE_STATE_INFO
+   +0x060 PerfActionDpc    : _KDPC
+   +0x080 PerfActionMask   : Int4B
+   +0x088 IdleCheck        : _PROC_IDLE_SNAP
+   +0x098 PerfCheck        : _PROC_IDLE_SNAP
+   +0x0a8 Domain           : Ptr32 _PROC_PERF_DOMAIN
+   +0x0ac PerfConstraint   : Ptr32 _PROC_PERF_CONSTRAINT
+   +0x0b0 Load             : Ptr32 _PROC_PERF_LOAD
+   +0x0b4 PerfHistory      : Ptr32 _PROC_HISTORY_ENTRY
+   +0x0b8 Utility          : Uint4B
+   +0x0bc OverUtilizedHistory : Uint4B
+   +0x0c0 AffinityCount    : Uint4B
+   +0x0c4 AffinityHistory  : Uint4B

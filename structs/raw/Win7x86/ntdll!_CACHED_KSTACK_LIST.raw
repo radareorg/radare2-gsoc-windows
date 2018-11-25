@@ -1,0 +1,5 @@
+   +0x000 SListHead        : _SLIST_HEADER
+   +0x008 MinimumFree      : Int4B
+   +0x00c Misses           : Uint4B
+   +0x010 MissesLast       : Uint4B
+   +0x014 Pad0             : Uint4B

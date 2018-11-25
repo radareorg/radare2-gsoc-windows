@@ -1,0 +1,6 @@
+   +0x000 BalancedRoot     : _MMADDRESS_NODE
+   +0x014 DepthOfTree      : Pos 0, 5 Bits
+   +0x014 Unused           : Pos 5, 3 Bits
+   +0x014 NumberGenericTableElements : Pos 8, 24 Bits
+   +0x018 NodeHint         : Ptr32 Void
+   +0x01c NodeFreeHint     : Ptr32 Void

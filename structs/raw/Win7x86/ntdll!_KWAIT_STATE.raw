@@ -1,0 +1,4 @@
+   WaitInProgress = 0n0
+   WaitCommitted = 0n1
+   WaitAborted = 0n2
+   MaximumWaitState = 0n3

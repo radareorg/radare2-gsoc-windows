@@ -1,0 +1,9 @@
+   +0x000 Prcb             : Ptr32 _KPRCB
+   +0x004 PerfContext      : Uint4B
+   +0x008 PercentageCap    : Uint4B
+   +0x00c ThermalCap       : Uint4B
+   +0x010 TargetFrequency  : Uint4B
+   +0x014 AcumulatedFullFrequency : Uint4B
+   +0x018 AcumulatedZeroFrequency : Uint4B
+   +0x01c FrequencyHistoryTotal : Uint4B
+   +0x020 AverageFrequency : Uint4B

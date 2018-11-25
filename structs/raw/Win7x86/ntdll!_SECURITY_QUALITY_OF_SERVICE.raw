@@ -1,0 +1,4 @@
+   +0x000 Length           : Uint4B
+   +0x004 ImpersonationLevel : _SECURITY_IMPERSONATION_LEVEL
+   +0x008 ContextTrackingMode : UChar
+   +0x009 EffectiveOnly    : UChar

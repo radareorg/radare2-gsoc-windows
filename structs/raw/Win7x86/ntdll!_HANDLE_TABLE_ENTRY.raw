@@ -1,0 +1,8 @@
+   +0x000 Object           : Ptr32 Void
+   +0x000 ObAttributes     : Uint4B
+   +0x000 InfoTable        : Ptr32 _HANDLE_TABLE_ENTRY_INFO
+   +0x000 Value            : Uint4B
+   +0x004 GrantedAccess    : Uint4B
+   +0x004 GrantedAccessIndex : Uint2B
+   +0x006 CreatorBackTraceIndex : Uint2B
+   +0x004 NextFreeTableEntry : Uint4B

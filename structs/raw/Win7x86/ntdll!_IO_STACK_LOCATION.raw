@@ -1,0 +1,9 @@
+   +0x000 MajorFunction    : UChar
+   +0x001 MinorFunction    : UChar
+   +0x002 Flags            : UChar
+   +0x003 Control          : UChar
+   +0x004 Parameters       : <unnamed-tag>
+   +0x014 DeviceObject     : Ptr32 _DEVICE_OBJECT
+   +0x018 FileObject       : Ptr32 _FILE_OBJECT
+   +0x01c CompletionRoutine : Ptr32     long 
+   +0x020 Context          : Ptr32 Void

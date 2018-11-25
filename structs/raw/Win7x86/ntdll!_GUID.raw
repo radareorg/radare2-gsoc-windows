@@ -1,0 +1,4 @@
+   +0x000 Data1            : Uint4B
+   +0x004 Data2            : Uint2B
+   +0x006 Data3            : Uint2B
+   +0x008 Data4            : [8] UChar

@@ -1,0 +1,4 @@
+   CacheUnified = 0n0
+   CacheInstruction = 0n1
+   CacheData = 0n2
+   CacheTrace = 0n3

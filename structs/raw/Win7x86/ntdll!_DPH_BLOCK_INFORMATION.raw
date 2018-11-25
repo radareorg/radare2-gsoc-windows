@@ -1,0 +1,9 @@
+   +0x000 StartStamp       : Uint4B
+   +0x004 Heap             : Ptr32 Void
+   +0x008 RequestedSize    : Uint4B
+   +0x00c ActualSize       : Uint4B
+   +0x010 FreeQueue        : _LIST_ENTRY
+   +0x010 FreePushList     : _SINGLE_LIST_ENTRY
+   +0x010 TraceIndex       : Uint2B
+   +0x018 StackTrace       : Ptr32 Void
+   +0x01c EndStamp         : Uint4B

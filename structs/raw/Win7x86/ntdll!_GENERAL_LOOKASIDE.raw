@@ -1,0 +1,22 @@
+   +0x000 ListHead         : _SLIST_HEADER
+   +0x000 SingleListHead   : _SINGLE_LIST_ENTRY
+   +0x008 Depth            : Uint2B
+   +0x00a MaximumDepth     : Uint2B
+   +0x00c TotalAllocates   : Uint4B
+   +0x010 AllocateMisses   : Uint4B
+   +0x010 AllocateHits     : Uint4B
+   +0x014 TotalFrees       : Uint4B
+   +0x018 FreeMisses       : Uint4B
+   +0x018 FreeHits         : Uint4B
+   +0x01c Type             : _POOL_TYPE
+   +0x020 Tag              : Uint4B
+   +0x024 Size             : Uint4B
+   +0x028 AllocateEx       : Ptr32     void* 
+   +0x028 Allocate         : Ptr32     void* 
+   +0x02c FreeEx           : Ptr32     void 
+   +0x02c Free             : Ptr32     void 
+   +0x030 ListEntry        : _LIST_ENTRY
+   +0x038 LastTotalAllocates : Uint4B
+   +0x03c LastAllocateMisses : Uint4B
+   +0x03c LastAllocateHits : Uint4B
+   +0x040 Future           : [2] Uint4B

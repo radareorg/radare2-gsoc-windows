@@ -1,0 +1,24 @@
+   +0x000 Type             : Int2B
+   +0x002 Size             : Int2B
+   +0x004 InterruptListEntry : _LIST_ENTRY
+   +0x00c ServiceRoutine   : Ptr32     unsigned char 
+   +0x010 MessageServiceRoutine : Ptr32     unsigned char 
+   +0x014 MessageIndex     : Uint4B
+   +0x018 ServiceContext   : Ptr32 Void
+   +0x01c SpinLock         : Uint4B
+   +0x020 TickCount        : Uint4B
+   +0x024 ActualLock       : Ptr32 Uint4B
+   +0x028 DispatchAddress  : Ptr32     void 
+   +0x02c Vector           : Uint4B
+   +0x030 Irql             : UChar
+   +0x031 SynchronizeIrql  : UChar
+   +0x032 FloatingSave     : UChar
+   +0x033 Connected        : UChar
+   +0x034 Number           : Uint4B
+   +0x038 ShareVector      : UChar
+   +0x039 Pad              : [3] Char
+   +0x03c Mode             : _KINTERRUPT_MODE
+   +0x040 Polarity         : _KINTERRUPT_POLARITY
+   +0x044 ServiceCount     : Uint4B
+   +0x048 DispatchCount    : Uint4B
+   +0x050 Rsvd1            : Uint8B

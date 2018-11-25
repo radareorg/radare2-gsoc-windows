@@ -1,0 +1,9 @@
+   +0x000 ExtendedLookup   : Ptr32 _HEAP_LIST_LOOKUP
+   +0x004 ArraySize        : Uint4B
+   +0x008 ExtraItem        : Uint4B
+   +0x00c ItemCount        : Uint4B
+   +0x010 OutOfRangeItems  : Uint4B
+   +0x014 BaseIndex        : Uint4B
+   +0x018 ListHead         : Ptr32 _LIST_ENTRY
+   +0x01c ListsInUseUlong  : Ptr32 Uint4B
+   +0x020 ListHints        : Ptr32 Ptr32 _LIST_ENTRY

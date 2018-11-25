@@ -1,0 +1,18 @@
+   +0x000 ControlWord      : Uint2B
+   +0x002 StatusWord       : Uint2B
+   +0x004 TagWord          : UChar
+   +0x005 Reserved1        : UChar
+   +0x006 ErrorOpcode      : Uint2B
+   +0x008 ErrorOffset      : Uint4B
+   +0x00c ErrorSelector    : Uint2B
+   +0x00e Reserved2        : Uint2B
+   +0x010 DataOffset       : Uint4B
+   +0x014 DataSelector     : Uint2B
+   +0x016 Reserved3        : Uint2B
+   +0x018 MxCsr            : Uint4B
+   +0x01c MxCsr_Mask       : Uint4B
+   +0x020 FloatRegisters   : [8] _M128A
+   +0x0a0 XmmRegisters     : [8] _M128A
+   +0x120 Reserved4        : [192] UChar
+   +0x1e0 StackControl     : [7] Uint4B
+   +0x1fc Cr0NpxState      : Uint4B

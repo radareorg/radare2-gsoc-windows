@@ -1,0 +1,6 @@
+   +0x000 DebugInfo        : Ptr32 _RTL_CRITICAL_SECTION_DEBUG
+   +0x004 LockCount        : Int4B
+   +0x008 RecursionCount   : Int4B
+   +0x00c OwningThread     : Ptr32 Void
+   +0x010 LockSemaphore    : Ptr32 Void
+   +0x014 SpinCount        : Uint4B

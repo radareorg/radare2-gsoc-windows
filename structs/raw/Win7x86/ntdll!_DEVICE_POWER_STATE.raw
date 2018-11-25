@@ -1,0 +1,6 @@
+   PowerDeviceUnspecified = 0n0
+   PowerDeviceD0 = 0n1
+   PowerDeviceD1 = 0n2
+   PowerDeviceD2 = 0n3
+   PowerDeviceD3 = 0n4
+   PowerDeviceMaximum = 0n5

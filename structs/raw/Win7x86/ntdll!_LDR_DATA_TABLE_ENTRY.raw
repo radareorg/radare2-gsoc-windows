@@ -1,0 +1,24 @@
+   +0x000 InLoadOrderLinks : _LIST_ENTRY
+   +0x008 InMemoryOrderLinks : _LIST_ENTRY
+   +0x010 InInitializationOrderLinks : _LIST_ENTRY
+   +0x018 DllBase          : Ptr32 Void
+   +0x01c EntryPoint       : Ptr32 Void
+   +0x020 SizeOfImage      : Uint4B
+   +0x024 FullDllName      : _UNICODE_STRING
+   +0x02c BaseDllName      : _UNICODE_STRING
+   +0x034 Flags            : Uint4B
+   +0x038 LoadCount        : Uint2B
+   +0x03a TlsIndex         : Uint2B
+   +0x03c HashLinks        : _LIST_ENTRY
+   +0x03c SectionPointer   : Ptr32 Void
+   +0x040 CheckSum         : Uint4B
+   +0x044 TimeDateStamp    : Uint4B
+   +0x044 LoadedImports    : Ptr32 Void
+   +0x048 EntryPointActivationContext : Ptr32 _ACTIVATION_CONTEXT
+   +0x04c PatchInformation : Ptr32 Void
+   +0x050 ForwarderLinks   : _LIST_ENTRY
+   +0x058 ServiceTagLinks  : _LIST_ENTRY
+   +0x060 StaticLinks      : _LIST_ENTRY
+   +0x068 ContextInformation : Ptr32 Void
+   +0x06c OriginalBase     : Uint4B
+   +0x070 LoadTime         : _LARGE_INTEGER

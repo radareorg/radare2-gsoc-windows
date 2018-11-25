@@ -1,0 +1,25 @@
+   +0x000 Type             : Int2B
+   +0x002 Size             : Uint2B
+   +0x004 ReferenceCount   : Int4B
+   +0x008 DriverObject     : Ptr32 _DRIVER_OBJECT
+   +0x00c NextDevice       : Ptr32 _DEVICE_OBJECT
+   +0x010 AttachedDevice   : Ptr32 _DEVICE_OBJECT
+   +0x014 CurrentIrp       : Ptr32 _IRP
+   +0x018 Timer            : Ptr32 _IO_TIMER
+   +0x01c Flags            : Uint4B
+   +0x020 Characteristics  : Uint4B
+   +0x024 Vpb              : Ptr32 _VPB
+   +0x028 DeviceExtension  : Ptr32 Void
+   +0x02c DeviceType       : Uint4B
+   +0x030 StackSize        : Char
+   +0x034 Queue            : <unnamed-tag>
+   +0x05c AlignmentRequirement : Uint4B
+   +0x060 DeviceQueue      : _KDEVICE_QUEUE
+   +0x074 Dpc              : _KDPC
+   +0x094 ActiveThreadCount : Uint4B
+   +0x098 SecurityDescriptor : Ptr32 Void
+   +0x09c DeviceLock       : _KEVENT
+   +0x0ac SectorSize       : Uint2B
+   +0x0ae Spare1           : Uint2B
+   +0x0b0 DeviceObjectExtension : Ptr32 _DEVOBJ_EXTENSION
+   +0x0b4 Reserved         : Ptr32 Void

@@ -1,0 +1,5 @@
+   +0x000 SFreeListEntry   : _SINGLE_LIST_ENTRY
+   +0x000 SubSegment       : Ptr32 _HEAP_SUBSEGMENT
+   +0x004 Reserved         : Ptr32 Void
+   +0x008 SizeIndex        : Uint4B
+   +0x00c Signature        : Uint4B

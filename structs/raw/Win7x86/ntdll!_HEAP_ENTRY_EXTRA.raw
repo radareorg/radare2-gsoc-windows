@@ -1,0 +1,4 @@
+   +0x000 AllocatorBackTraceIndex : Uint2B
+   +0x002 TagIndex         : Uint2B
+   +0x004 Settable         : Uint4B
+   +0x000 ZeroInit         : Uint8B

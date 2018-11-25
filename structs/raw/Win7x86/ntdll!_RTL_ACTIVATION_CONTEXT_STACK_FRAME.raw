@@ -1,0 +1,3 @@
+   +0x000 Previous         : Ptr32 _RTL_ACTIVATION_CONTEXT_STACK_FRAME
+   +0x004 ActivationContext : Ptr32 _ACTIVATION_CONTEXT
+   +0x008 Flags            : Uint4B

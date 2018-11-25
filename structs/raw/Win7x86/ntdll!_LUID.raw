@@ -1,0 +1,2 @@
+   +0x000 LowPart          : Uint4B
+   +0x004 HighPart         : Int4B

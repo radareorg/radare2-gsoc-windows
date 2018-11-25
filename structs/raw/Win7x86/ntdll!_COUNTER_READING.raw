@@ -1,0 +1,4 @@
+   +0x000 Type             : _HARDWARE_COUNTER_TYPE
+   +0x004 Index            : Uint4B
+   +0x008 Start            : Uint8B
+   +0x010 Total            : Uint8B

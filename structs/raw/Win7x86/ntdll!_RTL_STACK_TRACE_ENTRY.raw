@@ -1,0 +1,8 @@
+   +0x000 HashChain        : _RTL_STD_LIST_ENTRY
+   +0x004 TraceCount       : Pos 0, 11 Bits
+   +0x004 BlockDepth       : Pos 11, 5 Bits
+   +0x006 IndexHigh        : Uint2B
+   +0x008 Index            : Uint2B
+   +0x00a Depth            : Uint2B
+   +0x00c BackTrace        : [32] Ptr32 Void
+   +0x00c FreeChain        : _SINGLE_LIST_ENTRY

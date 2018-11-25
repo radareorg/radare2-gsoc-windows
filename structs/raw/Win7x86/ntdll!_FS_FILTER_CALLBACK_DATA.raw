@@ -1,0 +1,6 @@
+   +0x000 SizeOfFsFilterCallbackData : Uint4B
+   +0x004 Operation        : UChar
+   +0x005 Reserved         : UChar
+   +0x008 DeviceObject     : Ptr32 _DEVICE_OBJECT
+   +0x00c FileObject       : Ptr32 _FILE_OBJECT
+   +0x010 Parameters       : _FS_FILTER_PARAMETERS

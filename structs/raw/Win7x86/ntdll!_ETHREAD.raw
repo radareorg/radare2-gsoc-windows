@@ -1,0 +1,89 @@
+   +0x000 Tcb              : _KTHREAD
+   +0x200 CreateTime       : _LARGE_INTEGER
+   +0x208 ExitTime         : _LARGE_INTEGER
+   +0x208 KeyedWaitChain   : _LIST_ENTRY
+   +0x210 ExitStatus       : Int4B
+   +0x214 PostBlockList    : _LIST_ENTRY
+   +0x214 ForwardLinkShadow : Ptr32 Void
+   +0x218 StartAddress     : Ptr32 Void
+   +0x21c TerminationPort  : Ptr32 _TERMINATION_PORT
+   +0x21c ReaperLink       : Ptr32 _ETHREAD
+   +0x21c KeyedWaitValue   : Ptr32 Void
+   +0x220 ActiveTimerListLock : Uint4B
+   +0x224 ActiveTimerListHead : _LIST_ENTRY
+   +0x22c Cid              : _CLIENT_ID
+   +0x234 KeyedWaitSemaphore : _KSEMAPHORE
+   +0x234 AlpcWaitSemaphore : _KSEMAPHORE
+   +0x248 ClientSecurity   : _PS_CLIENT_SECURITY_CONTEXT
+   +0x24c IrpList          : _LIST_ENTRY
+   +0x254 TopLevelIrp      : Uint4B
+   +0x258 DeviceToVerify   : Ptr32 _DEVICE_OBJECT
+   +0x25c CpuQuotaApc      : Ptr32 _PSP_CPU_QUOTA_APC
+   +0x260 Win32StartAddress : Ptr32 Void
+   +0x264 LegacyPowerObject : Ptr32 Void
+   +0x268 ThreadListEntry  : _LIST_ENTRY
+   +0x270 RundownProtect   : _EX_RUNDOWN_REF
+   +0x274 ThreadLock       : _EX_PUSH_LOCK
+   +0x278 ReadClusterSize  : Uint4B
+   +0x27c MmLockOrdering   : Int4B
+   +0x280 CrossThreadFlags : Uint4B
+   +0x280 Terminated       : Pos 0, 1 Bit
+   +0x280 ThreadInserted   : Pos 1, 1 Bit
+   +0x280 HideFromDebugger : Pos 2, 1 Bit
+   +0x280 ActiveImpersonationInfo : Pos 3, 1 Bit
+   +0x280 Reserved         : Pos 4, 1 Bit
+   +0x280 HardErrorsAreDisabled : Pos 5, 1 Bit
+   +0x280 BreakOnTermination : Pos 6, 1 Bit
+   +0x280 SkipCreationMsg  : Pos 7, 1 Bit
+   +0x280 SkipTerminationMsg : Pos 8, 1 Bit
+   +0x280 CopyTokenOnOpen  : Pos 9, 1 Bit
+   +0x280 ThreadIoPriority : Pos 10, 3 Bits
+   +0x280 ThreadPagePriority : Pos 13, 3 Bits
+   +0x280 RundownFail      : Pos 16, 1 Bit
+   +0x280 NeedsWorkingSetAging : Pos 17, 1 Bit
+   +0x284 SameThreadPassiveFlags : Uint4B
+   +0x284 ActiveExWorker   : Pos 0, 1 Bit
+   +0x284 ExWorkerCanWaitUser : Pos 1, 1 Bit
+   +0x284 MemoryMaker      : Pos 2, 1 Bit
+   +0x284 ClonedThread     : Pos 3, 1 Bit
+   +0x284 KeyedEventInUse  : Pos 4, 1 Bit
+   +0x284 RateApcState     : Pos 5, 2 Bits
+   +0x284 SelfTerminate    : Pos 7, 1 Bit
+   +0x288 SameThreadApcFlags : Uint4B
+   +0x288 Spare            : Pos 0, 1 Bit
+   +0x288 StartAddressInvalid : Pos 1, 1 Bit
+   +0x288 EtwPageFaultCalloutActive : Pos 2, 1 Bit
+   +0x288 OwnsProcessWorkingSetExclusive : Pos 3, 1 Bit
+   +0x288 OwnsProcessWorkingSetShared : Pos 4, 1 Bit
+   +0x288 OwnsSystemCacheWorkingSetExclusive : Pos 5, 1 Bit
+   +0x288 OwnsSystemCacheWorkingSetShared : Pos 6, 1 Bit
+   +0x288 OwnsSessionWorkingSetExclusive : Pos 7, 1 Bit
+   +0x289 OwnsSessionWorkingSetShared : Pos 0, 1 Bit
+   +0x289 OwnsProcessAddressSpaceExclusive : Pos 1, 1 Bit
+   +0x289 OwnsProcessAddressSpaceShared : Pos 2, 1 Bit
+   +0x289 SuppressSymbolLoad : Pos 3, 1 Bit
+   +0x289 Prefetching      : Pos 4, 1 Bit
+   +0x289 OwnsDynamicMemoryShared : Pos 5, 1 Bit
+   +0x289 OwnsChangeControlAreaExclusive : Pos 6, 1 Bit
+   +0x289 OwnsChangeControlAreaShared : Pos 7, 1 Bit
+   +0x28a OwnsPagedPoolWorkingSetExclusive : Pos 0, 1 Bit
+   +0x28a OwnsPagedPoolWorkingSetShared : Pos 1, 1 Bit
+   +0x28a OwnsSystemPtesWorkingSetExclusive : Pos 2, 1 Bit
+   +0x28a OwnsSystemPtesWorkingSetShared : Pos 3, 1 Bit
+   +0x28a TrimTrigger      : Pos 4, 2 Bits
+   +0x28a Spare1           : Pos 6, 2 Bits
+   +0x28b PriorityRegionActive : UChar
+   +0x28c CacheManagerActive : UChar
+   +0x28d DisablePageFaultClustering : UChar
+   +0x28e ActiveFaultCount : UChar
+   +0x28f LockOrderState   : UChar
+   +0x290 AlpcMessageId    : Uint4B
+   +0x294 AlpcMessage      : Ptr32 Void
+   +0x294 AlpcReceiveAttributeSet : Uint4B
+   +0x298 AlpcWaitListEntry : _LIST_ENTRY
+   +0x2a0 CacheManagerCount : Uint4B
+   +0x2a4 IoBoostCount     : Uint4B
+   +0x2a8 IrpListLock      : Uint4B
+   +0x2ac ReservedForSynchTracking : Ptr32 Void
+   +0x2b0 CmCallbackListHead : _SINGLE_LIST_ENTRY
+   +0x2b4 KernelStackReference : Uint4B

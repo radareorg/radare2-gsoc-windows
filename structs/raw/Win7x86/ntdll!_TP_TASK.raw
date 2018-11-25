@@ -1,0 +1,4 @@
+   +0x000 Callbacks        : Ptr32 _TP_TASK_CALLBACKS
+   +0x004 NumaNode         : Uint4B
+   +0x008 IdealProcessor   : UChar
+   +0x00c ListEntry        : _LIST_ENTRY

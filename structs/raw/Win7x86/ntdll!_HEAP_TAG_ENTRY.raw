@@ -1,0 +1,6 @@
+   +0x000 Allocs           : Uint4B
+   +0x004 Frees            : Uint4B
+   +0x008 Size             : Uint4B
+   +0x00c TagIndex         : Uint2B
+   +0x00e CreatorBackTraceIndex : Uint2B
+   +0x010 TagName          : [24] Wchar

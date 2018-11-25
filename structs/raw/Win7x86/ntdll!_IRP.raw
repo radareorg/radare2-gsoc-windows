@@ -1,0 +1,21 @@
+   +0x000 Type             : Int2B
+   +0x002 Size             : Uint2B
+   +0x004 MdlAddress       : Ptr32 _MDL
+   +0x008 Flags            : Uint4B
+   +0x00c AssociatedIrp    : <unnamed-tag>
+   +0x010 ThreadListEntry  : _LIST_ENTRY
+   +0x018 IoStatus         : _IO_STATUS_BLOCK
+   +0x020 RequestorMode    : Char
+   +0x021 PendingReturned  : UChar
+   +0x022 StackCount       : Char
+   +0x023 CurrentLocation  : Char
+   +0x024 Cancel           : UChar
+   +0x025 CancelIrql       : UChar
+   +0x026 ApcEnvironment   : Char
+   +0x027 AllocationFlags  : UChar
+   +0x028 UserIosb         : Ptr32 _IO_STATUS_BLOCK
+   +0x02c UserEvent        : Ptr32 _KEVENT
+   +0x030 Overlay          : <unnamed-tag>
+   +0x038 CancelRoutine    : Ptr32     void 
+   +0x03c UserBuffer       : Ptr32 Void
+   +0x040 Tail             : <unnamed-tag>

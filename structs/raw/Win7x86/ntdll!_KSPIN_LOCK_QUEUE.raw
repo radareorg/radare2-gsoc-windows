@@ -1,0 +1,2 @@
+   +0x000 Next             : Ptr32 _KSPIN_LOCK_QUEUE
+   +0x004 Lock             : Ptr32 Uint4B

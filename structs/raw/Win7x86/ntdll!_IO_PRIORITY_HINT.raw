@@ -1,0 +1,6 @@
+   IoPriorityVeryLow = 0n0
+   IoPriorityLow = 0n1
+   IoPriorityNormal = 0n2
+   IoPriorityHigh = 0n3
+   IoPriorityCritical = 0n4
+   MaxIoPriorityTypes = 0n5

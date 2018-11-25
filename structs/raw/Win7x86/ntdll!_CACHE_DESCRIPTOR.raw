@@ -1,0 +1,5 @@
+   +0x000 Level            : UChar
+   +0x001 Associativity    : UChar
+   +0x002 LineSize         : Uint2B
+   +0x004 Size             : Uint4B
+   +0x008 Type             : _PROCESSOR_CACHE_TYPE

@@ -1,0 +1,5 @@
+   +0x000 Removable        : Pos 0, 1 Bit
+   +0x000 GroupAssigned    : Pos 1, 1 Bit
+   +0x000 GroupCommitted   : Pos 2, 1 Bit
+   +0x000 GroupAssignmentFixed : Pos 3, 1 Bit
+   +0x000 Fill             : Pos 4, 4 Bits

@@ -1,0 +1,4 @@
+   +0x000 Offset           : Uint2B
+   +0x002 Selector         : Uint2B
+   +0x004 Access           : Uint2B
+   +0x006 ExtendedOffset   : Uint2B

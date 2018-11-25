@@ -1,0 +1,15 @@
+   +0x000 Type             : Int2B
+   +0x002 Size             : Int2B
+   +0x004 DeviceObject     : Ptr32 _DEVICE_OBJECT
+   +0x008 Flags            : Uint4B
+   +0x00c DriverStart      : Ptr32 Void
+   +0x010 DriverSize       : Uint4B
+   +0x014 DriverSection    : Ptr32 Void
+   +0x018 DriverExtension  : Ptr32 _DRIVER_EXTENSION
+   +0x01c DriverName       : _UNICODE_STRING
+   +0x024 HardwareDatabase : Ptr32 _UNICODE_STRING
+   +0x028 FastIoDispatch   : Ptr32 _FAST_IO_DISPATCH
+   +0x02c DriverInit       : Ptr32     long 
+   +0x030 DriverStartIo    : Ptr32     void 
+   +0x034 DriverUnload     : Ptr32     void 
+   +0x038 MajorFunction    : [28] Ptr32     long 

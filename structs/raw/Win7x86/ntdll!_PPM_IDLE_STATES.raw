@@ -1,0 +1,7 @@
+   +0x000 Count            : Uint4B
+   +0x004 Flags            : <unnamed-tag>
+   +0x008 TargetState      : Uint4B
+   +0x00c ActualState      : Uint4B
+   +0x010 OldState         : Uint4B
+   +0x014 TargetProcessors : _KAFFINITY_EX
+   +0x020 State            : [1] _PPM_IDLE_STATE

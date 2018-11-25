@@ -1,0 +1,2 @@
+   +0x000 Next             : Ptr32 _TERMINATION_PORT
+   +0x004 Port             : Ptr32 Void

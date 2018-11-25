@@ -1,0 +1,16 @@
+   +0x000 Signature        : Uint4B
+   +0x004 Revision         : _WHEA_REVISION
+   +0x006 SignatureEnd     : Uint4B
+   +0x00a SectionCount     : Uint2B
+   +0x00c Severity         : _WHEA_ERROR_SEVERITY
+   +0x010 ValidBits        : _WHEA_ERROR_RECORD_HEADER_VALIDBITS
+   +0x014 Length           : Uint4B
+   +0x018 Timestamp        : _WHEA_TIMESTAMP
+   +0x020 PlatformId       : _GUID
+   +0x030 PartitionId      : _GUID
+   +0x040 CreatorId        : _GUID
+   +0x050 NotifyType       : _GUID
+   +0x060 RecordId         : Uint8B
+   +0x068 Flags            : _WHEA_ERROR_RECORD_HEADER_FLAGS
+   +0x06c PersistenceInfo  : _WHEA_PERSISTENCE_INFO
+   +0x074 Reserved         : [12] UChar

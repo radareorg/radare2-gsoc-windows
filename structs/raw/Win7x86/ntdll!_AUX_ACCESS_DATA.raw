@@ -1,0 +1,11 @@
+   +0x000 PrivilegesUsed   : Ptr32 _PRIVILEGE_SET
+   +0x004 GenericMapping   : _GENERIC_MAPPING
+   +0x014 AccessesToAudit  : Uint4B
+   +0x018 MaximumAuditMask : Uint4B
+   +0x01c TransactionId    : _GUID
+   +0x02c NewSecurityDescriptor : Ptr32 Void
+   +0x030 ExistingSecurityDescriptor : Ptr32 Void
+   +0x034 ParentSecurityDescriptor : Ptr32 Void
+   +0x038 DeRefSecurityDescriptor : Ptr32     void 
+   +0x03c SDLock           : Ptr32 Void
+   +0x040 AccessReasons    : _ACCESS_REASONS

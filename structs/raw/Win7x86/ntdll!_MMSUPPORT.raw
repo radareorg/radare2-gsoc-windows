@@ -1,0 +1,21 @@
+   +0x000 WorkingSetMutex  : _EX_PUSH_LOCK
+   +0x004 ExitGate         : Ptr32 _KGATE
+   +0x008 AccessLog        : Ptr32 Void
+   +0x00c WorkingSetExpansionLinks : _LIST_ENTRY
+   +0x014 AgeDistribution  : [7] Uint4B
+   +0x030 MinimumWorkingSetSize : Uint4B
+   +0x034 WorkingSetSize   : Uint4B
+   +0x038 WorkingSetPrivateSize : Uint4B
+   +0x03c MaximumWorkingSetSize : Uint4B
+   +0x040 ChargedWslePages : Uint4B
+   +0x044 ActualWslePages  : Uint4B
+   +0x048 WorkingSetSizeOverhead : Uint4B
+   +0x04c PeakWorkingSetSize : Uint4B
+   +0x050 HardFaultCount   : Uint4B
+   +0x054 VmWorkingSetList : Ptr32 _MMWSL
+   +0x058 NextPageColor    : Uint2B
+   +0x05a LastTrimStamp    : Uint2B
+   +0x05c PageFaultCount   : Uint4B
+   +0x060 RepurposeCount   : Uint4B
+   +0x064 ShadowMapping    : Ptr32 Void
+   +0x068 Flags            : _MMSUPPORT_FLAGS

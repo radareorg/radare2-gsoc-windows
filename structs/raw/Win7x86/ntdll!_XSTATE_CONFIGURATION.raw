@@ -1,0 +1,4 @@
+   +0x000 EnabledFeatures  : Uint8B
+   +0x008 Size             : Uint4B
+   +0x00c OptimizedSave    : Pos 0, 1 Bit
+   +0x010 Features         : [64] _XSTATE_FEATURE

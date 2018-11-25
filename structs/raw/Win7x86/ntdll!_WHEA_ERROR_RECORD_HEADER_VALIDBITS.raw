@@ -1,0 +1,5 @@
+   +0x000 PlatformId       : Pos 0, 1 Bit
+   +0x000 Timestamp        : Pos 1, 1 Bit
+   +0x000 PartitionId      : Pos 2, 1 Bit
+   +0x000 Reserved         : Pos 3, 29 Bits
+   +0x000 AsULONG          : Uint4B

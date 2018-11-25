@@ -1,0 +1,14 @@
+   +0x000 Entry            : _HEAP_ENTRY
+   +0x008 SegmentSignature : Uint4B
+   +0x00c SegmentFlags     : Uint4B
+   +0x010 SegmentListEntry : _LIST_ENTRY
+   +0x018 Heap             : Ptr32 _HEAP
+   +0x01c BaseAddress      : Ptr32 Void
+   +0x020 NumberOfPages    : Uint4B
+   +0x024 FirstEntry       : Ptr32 _HEAP_ENTRY
+   +0x028 LastValidEntry   : Ptr32 _HEAP_ENTRY
+   +0x02c NumberOfUnCommittedPages : Uint4B
+   +0x030 NumberOfUnCommittedRanges : Uint4B
+   +0x034 SegmentAllocatorBackTraceIndex : Uint2B
+   +0x036 Reserved         : Uint2B
+   +0x038 UCRSegmentList   : _LIST_ENTRY
