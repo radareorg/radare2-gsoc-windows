@@ -7,6 +7,10 @@ struct _NT_TIB {
 	union {
 		void	*FiberData;
 		uint32_t	Version;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	};
 	void	*ArbitraryUserPointer;
 	struct _NT_TIB	*Self;

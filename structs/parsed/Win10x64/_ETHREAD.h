@@ -90,6 +90,10 @@ struct _ETHREAD {
 	union {
 		void	*AlpcMessage;
 		uint32_t	AlpcReceiveAttributeSet;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	};
 	struct _LIST_ENTRY	AlpcWaitListEntry;
 	int32_t	ExitStatus;
@@ -97,6 +101,10 @@ struct _ETHREAD {
 	uint32_t	IoBoostCount;
 	uint32_t	IoQoSBoostCount;
 	uint32_t	IoQoSThrottleCount;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	struct _LIST_ENTRY	BoostList;
 	struct _LIST_ENTRY	DeboostList;
 	uint64_t	BoostListLock;
@@ -107,6 +115,10 @@ struct _ETHREAD {
 	struct _SINGLE_LIST_ENTRY	SeLearningModeListHead;
 	void	*VerifierContext;
 	uint32_t	KernelStackReference;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	void	*AdjustedClientToken;
 	void	*WorkOnBehalfThread;
 	struct _PS_PROPERTY_SET	PropertySet;

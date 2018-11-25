@@ -7,6 +7,10 @@ struct _PROC_PERF_CONSTRAINT {
 	uint32_t	PlatformCap;
 	uint32_t	ThermalCap;
 	uint32_t	LimitReasons;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	uint64_t	PlatformCapStartTime;
 	uint32_t	TargetPercent;
 	uint32_t	SelectedPercent;

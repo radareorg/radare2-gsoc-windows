@@ -15,6 +15,12 @@ struct _HEAP_FAILURE_INFORMATION {
 	void	*StackTrace[32];
 	uint8_t	HeapMajorVersion;
 	uint8_t	HeapMinorVersion;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	struct _EXCEPTION_RECORD	ExceptionRecord;
 	struct _CONTEXT	ContextRecord;
 }__attribute__((packed));

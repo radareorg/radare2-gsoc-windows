@@ -22,5 +22,9 @@ struct _HANDLE_TABLE_ENTRY {
 		struct _EXHANDLE	LeafHandleValue;
 	};
 	int64_t	RefCountField;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	uint32_t	Spare2;
 }__attribute__((packed));

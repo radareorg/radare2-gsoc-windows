@@ -41,6 +41,8 @@ struct _HEAP {
 	struct _LIST_ENTRY	VirtualAllocdBlocks;
 	struct _LIST_ENTRY	SegmentList;
 	uint16_t	AllocatorBackTraceIndex;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	uint32_t	NonDedicatedListLength;
 	void	*BlocksIndex;
 	void	*UCRIndex;
@@ -51,6 +53,7 @@ struct _HEAP {
 	void	*FrontEndHeap;
 	uint16_t	FrontHeapLockCount;
 	uint8_t	FrontEndHeapType;
+	uint8_t	__padding__;
 	struct _HEAP_COUNTERS	Counters;
 	struct _HEAP_TUNING_PARAMETERS	TuningParameters;
 }__attribute__((packed));

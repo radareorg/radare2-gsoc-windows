@@ -9,6 +9,8 @@
 struct _KIDTENTRY64 {
 	uint16_t	OffsetLow;
 	uint16_t	Selector;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	uint16_t	OffsetMiddle;
 	uint32_t	OffsetHigh;
 	uint32_t	Reserved1;

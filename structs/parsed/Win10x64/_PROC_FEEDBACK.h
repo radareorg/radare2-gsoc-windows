@@ -8,6 +8,14 @@ struct _PROC_FEEDBACK {
 	uint64_t	UnscaledTime;
 	int64_t	UnaccountedTime;
 	uint64_t	ScaledTime[2];
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	uint64_t	UnaccountedKernelTime;
 	uint64_t	PerformanceScaledKernelTime;
 	uint32_t	UserTimeLast;

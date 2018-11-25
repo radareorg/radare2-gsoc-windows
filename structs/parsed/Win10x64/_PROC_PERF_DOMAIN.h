@@ -24,6 +24,10 @@ struct _PROC_PERF_DOMAIN {
 	uint32_t	MaxPercent;
 	uint32_t	MinPerfPercent;
 	uint32_t	MinThrottlePercent;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	uint64_t	MinimumRelativePerformance;
 	uint64_t	NominalRelativePerformance;
 	uint8_t	Coordination;
@@ -31,6 +35,9 @@ struct _PROC_PERF_DOMAIN {
 	uint8_t	AffinitizeControl;
 	uint8_t	EfficientThrottle;
 	uint8_t	AutonomousMode;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	uint32_t	SelectedPercent;
 	uint32_t	SelectedFrequency;
 	uint32_t	DesiredPercent;
@@ -40,6 +47,10 @@ struct _PROC_PERF_DOMAIN {
 	uint32_t	ConstrainedMinPercent;
 	uint32_t	GuaranteedPercent;
 	uint32_t	TolerancePercent;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	uint64_t	SelectedState;
 	uint64_t	PerfChangeTime;
 	uint32_t	PerfChangeIntervalCount;

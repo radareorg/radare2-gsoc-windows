@@ -6,6 +6,18 @@ struct _KTSS {
 	uint16_t	Ss0;
 	uint16_t	Reserved1;
 	uint32_t	NotUsed1[4];
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	uint32_t	CR3;
 	uint32_t	Eip;
 	uint32_t	EFlags;

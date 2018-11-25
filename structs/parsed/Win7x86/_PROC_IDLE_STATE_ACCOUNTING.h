@@ -4,6 +4,10 @@ struct _PROC_IDLE_STATE_ACCOUNTING {
 	uint32_t	IdleTransitions;
 	uint32_t	FailedTransitions;
 	uint32_t	InvalidBucketIndex;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	uint64_t	MinTime;
 	uint64_t	MaxTime;
 	struct _PROC_IDLE_STATE_BUCKET	IdleTimeBuckets[16];

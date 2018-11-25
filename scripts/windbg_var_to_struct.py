@@ -11,11 +11,27 @@ Description:
     handled through the power of tuples. They are in the form:
     (offset, type, name, data) where 'offset' is a number 'type' and 'name' are
     strings and 'data' is an array.
+
+TODO:
+    1. Handle Assumptions
+    2. Handle Enums
+    3. Handle Bit Maps `Pos X, X Bit`
 '''
 
 
 import os
 import sys
+
+def type_sizes(t):
+    if 'int8_t' in t:
+        return 1
+    if 'int16_t' in t:
+        return 2
+    if 'int32_t' in t:
+        return 4
+    if 'int64_t' in t:
+        return 8
+    return None # Cause an error for now
 
 
 def convert_type(t):
@@ -128,6 +144,11 @@ def format_data(name, data):
             buf += '\t\t%s\t%s;\n' % (t, n)
         else:
             buf += '\t%s\t%s;\n' % (t, n)
+        # Align ints
+        if "int" in t:
+            offset_diff = on - o - type_sizes(t)
+            for i in range(0, offset_diff):
+                buf += '\tuint8_t\t__padding__;\n'
         if not o == on and union:
             buf += "\t};\n"
             union = 0
@@ -163,8 +184,9 @@ def main():
                 fp = open(os.path.join(output_dir, name+'.h'), 'w')
                 fp.write(buf)
                 fp.close()
-            except:
+            except Exception as err:
                 print('Error: Ignoring file: %s' % file_path)
+                print(err)
 
 
 if __name__ == "__main__":

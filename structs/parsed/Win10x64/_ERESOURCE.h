@@ -8,6 +8,10 @@ struct _ERESOURCE {
 		uint8_t	ReservedLowFlags;
 	};
 	uint8_t	WaiterPriority;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	struct _KWAIT_CHAIN	SharedWaiters;
 	struct _KEVENT	*ExclusiveWaiters;
 	struct _OWNER_ENTRY	OwnerEntry;

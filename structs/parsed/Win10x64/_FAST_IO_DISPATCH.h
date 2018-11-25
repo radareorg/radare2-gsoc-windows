@@ -1,6 +1,10 @@
 
 struct _FAST_IO_DISPATCH {
 	uint32_t	SizeOfFastIoDispatch;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	struct charstruct unsigned	*FastIoCheckIfPossible;
 	struct charstruct unsigned	*FastIoRead;
 	struct charstruct unsigned	*FastIoWrite;

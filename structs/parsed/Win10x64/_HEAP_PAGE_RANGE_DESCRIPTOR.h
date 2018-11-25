@@ -7,8 +7,26 @@ struct _HEAP_PAGE_RANGE_DESCRIPTOR {
 	union {
 		struct _RTL_BALANCED_NODE	TreeNode;
 		uint32_t	TreeSignature;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	};
 	uint16_t	UnusedBytes;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	uint8_t	RangeFlags;
 	uint8_t	Spare1;
 	union {

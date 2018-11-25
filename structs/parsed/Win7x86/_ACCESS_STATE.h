@@ -14,6 +14,9 @@ struct _ACCESS_STATE {
 	void	*AuxData;
 	struct <unnamed-tag>	Privileges;
 	uint8_t	AuditPrivileges;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	struct _UNICODE_STRING	ObjectName;
 	struct _UNICODE_STRING	ObjectTypeName;
 }__attribute__((packed));

@@ -9,6 +9,10 @@ struct _HEAP_SUBSEGMENT {
 	uint8_t	SizeIndex;
 	uint8_t	AffinityIndex;
 	uint32_t	Alignment[2];
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	struct _SINGLE_LIST_ENTRY	SFreeListEntry;
 	uint32_t	Lock;
 }__attribute__((packed));

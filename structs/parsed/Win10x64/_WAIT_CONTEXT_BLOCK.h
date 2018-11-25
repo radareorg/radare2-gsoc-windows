@@ -11,9 +11,17 @@ struct _WAIT_CONTEXT_BLOCK {
 		struct _LIST_ENTRY	DmaWaitEntry;
 	};
 	uint32_t	NumberOfChannels;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	struct _IO_ALLOCATION_ACTION	*DeviceRoutine;
 	void	*DeviceContext;
 	uint32_t	NumberOfMapRegisters;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	void	*DeviceObject;
 	void	*CurrentIrp;
 	struct _KDPC	*BufferChainingDpc;

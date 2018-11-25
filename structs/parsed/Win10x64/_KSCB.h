@@ -24,7 +24,15 @@ struct _KSCB {
 	uint16_t	ReadySummary;
 	uint32_t	Rank;
 	uint32_t	*ShareRank;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	uint32_t	OwnerShareRank;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	struct _LIST_ENTRY	ReadyListHead[16];
 	struct _RTL_RB_TREE	ChildScbQueue;
 	struct _KSCB	*Parent;

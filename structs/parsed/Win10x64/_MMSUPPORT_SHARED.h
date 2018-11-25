@@ -1,6 +1,10 @@
 
 struct _MMSUPPORT_SHARED {
 	int32_t	WorkingSetLock;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	uint64_t	ReleasedCommitDebt;
 	uint64_t	ResetPagesRepurposedCount;
 	void	*WsSwapSupport;

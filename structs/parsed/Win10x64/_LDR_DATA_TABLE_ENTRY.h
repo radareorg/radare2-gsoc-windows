@@ -35,6 +35,10 @@ struct _LDR_DATA_TABLE_ENTRY {
 	void	*DllBase;
 	void	*EntryPoint;
 	uint32_t	SizeOfImage;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	struct _UNICODE_STRING	FullDllName;
 	struct _UNICODE_STRING	BaseDllName;
 	union {
@@ -45,6 +49,10 @@ struct _LDR_DATA_TABLE_ENTRY {
 	uint16_t	TlsIndex;
 	struct _LIST_ENTRY	HashLinks;
 	uint32_t	TimeDateStamp;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	struct _ACTIVATION_CONTEXT	*EntryPointActivationContext;
 	void	*Lock;
 	struct _LDR_DDAG_NODE	*DdagNode;

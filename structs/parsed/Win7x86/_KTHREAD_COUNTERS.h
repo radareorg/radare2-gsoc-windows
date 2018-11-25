@@ -4,6 +4,10 @@ struct _KTHREAD_COUNTERS {
 	struct _THREAD_PERFORMANCE_DATA	*UserData;
 	uint32_t	Flags;
 	uint32_t	ContextSwitches;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	uint64_t	CycleTimeBias;
 	uint64_t	HardwareCounters;
 	struct _COUNTER_READING	HwCounter[16];

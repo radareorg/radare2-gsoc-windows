@@ -2,10 +2,22 @@
 struct _DRIVER_OBJECT {
 	int16_t	Type;
 	int16_t	Size;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	struct _DEVICE_OBJECT	*DeviceObject;
 	uint32_t	Flags;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	void	*DriverStart;
 	uint32_t	DriverSize;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	void	*DriverSection;
 	struct _DRIVER_EXTENSION	*DriverExtension;
 	struct _UNICODE_STRING	DriverName;

@@ -14,9 +14,17 @@ struct _PROCESSOR_POWER_STATE {
 	uint32_t	LastSysTime;
 	uint32_t	WmiDispatchPtr;
 	int32_t	WmiInterfaceEnabled;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	struct _PPM_FFH_THROTTLE_STATE_INFO	FFHThrottleStateInfo;
 	struct _KDPC	PerfActionDpc;
 	int32_t	PerfActionMask;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	struct _PROC_IDLE_SNAP	IdleCheck;
 	struct _PROC_IDLE_SNAP	PerfCheck;
 	struct _PROC_PERF_DOMAIN	*Domain;

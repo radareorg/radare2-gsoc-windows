@@ -13,6 +13,10 @@ struct _KNODE {
 	uint32_t	Seed;
 	uint32_t	MmShiftedColor;
 	uint32_t	FreeCount[2];
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
+	uint8_t	__padding__;
 	struct _CACHED_KSTACK_LIST	CachedKernelStacks;
 	int32_t	ParkLock;
 	uint32_t	NodePad1;
