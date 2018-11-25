@@ -6,6 +6,6 @@
 
 struct _MM_AVL_TABLE {
 	struct _MMADDRESS_NODE	BalancedRoot;
-	voidstruct Ptr32	NodeHint;
-	voidstruct Ptr32	NodeFreeHint;
+	void	*NodeHint;
+	void	*NodeFreeHint;
 }__attribute__((packed));

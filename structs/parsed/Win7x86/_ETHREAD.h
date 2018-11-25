@@ -62,13 +62,13 @@ struct _ETHREAD {
 	int32_t	ExitStatus;
 	union {
 		struct _LIST_ENTRY	PostBlockList;
-		voidstruct Ptr32	ForwardLinkShadow;
+		void	*ForwardLinkShadow;
 	};
-	voidstruct Ptr32	StartAddress;
+	void	*StartAddress;
 	union {
-		struct _TERMINATION_PORTstruct Ptr32	TerminationPort;
-		struct _ETHREADstruct Ptr32	ReaperLink;
-		voidstruct Ptr32	KeyedWaitValue;
+		struct _TERMINATION_PORT	*TerminationPort;
+		struct _ETHREAD	*ReaperLink;
+		void	*KeyedWaitValue;
 	};
 	uint32_t	ActiveTimerListLock;
 	struct _LIST_ENTRY	ActiveTimerListHead;
@@ -80,10 +80,10 @@ struct _ETHREAD {
 	struct _PS_CLIENT_SECURITY_CONTEXT	ClientSecurity;
 	struct _LIST_ENTRY	IrpList;
 	uint32_t	TopLevelIrp;
-	struct _DEVICE_OBJECTstruct Ptr32	DeviceToVerify;
-	struct _PSP_CPU_QUOTA_APCstruct Ptr32	CpuQuotaApc;
-	voidstruct Ptr32	Win32StartAddress;
-	voidstruct Ptr32	LegacyPowerObject;
+	struct _DEVICE_OBJECT	*DeviceToVerify;
+	struct _PSP_CPU_QUOTA_APC	*CpuQuotaApc;
+	void	*Win32StartAddress;
+	void	*LegacyPowerObject;
 	struct _LIST_ENTRY	ThreadListEntry;
 	struct _EX_RUNDOWN_REF	RundownProtect;
 	struct _EX_PUSH_LOCK	ThreadLock;
@@ -99,14 +99,14 @@ struct _ETHREAD {
 	uint8_t	LockOrderState;
 	uint32_t	AlpcMessageId;
 	union {
-		voidstruct Ptr32	AlpcMessage;
+		void	*AlpcMessage;
 		uint32_t	AlpcReceiveAttributeSet;
 	};
 	struct _LIST_ENTRY	AlpcWaitListEntry;
 	uint32_t	CacheManagerCount;
 	uint32_t	IoBoostCount;
 	uint32_t	IrpListLock;
-	voidstruct Ptr32	ReservedForSynchTracking;
+	void	*ReservedForSynchTracking;
 	struct _SINGLE_LIST_ENTRY	CmCallbackListHead;
 	uint32_t	KernelStackReference;
 }__attribute__((packed));

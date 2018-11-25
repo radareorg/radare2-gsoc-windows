@@ -1,9 +1,9 @@
 
 struct _HANDLE_TABLE_ENTRY {
 	union {
-		voidstruct Ptr32	Object;
+		void	*Object;
 		uint32_t	ObAttributes;
-		struct _HANDLE_TABLE_ENTRY_INFOstruct Ptr32	InfoTable;
+		struct _HANDLE_TABLE_ENTRY_INFO	*InfoTable;
 		uint32_t	Value;
 	};
 	union {

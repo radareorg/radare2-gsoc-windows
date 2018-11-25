@@ -1,14 +1,14 @@
 
 struct _PROC_PERF_DOMAIN {
 	struct _LIST_ENTRY	Link;
-	struct _KPRCBstruct Ptr32	Master;
+	struct _KPRCB	*Master;
 	struct _KAFFINITY_EX	Members;
-	struct charstruct unsignedstruct Ptr32	FeedbackHandler;
-	voidstruct Ptr32	GetFFHThrottleState;
-	voidstruct Ptr32	BoostPolicyHandler;
-	struct longstruct unsignedstruct Ptr32	PerfSelectionHandler;
-	voidstruct Ptr32	PerfHandler;
-	struct _PROC_PERF_CONSTRAINTstruct Ptr32	Processors;
+	struct charstruct unsigned	*FeedbackHandler;
+	void	*GetFFHThrottleState;
+	void	*BoostPolicyHandler;
+	struct longstruct unsigned	*PerfSelectionHandler;
+	void	*PerfHandler;
+	struct _PROC_PERF_CONSTRAINT	*Processors;
 	uint64_t	PerfChangeTime;
 	uint32_t	ProcessorCount;
 	uint32_t	PreviousFrequencyMhz;

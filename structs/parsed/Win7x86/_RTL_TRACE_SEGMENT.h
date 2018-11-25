@@ -1,10 +1,10 @@
 
 struct _RTL_TRACE_SEGMENT {
 	uint32_t	Magic;
-	struct _RTL_TRACE_DATABASEstruct Ptr32	Database;
-	struct _RTL_TRACE_SEGMENTstruct Ptr32	NextSegment;
+	struct _RTL_TRACE_DATABASE	*Database;
+	struct _RTL_TRACE_SEGMENT	*NextSegment;
 	uint32_t	TotalSize;
-	struct Charstruct Ptr32	SegmentStart;
-	struct Charstruct Ptr32	SegmentEnd;
-	struct Charstruct Ptr32	SegmentFree;
+	struct Char	*SegmentStart;
+	struct Char	*SegmentEnd;
+	struct Char	*SegmentFree;
 }__attribute__((packed));

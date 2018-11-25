@@ -5,8 +5,8 @@ struct _IO_STACK_LOCATION {
 	uint8_t	Flags;
 	uint8_t	Control;
 	struct <unnamed-tag>	Parameters;
-	struct _DEVICE_OBJECTstruct Ptr32	DeviceObject;
-	struct _FILE_OBJECTstruct Ptr32	FileObject;
-	struct longstruct Ptr32	CompletionRoutine;
-	voidstruct Ptr32	Context;
+	struct _DEVICE_OBJECT	*DeviceObject;
+	struct _FILE_OBJECT	*FileObject;
+	struct long	*CompletionRoutine;
+	void	*Context;
 }__attribute__((packed));

@@ -9,13 +9,13 @@ struct _MM_PAGE_ACCESS_INFO_HEADER {
 	uint64_t	CreateTime;
 	union {
 		uint64_t	EmptyTime;
-		struct _MM_PAGE_ACCESS_INFOstruct Ptr32	TempEntry;
+		struct _MM_PAGE_ACCESS_INFO	*TempEntry;
 	};
-	struct _MM_PAGE_ACCESS_INFOstruct Ptr32	PageEntry;
-	uint32_tstruct Ptr32	FileEntry;
-	uint32_tstruct Ptr32	FirstFileEntry;
-	struct _EPROCESSstruct Ptr32	Process;
+	struct _MM_PAGE_ACCESS_INFO	*PageEntry;
+	uint32_t	*FileEntry;
+	uint32_t	*FirstFileEntry;
+	struct _EPROCESS	*Process;
 	uint32_t	SessionId;
-	uint32_tstruct Ptr32	PageFrameEntry;
-	uint32_tstruct Ptr32	LastPageFrameEntry;
+	uint32_t	*PageFrameEntry;
+	uint32_t	*LastPageFrameEntry;
 }__attribute__((packed));

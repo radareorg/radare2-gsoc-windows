@@ -2,24 +2,24 @@
 struct _KPCR {
 	union {
 		struct _NT_TIB	NtTib;
-		struct _EXCEPTION_REGISTRATION_RECORDstruct Ptr32	Used_ExceptionList;
+		struct _EXCEPTION_REGISTRATION_RECORD	*Used_ExceptionList;
 	};
-	voidstruct Ptr32	Used_StackBase;
-	voidstruct Ptr32	Spare2;
-	voidstruct Ptr32	TssCopy;
+	void	*Used_StackBase;
+	void	*Spare2;
+	void	*TssCopy;
 	uint32_t	ContextSwitches;
 	uint32_t	SetMemberCopy;
-	voidstruct Ptr32	Used_Self;
-	struct _KPCRstruct Ptr32	SelfPcr;
-	struct _KPRCBstruct Ptr32	Prcb;
+	void	*Used_Self;
+	struct _KPCR	*SelfPcr;
+	struct _KPRCB	*Prcb;
 	uint8_t	Irql;
 	uint32_t	IRR;
 	uint32_t	IrrActive;
 	uint32_t	IDR;
-	voidstruct Ptr32	KdVersionBlock;
-	struct _KIDTENTRYstruct Ptr32	IDT;
-	struct _KGDTENTRYstruct Ptr32	GDT;
-	struct _KTSSstruct Ptr32	TSS;
+	void	*KdVersionBlock;
+	struct _KIDTENTRY	*IDT;
+	struct _KGDTENTRY	*GDT;
+	struct _KTSS	*TSS;
 	uint16_t	MajorVersion;
 	uint16_t	MinorVersion;
 	uint32_t	SetMember;

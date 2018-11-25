@@ -10,8 +10,8 @@ struct _ACCESS_STATE {
 	uint32_t	PreviouslyGrantedAccess;
 	uint32_t	OriginalDesiredAccess;
 	struct _SECURITY_SUBJECT_CONTEXT	SubjectSecurityContext;
-	voidstruct Ptr32	SecurityDescriptor;
-	voidstruct Ptr32	AuxData;
+	void	*SecurityDescriptor;
+	void	*AuxData;
 	struct <unnamed-tag>	Privileges;
 	uint8_t	AuditPrivileges;
 	struct _UNICODE_STRING	ObjectName;

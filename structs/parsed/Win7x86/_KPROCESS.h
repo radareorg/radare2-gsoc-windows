@@ -35,5 +35,5 @@ struct _KPROCESS {
 	uint64_t	CycleTime;
 	uint32_t	KernelTime;
 	uint32_t	UserTime;
-	voidstruct Ptr32	VdmTrapcHandler;
+	void	*VdmTrapcHandler;
 }__attribute__((packed));

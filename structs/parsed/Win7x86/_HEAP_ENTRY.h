@@ -3,7 +3,7 @@ struct _HEAP_ENTRY {
 	uint16_t	Size;
 	uint8_t	Flags;
 	uint8_t	SmallTagIndex;
-	voidstruct Ptr32	SubSegmentCode;
+	void	*SubSegmentCode;
 	uint16_t	PreviousSize;
 	union {
 		uint8_t	SegmentOffset;

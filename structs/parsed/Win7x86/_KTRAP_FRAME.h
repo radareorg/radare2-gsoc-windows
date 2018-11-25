@@ -24,7 +24,7 @@ struct _KTRAP_FRAME {
 	uint32_t	Ecx;
 	uint32_t	Eax;
 	uint32_t	PreviousPreviousMode;
-	struct _EXCEPTION_REGISTRATION_RECORDstruct Ptr32	ExceptionList;
+	struct _EXCEPTION_REGISTRATION_RECORD	*ExceptionList;
 	uint32_t	SegFs;
 	uint32_t	Edi;
 	uint32_t	Esi;

@@ -9,7 +9,7 @@ struct _RTL_STACK_TRACE_ENTRY {
 	uint16_t	Index;
 	uint16_t	Depth;
 	union {
-		voidstruct Ptr32	BackTrace[32];
+		void	*BackTrace[32];
 		struct _SINGLE_LIST_ENTRY	FreeChain;
 	};
 }__attribute__((packed));

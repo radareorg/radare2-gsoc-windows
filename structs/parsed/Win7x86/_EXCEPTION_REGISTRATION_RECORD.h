@@ -1,5 +1,5 @@
 
 struct _EXCEPTION_REGISTRATION_RECORD {
-	struct _EXCEPTION_REGISTRATION_RECORDstruct Ptr32	Next;
-	struct _EXCEPTION_DISPOSITIONstruct Ptr32	Handler;
+	struct _EXCEPTION_REGISTRATION_RECORD	*Next;
+	struct _EXCEPTION_DISPOSITION	*Handler;
 }__attribute__((packed));

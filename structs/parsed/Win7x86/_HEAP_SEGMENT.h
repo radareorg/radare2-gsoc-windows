@@ -4,11 +4,11 @@ struct _HEAP_SEGMENT {
 	uint32_t	SegmentSignature;
 	uint32_t	SegmentFlags;
 	struct _LIST_ENTRY	SegmentListEntry;
-	struct _HEAPstruct Ptr32	Heap;
-	voidstruct Ptr32	BaseAddress;
+	struct _HEAP	*Heap;
+	void	*BaseAddress;
 	uint32_t	NumberOfPages;
-	struct _HEAP_ENTRYstruct Ptr32	FirstEntry;
-	struct _HEAP_ENTRYstruct Ptr32	LastValidEntry;
+	struct _HEAP_ENTRY	*FirstEntry;
+	struct _HEAP_ENTRY	*LastValidEntry;
 	uint32_t	NumberOfUnCommittedPages;
 	uint32_t	NumberOfUnCommittedRanges;
 	uint16_t	SegmentAllocatorBackTraceIndex;

@@ -20,12 +20,12 @@ struct _GENERAL_LOOKASIDE_POOL {
 	uint32_t	Tag;
 	uint32_t	Size;
 	union {
-		struct Ptr32	struct void*AllocateEx;
-		struct Ptr32	struct void*Allocate;
+			*struct void*AllocateEx;
+			*struct void*Allocate;
 	};
 	union {
-		voidstruct Ptr32	FreeEx;
-		voidstruct Ptr32	Free;
+		void	*FreeEx;
+		void	*Free;
 	};
 	struct _LIST_ENTRY	ListEntry;
 	uint32_t	LastTotalAllocates;

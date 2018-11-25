@@ -2,7 +2,7 @@
 struct _RTL_CRITICAL_SECTION_DEBUG {
 	uint16_t	Type;
 	uint16_t	CreatorBackTraceIndex;
-	struct _RTL_CRITICAL_SECTIONstruct Ptr32	CriticalSection;
+	struct _RTL_CRITICAL_SECTION	*CriticalSection;
 	struct _LIST_ENTRY	ProcessLocksList;
 	uint32_t	EntryCount;
 	uint32_t	ContentionCount;

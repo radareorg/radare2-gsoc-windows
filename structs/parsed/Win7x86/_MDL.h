@@ -1,11 +1,11 @@
 
 struct _MDL {
-	struct _MDLstruct Ptr32	Next;
+	struct _MDL	*Next;
 	int16_t	Size;
 	int16_t	MdlFlags;
-	struct _EPROCESSstruct Ptr32	Process;
-	voidstruct Ptr32	MappedSystemVa;
-	voidstruct Ptr32	StartVa;
+	struct _EPROCESS	*Process;
+	void	*MappedSystemVa;
+	void	*StartVa;
 	uint32_t	ByteCount;
 	uint32_t	ByteOffset;
 }__attribute__((packed));

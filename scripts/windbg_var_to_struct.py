@@ -27,6 +27,8 @@ def convert_type(t):
         return 'int32_t'
     if t == 'Int8B':
         return 'int64_t'
+    if t == 'Ptr32':
+        return '*'
     if t == 'Ptr64':
         return '*'
     if t == 'UChar':

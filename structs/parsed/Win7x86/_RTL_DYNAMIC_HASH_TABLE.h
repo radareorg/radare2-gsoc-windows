@@ -8,5 +8,5 @@ struct _RTL_DYNAMIC_HASH_TABLE {
 	uint32_t	NumEntries;
 	uint32_t	NonEmptyBuckets;
 	uint32_t	NumEnumerators;
-	voidstruct Ptr32	Directory;
+	void	*Directory;
 }__attribute__((packed));

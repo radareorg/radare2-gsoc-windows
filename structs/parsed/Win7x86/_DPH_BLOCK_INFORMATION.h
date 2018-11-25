@@ -1,7 +1,7 @@
 
 struct _DPH_BLOCK_INFORMATION {
 	uint32_t	StartStamp;
-	voidstruct Ptr32	Heap;
+	void	*Heap;
 	uint32_t	RequestedSize;
 	uint32_t	ActualSize;
 	union {
@@ -9,6 +9,6 @@ struct _DPH_BLOCK_INFORMATION {
 		struct _SINGLE_LIST_ENTRY	FreePushList;
 		uint16_t	TraceIndex;
 	};
-	voidstruct Ptr32	StackTrace;
+	void	*StackTrace;
 	uint32_t	EndStamp;
 }__attribute__((packed));

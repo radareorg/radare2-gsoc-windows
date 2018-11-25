@@ -1,5 +1,5 @@
 
 struct _TERMINATION_PORT {
-	struct _TERMINATION_PORTstruct Ptr32	Next;
-	voidstruct Ptr32	Port;
+	struct _TERMINATION_PORT	*Next;
+	void	*Port;
 }__attribute__((packed));

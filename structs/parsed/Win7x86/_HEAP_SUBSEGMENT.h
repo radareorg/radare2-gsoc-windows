@@ -1,7 +1,7 @@
 
 struct _HEAP_SUBSEGMENT {
-	struct _HEAP_LOCAL_SEGMENT_INFOstruct Ptr32	LocalInfo;
-	struct _HEAP_USERDATA_HEADERstruct Ptr32	UserBlocks;
+	struct _HEAP_LOCAL_SEGMENT_INFO	*LocalInfo;
+	struct _HEAP_USERDATA_HEADER	*UserBlocks;
 	struct _INTERLOCK_SEQ	AggregateExchg;
 	uint16_t	BlockSize;
 	uint16_t	Flags;

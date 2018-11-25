@@ -2,17 +2,17 @@
 struct _DRIVER_OBJECT {
 	int16_t	Type;
 	int16_t	Size;
-	struct _DEVICE_OBJECTstruct Ptr32	DeviceObject;
+	struct _DEVICE_OBJECT	*DeviceObject;
 	uint32_t	Flags;
-	voidstruct Ptr32	DriverStart;
+	void	*DriverStart;
 	uint32_t	DriverSize;
-	voidstruct Ptr32	DriverSection;
-	struct _DRIVER_EXTENSIONstruct Ptr32	DriverExtension;
+	void	*DriverSection;
+	struct _DRIVER_EXTENSION	*DriverExtension;
 	struct _UNICODE_STRING	DriverName;
-	struct _UNICODE_STRINGstruct Ptr32	HardwareDatabase;
-	struct _FAST_IO_DISPATCHstruct Ptr32	FastIoDispatch;
-	struct longstruct Ptr32	DriverInit;
-	voidstruct Ptr32	DriverStartIo;
-	voidstruct Ptr32	DriverUnload;
-	struct longstruct Ptr32	MajorFunction[28];
+	struct _UNICODE_STRING	*HardwareDatabase;
+	struct _FAST_IO_DISPATCH	*FastIoDispatch;
+	struct long	*DriverInit;
+	void	*DriverStartIo;
+	void	*DriverUnload;
+	struct long	*MajorFunction[28];
 }__attribute__((packed));

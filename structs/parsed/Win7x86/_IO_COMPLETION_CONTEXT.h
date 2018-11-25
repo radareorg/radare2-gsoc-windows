@@ -1,5 +1,5 @@
 
 struct _IO_COMPLETION_CONTEXT {
-	voidstruct Ptr32	Port;
-	voidstruct Ptr32	Key;
+	void	*Port;
+	void	*Key;
 }__attribute__((packed));

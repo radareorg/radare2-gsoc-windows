@@ -1,6 +1,6 @@
 
 struct _PROC_PERF_CONSTRAINT {
-	struct _KPRCBstruct Ptr32	Prcb;
+	struct _KPRCB	*Prcb;
 	uint32_t	PerfContext;
 	uint32_t	PercentageCap;
 	uint32_t	ThermalCap;

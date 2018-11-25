@@ -1,7 +1,7 @@
 
 struct _SECURITY_SUBJECT_CONTEXT {
-	voidstruct Ptr32	ClientToken;
+	void	*ClientToken;
 	struct _SECURITY_IMPERSONATION_LEVEL	ImpersonationLevel;
-	voidstruct Ptr32	PrimaryToken;
-	voidstruct Ptr32	ProcessAuditId;
+	void	*PrimaryToken;
+	void	*ProcessAuditId;
 }__attribute__((packed));

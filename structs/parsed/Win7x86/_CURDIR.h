@@ -1,5 +1,5 @@
 
 struct _CURDIR {
 	struct _UNICODE_STRING	DosPath;
-	voidstruct Ptr32	Handle;
+	void	*Handle;
 }__attribute__((packed));

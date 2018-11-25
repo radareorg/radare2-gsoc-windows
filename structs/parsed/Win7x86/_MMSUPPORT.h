@@ -1,8 +1,8 @@
 
 struct _MMSUPPORT {
 	struct _EX_PUSH_LOCK	WorkingSetMutex;
-	struct _KGATEstruct Ptr32	ExitGate;
-	voidstruct Ptr32	AccessLog;
+	struct _KGATE	*ExitGate;
+	void	*AccessLog;
 	struct _LIST_ENTRY	WorkingSetExpansionLinks;
 	uint32_t	AgeDistribution[7];
 	uint32_t	MinimumWorkingSetSize;
@@ -14,11 +14,11 @@ struct _MMSUPPORT {
 	uint32_t	WorkingSetSizeOverhead;
 	uint32_t	PeakWorkingSetSize;
 	uint32_t	HardFaultCount;
-	struct _MMWSLstruct Ptr32	VmWorkingSetList;
+	struct _MMWSL	*VmWorkingSetList;
 	uint16_t	NextPageColor;
 	uint16_t	LastTrimStamp;
 	uint32_t	PageFaultCount;
 	uint32_t	RepurposeCount;
-	voidstruct Ptr32	ShadowMapping;
+	void	*ShadowMapping;
 	struct _MMSUPPORT_FLAGS	Flags;
 }__attribute__((packed));

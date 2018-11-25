@@ -6,7 +6,7 @@ struct _LFH_HEAP {
 	};
 	struct _LIST_ENTRY	SubSegmentZones;
 	uint32_t	ZoneBlockSize;
-	voidstruct Ptr32	Heap;
+	void	*Heap;
 	uint32_t	SegmentChange;
 	uint32_t	SegmentCreate;
 	uint32_t	SegmentInsertInFree;

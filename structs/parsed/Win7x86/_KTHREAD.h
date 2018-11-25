@@ -39,9 +39,9 @@ struct _KTHREAD {
 	uint64_t	CycleTime;
 	uint32_t	HighCycleTime;
 	uint64_t	QuantumTarget;
-	voidstruct Ptr32	InitialStack;
-	voidstruct Ptr32	StackLimit;
-	voidstruct Ptr32	KernelStack;
+	void	*InitialStack;
+	void	*StackLimit;
+	void	*KernelStack;
 	uint32_t	ThreadLock;
 	struct _KWAIT_STATUS_REGISTER	WaitRegister;
 	uint8_t	Running;
@@ -61,26 +61,26 @@ struct _KTHREAD {
 	uint8_t	WaitIrql;
 	struct Char	WaitMode;
 	int32_t	WaitStatus;
-	struct _KWAIT_BLOCKstruct Ptr32	WaitBlockList;
+	struct _KWAIT_BLOCK	*WaitBlockList;
 	union {
 		struct _LIST_ENTRY	WaitListEntry;
 		struct _SINGLE_LIST_ENTRY	SwapListEntry;
 	};
-	struct _KQUEUEstruct Ptr32	Queue;
+	struct _KQUEUE	*Queue;
 	uint32_t	WaitTime;
 	int16_t	KernelApcDisable;
 	int16_t	SpecialApcDisable;
 	uint32_t	CombinedApcDisable;
-	voidstruct Ptr32	Teb;
+	void	*Teb;
 	struct _KTIMER	Timer;
 	int32_t	ThreadFlags;
-	voidstruct Ptr32	ServiceTable;
+	void	*ServiceTable;
 	struct _KWAIT_BLOCK	WaitBlock[4];
 	struct _LIST_ENTRY	QueueListEntry;
-	struct _KTRAP_FRAMEstruct Ptr32	TrapFrame;
-	voidstruct Ptr32	FirstArgument;
+	struct _KTRAP_FRAME	*TrapFrame;
+	void	*FirstArgument;
 	union {
-		voidstruct Ptr32	CallbackStack;
+		void	*CallbackStack;
 		uint32_t	CallbackDepth;
 	};
 	uint8_t	ApcStateIndex;
@@ -94,11 +94,11 @@ struct _KTHREAD {
 	uint32_t	SystemCallNumber;
 	uint32_t	FreezeCount;
 	struct _GROUP_AFFINITY	UserAffinity;
-	struct _KPROCESSstruct Ptr32	Process;
+	struct _KPROCESS	*Process;
 	struct _GROUP_AFFINITY	Affinity;
 	uint32_t	IdealProcessor;
 	uint32_t	UserIdealProcessor;
-	struct _KAPC_STATEstruct Ptr32	ApcStatePointer[2];
+	struct _KAPC_STATE	*ApcStatePointer[2];
 	union {
 		struct _KAPC_STATE	SavedApcState;
 		uint8_t	SavedApcStateFill[23];
@@ -107,8 +107,8 @@ struct _KTHREAD {
 	struct Char	SuspendCount;
 	struct Char	Spare1;
 	uint8_t	OtherPlatformFill;
-	voidstruct Ptr32	Win32Thread;
-	voidstruct Ptr32	StackBase;
+	void	*Win32Thread;
+	void	*StackBase;
 	union {
 		struct _KAPC	SuspendApc;
 		uint8_t	SuspendApcFill0[1];
@@ -119,9 +119,9 @@ struct _KTHREAD {
 	uint8_t	SuspendApcFill2[4];
 	uint32_t	KernelTime;
 	uint8_t	SuspendApcFill3[36];
-	struct _KPRCBstruct Ptr32	WaitPrcb;
+	struct _KPRCB	*WaitPrcb;
 	uint8_t	SuspendApcFill4[40];
-	voidstruct Ptr32	LegoData;
+	void	*LegoData;
 	uint8_t	SuspendApcFill5[47];
 	uint8_t	LargeStack;
 	uint32_t	UserTime;
@@ -132,7 +132,7 @@ struct _KTHREAD {
 	uint32_t	SListFaultCount;
 	struct _LIST_ENTRY	ThreadListEntry;
 	struct _LIST_ENTRY	MutantListHead;
-	voidstruct Ptr32	SListFaultAddress;
-	struct _KTHREAD_COUNTERSstruct Ptr32	ThreadCounters;
-	struct _XSTATE_SAVEstruct Ptr32	XStateSave;
+	void	*SListFaultAddress;
+	struct _KTHREAD_COUNTERS	*ThreadCounters;
+	struct _XSTATE_SAVE	*XStateSave;
 }__attribute__((packed));

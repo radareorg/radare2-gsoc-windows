@@ -2,7 +2,7 @@
 struct _OBJECT_TYPE {
 	struct _LIST_ENTRY	TypeList;
 	struct _UNICODE_STRING	Name;
-	voidstruct Ptr32	DefaultObject;
+	void	*DefaultObject;
 	uint8_t	Index;
 	uint32_t	TotalNumberOfObjects;
 	uint32_t	TotalNumberOfHandles;

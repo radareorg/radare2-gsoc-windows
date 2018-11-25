@@ -1,5 +1,5 @@
 
 struct _LIST_ENTRY {
-	struct _LIST_ENTRYstruct Ptr32	Flink;
-	struct _LIST_ENTRYstruct Ptr32	Blink;
+	struct _LIST_ENTRY	*Flink;
+	struct _LIST_ENTRY	*Blink;
 }__attribute__((packed));

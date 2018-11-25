@@ -2,14 +2,14 @@
 struct _FILE_OBJECT {
 	int16_t	Type;
 	int16_t	Size;
-	struct _DEVICE_OBJECTstruct Ptr32	DeviceObject;
-	struct _VPBstruct Ptr32	Vpb;
-	voidstruct Ptr32	FsContext;
-	voidstruct Ptr32	FsContext2;
-	struct _SECTION_OBJECT_POINTERSstruct Ptr32	SectionObjectPointer;
-	voidstruct Ptr32	PrivateCacheMap;
+	struct _DEVICE_OBJECT	*DeviceObject;
+	struct _VPB	*Vpb;
+	void	*FsContext;
+	void	*FsContext2;
+	struct _SECTION_OBJECT_POINTERS	*SectionObjectPointer;
+	void	*PrivateCacheMap;
 	int32_t	FinalStatus;
-	struct _FILE_OBJECTstruct Ptr32	RelatedFileObject;
+	struct _FILE_OBJECT	*RelatedFileObject;
 	uint8_t	LockOperation;
 	uint8_t	DeletePending;
 	uint8_t	ReadAccess;
@@ -23,11 +23,11 @@ struct _FILE_OBJECT {
 	struct _LARGE_INTEGER	CurrentByteOffset;
 	uint32_t	Waiters;
 	uint32_t	Busy;
-	voidstruct Ptr32	LastLock;
+	void	*LastLock;
 	struct _KEVENT	Lock;
 	struct _KEVENT	Event;
-	struct _IO_COMPLETION_CONTEXTstruct Ptr32	CompletionContext;
+	struct _IO_COMPLETION_CONTEXT	*CompletionContext;
 	uint32_t	IrpListLock;
 	struct _LIST_ENTRY	IrpList;
-	voidstruct Ptr32	FileObjectExtension;
+	void	*FileObjectExtension;
 }__attribute__((packed));
